@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="10.144.5.223.HMDCBISA"
+  DTS:DTSID="{0F0ACF89-D7FD-4BB3-B898-1223E842050F}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=10.144.5.223;Initial Catalog=HMDCBISA;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-ETL_UPLOAD_DELAERS-{0F0ACF89-D7FD-4BB3-B898-1223E842050F}localhost.HMDCBISA;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
