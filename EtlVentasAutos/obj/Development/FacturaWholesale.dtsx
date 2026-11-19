@@ -11,8 +11,8 @@
   DTS:LocaleID="13322"
   DTS:ObjectName="FacturaWholesale"
   DTS:PackageType="5"
-  DTS:VersionBuild="724"
-  DTS:VersionGUID="{BDD7A8E5-8E09-4553-8915-6D674FBBF654}">
+  DTS:VersionBuild="725"
+  DTS:VersionGUID="{06743EAC-5F30-4CC9-988B-082146D9E55C}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:PackageParameters>
@@ -326,14 +326,35 @@
           ReadOnlyVariables="System::MachineName,System::PackageName,System::ServerExecutionID,$Package::EtlFilePath,$Package::EtlFileSheet"
           ReadWriteVariables="User::CtlBatchId,User::CtlComputerName,User::CtlDurationMs,User::CtlIpExecution,User::CtlPackageName,User::CtlRowsFailed,User::CtlRowsInserted,User::CtlRowsRead,User::CtlRowsUpdated,User::CtlServerExecutionID,User::CtlStartTime,User::CtlUserName,User::EtlFileModifiedDate,User::EtlOperatorUser">
           <ProjectItem
-            Name="Properties\Settings.settings"
-            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
-<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
-</SettingsFile>]]></ProjectItem>
+            Name="Properties\AssemblyInfo.cs"
+            Encoding="UTF8"><![CDATA[using System.Reflection;
+using System.Runtime.CompilerServices;
+
+//
+// General Information about an assembly is controlled through the following 
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
+//
+[assembly: AssemblyTitle("ST_11bef39853c2463fb43443456932be2f")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("ST_11bef39853c2463fb43443456932be2f")]
+[assembly: AssemblyCopyright("Copyright @  2025")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+//
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version 
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Revision and Build Numbers 
+// by using the '*' as shown below:
+
+[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
           <ProjectItem
             Name="Properties\Resources.resx"
             Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
@@ -759,35 +780,14 @@ namespace ST_11bef39853c2463fb43443456932be2f.Properties {
     }
 }]]></ProjectItem>
           <ProjectItem
-            Name="Properties\AssemblyInfo.cs"
-            Encoding="UTF8"><![CDATA[using System.Reflection;
-using System.Runtime.CompilerServices;
-
-//
-// General Information about an assembly is controlled through the following 
-// set of attributes. Change these attribute values to modify the information
-// associated with an assembly.
-//
-[assembly: AssemblyTitle("ST_11bef39853c2463fb43443456932be2f")]
-[assembly: AssemblyDescription("")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ST_11bef39853c2463fb43443456932be2f")]
-[assembly: AssemblyCopyright("Copyright @  2025")]
-[assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]
-//
-// Version information for an assembly consists of the following four values:
-//
-//      Major Version
-//      Minor Version 
-//      Build Number
-//      Revision
-//
-// You can specify all the values or you can default the Revision and Build Numbers 
-// by using the '*' as shown below:
-
-[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
+            Name="Properties\Settings.settings"
+            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
+<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
+  <Settings />
+</SettingsFile>]]></ProjectItem>
           <ProjectItem
             Name="Properties\Resources.Designer.cs"
             Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
@@ -1136,14 +1136,35 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
           ReadOnlyVariables="User::CtlBatchId,User::CtlComputerName,User::CtlExecutionID,User::CtlPackageName,User::CtlRowsRead,User::EtlOperatorUser,$Project::vSQLConnPa"
           ReadWriteVariables="User::CtlAuditBatchID">
           <ProjectItem
-            Name="Properties\Settings.settings"
-            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
-<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
-</SettingsFile>]]></ProjectItem>
+            Name="Properties\AssemblyInfo.cs"
+            Encoding="UTF8"><![CDATA[using System.Reflection;
+using System.Runtime.CompilerServices;
+
+//
+// General Information about an assembly is controlled through the following 
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
+//
+[assembly: AssemblyTitle("ST_d28da747962e4fbcac900e275910a346")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("ST_d28da747962e4fbcac900e275910a346")]
+[assembly: AssemblyCopyright("Copyright @  2026")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+//
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version 
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Revision and Build Numbers 
+// by using the '*' as shown below:
+
+[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
           <ProjectItem
             Name="Properties\Resources.resx"
             Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
@@ -1491,35 +1512,14 @@ namespace ST_d28da747962e4fbcac900e275910a346.Properties {
     }
 }]]></ProjectItem>
           <ProjectItem
-            Name="Properties\AssemblyInfo.cs"
-            Encoding="UTF8"><![CDATA[using System.Reflection;
-using System.Runtime.CompilerServices;
-
-//
-// General Information about an assembly is controlled through the following 
-// set of attributes. Change these attribute values to modify the information
-// associated with an assembly.
-//
-[assembly: AssemblyTitle("ST_d28da747962e4fbcac900e275910a346")]
-[assembly: AssemblyDescription("")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ST_d28da747962e4fbcac900e275910a346")]
-[assembly: AssemblyCopyright("Copyright @  2026")]
-[assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]
-//
-// Version information for an assembly consists of the following four values:
-//
-//      Major Version
-//      Minor Version 
-//      Build Number
-//      Revision
-//
-// You can specify all the values or you can default the Revision and Build Numbers 
-// by using the '*' as shown below:
-
-[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
+            Name="Properties\Settings.settings"
+            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
+<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
+  <Settings />
+</SettingsFile>]]></ProjectItem>
           <ProjectItem
             Name="Properties\Resources.Designer.cs"
             Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
@@ -1916,6 +1916,15 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
           Language="CSharp"
           ReadWriteVariables="User::CtlDurationMs,User::CtlStartTime">
           <ProjectItem
+            Name="Properties\Settings.settings"
+            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
+<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
+  <Settings />
+</SettingsFile>]]></ProjectItem>
+          <ProjectItem
             Name="Properties\Resources.resx"
             Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
 <root>
@@ -2035,35 +2044,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
   </resheader>
 </root>]]></ProjectItem>
           <ProjectItem
-            Name="Properties\Settings.Designer.cs"
-            Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
-// <auto-generated>
-//     This code was generated by a tool.
-//
-//     Changes to this file may cause incorrect behavior and will be lost if
-//     the code is regenerated.
-// </auto-generated>
-//------------------------------------------------------------------------------
-
-[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_9971acfbc5fc4b56a79c37373fee75d8.Properties.Settings.get_Default():ST_9971acfbc5fc4b56a79c37373fee75d8.Properties.Sett" +
-    "ings")]
-
-namespace ST_9971acfbc5fc4b56a79c37373fee75d8.Properties {
-    
-    
-    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
-        
-        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-        private static Settings defaultInstance = new Settings();
-        
-        public static Settings Default {
-            get {
-                return defaultInstance;
-            }
-        }
-    }
-}]]></ProjectItem>
-          <ProjectItem
             Name="ScriptMain.cs"
             Encoding="UTF8"><![CDATA[#region Help:  Introduction to the script task
 /* The Script Task allows you to perform virtually any operation that can be accomplished in
@@ -2181,133 +2161,6 @@ namespace ST_9971acfbc5fc4b56a79c37373fee75d8
 	}
 }]]></ProjectItem>
           <ProjectItem
-            Name="Properties\Resources.Designer.cs"
-            Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
-// <auto-generated>
-//     This code was generated by a tool.
-//
-//     Changes to this file may cause incorrect behavior and will be lost if
-//     the code is regenerated.
-// </auto-generated>
-//------------------------------------------------------------------------------
-
-[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_9971acfbc5fc4b56a79c37373fee75d8.Properties.Resources.get_ResourceManager():System.Resources.Resou" +
-    "rceManager")]
-[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_9971acfbc5fc4b56a79c37373fee75d8.Properties.Resources.get_Culture():System.Globalization.CultureIn" +
-    "fo")]
-[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_9971acfbc5fc4b56a79c37373fee75d8.Properties.Resources.set_Culture(System.Globalization.CultureInfo" +
-    "):Void")]
-
-namespace ST_9971acfbc5fc4b56a79c37373fee75d8.Properties {
-    
-    
-    /// <summary>
-    ///   A strongly-typed resource class, for looking up localized strings, etc.
-    /// </summary>
-    // This class was auto-generated by the StronglyTypedResourceBuilder
-    // class via a tool like ResGen or Visual Studio.
-    // To add or remove a member, edit your .ResX file then rerun ResGen
-    // with the /str option, or rebuild your VS project.
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-    internal class Resources {
-        
-        private static global::System.Resources.ResourceManager resourceMan;
-        
-        private static global::System.Globalization.CultureInfo resourceCulture;
-        
-        [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal Resources() {
-        }
-        
-        /// <summary>
-        ///   Returns the cached ResourceManager instance used by this class.
-        /// </summary>
-        [global::System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
-            get {
-                if ((resourceMan == null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("ST_9971acfbc5fc4b56a79c37373fee75d8.Properties.Resources", typeof(Resources).Assembly);
-                    resourceMan = temp;
-                }
-                return resourceMan;
-            }
-        }
-        
-        /// <summary>
-        ///   Overrides the current thread's CurrentUICulture property for all
-        ///   resource lookups using this strongly typed resource class.
-        /// </summary>
-        [global::System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
-            get {
-                return resourceCulture;
-            }
-            set {
-                resourceCulture = value;
-            }
-        }
-    }
-}]]></ProjectItem>
-          <ProjectItem
-            Name="Project"
-            Encoding="UTF16LE"><![CDATA[<?xml version="1.0" encoding="UTF-16" standalone="yes"?>
-<c:Project xmlns:c="http://schemas.microsoft.com/codeprojectml/2010/08/main" xmlns:msb="http://schemas.microsoft.com/developer/msbuild/2003" runtimeVersion="4.0" schemaVersion="1.0">
-  <msb:PropertyGroup>
-    <msb:CodeName>ST_0e977696b67e4b0393d1db038c1786a4</msb:CodeName>
-    <msb:Language>msBuild</msb:Language>
-    <msb:DisplayName>ST_0e977696b67e4b0393d1db038c1786a4</msb:DisplayName>
-    <msb:ProjectId>{87AA42E1-8F9E-4242-BC62-B7758AACA491}</msb:ProjectId>
-  </msb:PropertyGroup>
-  <msb:ItemGroup>
-    <msb:Project Include="ST_0e977696b67e4b0393d1db038c1786a4.csproj" />
-    <msb:File Include="Properties\Settings.settings" />
-    <msb:File Include="Properties\AssemblyInfo.cs" />
-    <msb:File Include="Properties\Resources.resx" />
-    <msb:File Include="Properties\Resources.Designer.cs" />
-    <msb:File Include="Properties\Settings.Designer.cs" />
-    <msb:File Include="ScriptMain.cs" />
-  </msb:ItemGroup>
-</c:Project>]]></ProjectItem>
-          <ProjectItem
-            Name="Properties\AssemblyInfo.cs"
-            Encoding="UTF8"><![CDATA[using System.Reflection;
-using System.Runtime.CompilerServices;
-
-//
-// General Information about an assembly is controlled through the following 
-// set of attributes. Change these attribute values to modify the information
-// associated with an assembly.
-//
-[assembly: AssemblyTitle("ST_9971acfbc5fc4b56a79c37373fee75d8")]
-[assembly: AssemblyDescription("")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ST_9971acfbc5fc4b56a79c37373fee75d8")]
-[assembly: AssemblyCopyright("Copyright @  2025")]
-[assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]
-//
-// Version information for an assembly consists of the following four values:
-//
-//      Major Version
-//      Minor Version 
-//      Build Number
-//      Revision
-//
-// You can specify all the values or you can default the Revision and Build Numbers 
-// by using the '*' as shown below:
-
-[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
-          <ProjectItem
-            Name="Properties\Settings.settings"
-            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
-<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
-</SettingsFile>]]></ProjectItem>
-          <ProjectItem
             Name="ST_0e977696b67e4b0393d1db038c1786a4.csproj"
             Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
@@ -2393,6 +2246,153 @@ using System.Runtime.CompilerServices;
     </VisualStudio>
   </ProjectExtensions>
 </Project>]]></ProjectItem>
+          <ProjectItem
+            Name="Project"
+            Encoding="UTF16LE"><![CDATA[<?xml version="1.0" encoding="UTF-16" standalone="yes"?>
+<c:Project xmlns:c="http://schemas.microsoft.com/codeprojectml/2010/08/main" xmlns:msb="http://schemas.microsoft.com/developer/msbuild/2003" runtimeVersion="4.0" schemaVersion="1.0">
+  <msb:PropertyGroup>
+    <msb:CodeName>ST_0e977696b67e4b0393d1db038c1786a4</msb:CodeName>
+    <msb:Language>msBuild</msb:Language>
+    <msb:DisplayName>ST_0e977696b67e4b0393d1db038c1786a4</msb:DisplayName>
+    <msb:ProjectId>{87AA42E1-8F9E-4242-BC62-B7758AACA491}</msb:ProjectId>
+  </msb:PropertyGroup>
+  <msb:ItemGroup>
+    <msb:Project Include="ST_0e977696b67e4b0393d1db038c1786a4.csproj" />
+    <msb:File Include="Properties\Settings.settings" />
+    <msb:File Include="Properties\AssemblyInfo.cs" />
+    <msb:File Include="Properties\Resources.resx" />
+    <msb:File Include="Properties\Resources.Designer.cs" />
+    <msb:File Include="Properties\Settings.Designer.cs" />
+    <msb:File Include="ScriptMain.cs" />
+  </msb:ItemGroup>
+</c:Project>]]></ProjectItem>
+          <ProjectItem
+            Name="Properties\Settings.Designer.cs"
+            Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
+// <auto-generated>
+//     This code was generated by a tool.
+//
+//     Changes to this file may cause incorrect behavior and will be lost if
+//     the code is regenerated.
+// </auto-generated>
+//------------------------------------------------------------------------------
+
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_9971acfbc5fc4b56a79c37373fee75d8.Properties.Settings.get_Default():ST_9971acfbc5fc4b56a79c37373fee75d8.Properties.Sett" +
+    "ings")]
+
+namespace ST_9971acfbc5fc4b56a79c37373fee75d8.Properties {
+    
+    
+    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
+        
+        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
+        private static Settings defaultInstance = new Settings();
+        
+        public static Settings Default {
+            get {
+                return defaultInstance;
+            }
+        }
+    }
+}]]></ProjectItem>
+          <ProjectItem
+            Name="Properties\AssemblyInfo.cs"
+            Encoding="UTF8"><![CDATA[using System.Reflection;
+using System.Runtime.CompilerServices;
+
+//
+// General Information about an assembly is controlled through the following 
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
+//
+[assembly: AssemblyTitle("ST_9971acfbc5fc4b56a79c37373fee75d8")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("ST_9971acfbc5fc4b56a79c37373fee75d8")]
+[assembly: AssemblyCopyright("Copyright @  2025")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+//
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version 
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Revision and Build Numbers 
+// by using the '*' as shown below:
+
+[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
+          <ProjectItem
+            Name="Properties\Resources.Designer.cs"
+            Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
+// <auto-generated>
+//     This code was generated by a tool.
+//
+//     Changes to this file may cause incorrect behavior and will be lost if
+//     the code is regenerated.
+// </auto-generated>
+//------------------------------------------------------------------------------
+
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_9971acfbc5fc4b56a79c37373fee75d8.Properties.Resources.get_ResourceManager():System.Resources.Resou" +
+    "rceManager")]
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_9971acfbc5fc4b56a79c37373fee75d8.Properties.Resources.get_Culture():System.Globalization.CultureIn" +
+    "fo")]
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_9971acfbc5fc4b56a79c37373fee75d8.Properties.Resources.set_Culture(System.Globalization.CultureInfo" +
+    "):Void")]
+
+namespace ST_9971acfbc5fc4b56a79c37373fee75d8.Properties {
+    
+    
+    /// <summary>
+    ///   A strongly-typed resource class, for looking up localized strings, etc.
+    /// </summary>
+    // This class was auto-generated by the StronglyTypedResourceBuilder
+    // class via a tool like ResGen or Visual Studio.
+    // To add or remove a member, edit your .ResX file then rerun ResGen
+    // with the /str option, or rebuild your VS project.
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+    internal class Resources {
+        
+        private static global::System.Resources.ResourceManager resourceMan;
+        
+        private static global::System.Globalization.CultureInfo resourceCulture;
+        
+        [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
+        internal Resources() {
+        }
+        
+        /// <summary>
+        ///   Returns the cached ResourceManager instance used by this class.
+        /// </summary>
+        [global::System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        internal static global::System.Resources.ResourceManager ResourceManager {
+            get {
+                if ((resourceMan == null)) {
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("ST_9971acfbc5fc4b56a79c37373fee75d8.Properties.Resources", typeof(Resources).Assembly);
+                    resourceMan = temp;
+                }
+                return resourceMan;
+            }
+        }
+        
+        /// <summary>
+        ///   Overrides the current thread's CurrentUICulture property for all
+        ///   resource lookups using this strongly typed resource class.
+        /// </summary>
+        [global::System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        internal static global::System.Globalization.CultureInfo Culture {
+            get {
+                return resourceCulture;
+            }
+            set {
+                resourceCulture = value;
+            }
+        }
+    }
+}]]></ProjectItem>
           <BinaryItem
             Name="ST_0e977696b67e4b0393d1db038c1786a4.dll">TVqQAAMAAAAEAAAA//8AALgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAgAAAAA4fug4AtAnNIbgBTM0hVGhpcyBwcm9ncmFtIGNhbm5vdCBiZSBydW4gaW4gRE9TIG1v
@@ -2621,33 +2621,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
-      DTS:refId="Package\ETL02bValidateMaestro"
-      DTS:CreationName="Microsoft.ExecuteSQLTask"
-      DTS:Description="Execute SQL Task"
-      DTS:DTSID="{30B107DF-77F8-4786-992F-B314CFF38AC1}"
-      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
-      DTS:LocaleID="-1"
-      DTS:ObjectName="ETL02bValidateMaestro"
-      DTS:ThreadHint="0">
-      <DTS:Variables />
-      <DTS:ObjectData>
-        <SQLTask:SqlTaskData
-          SQLTask:Connection="{0F0ACF89-D7FD-4BB3-B898-1223E842050F}"
-          SQLTask:SqlStatementSource="/* FacturaWholesale__ETL02bValidateMaestro_v1.2.sql   (v1.2 06-11: plan V1 v6, SOL-011 / D-ARQ-50 · reemplaza v1.1 en _reemplazados/)&#xA;   Paquete : FacturaWholesale (EtlVentasAutos, ProcessID 34) · Tarea: ETL02bValidateMaestro&#xA;   Autor   : Franco Véliz (Agente V4W) · 2026-11-05 · D-22, D-32, D-35, D-36, D-37, D-ARQ-44, D-ARQ-45&#xA;   Conexión: HMDCBISA&#xA;   Qué hace: 1) Resuelve dealer y sala (bloque Resolución). 2) Borra en Stg la razón social de personas (ES_PERSONA o RUT &lt; 50.000.000; D-36, D-ARQ-45). 3) Valida: RUT_FUERA_DIC, CODIGO_FUERA_MAESTRO, VIN_VACIO, VIN_FUERA_MAESTRO, DUPLICADO. Sin VIN_SIN_SALA: la sala es opcional (D-ARQ-50); la completan Vin_Modelos__c, Stock Dealer o la imputación (42). 4) Actualiza la Qc persistente; lo que ya no falla queda Resuelto (recarga completa). 5) Saca de Stg lo que no cruza. Devuelve RowsQc.&#xA;   Parámetros (OLE DB, en orden): 1) User::CtlExecutionID&#xA;*/&#xA;SET NOCOUNT ON;&#xA;SET XACT_ABORT ON;&#xA;DECLARE @ExecutionID bigint = ?;&#xA;DECLARE @Ahora datetime2(0) = SYSDATETIME();&#xA;&#xA;-- ── Resolución (idéntica en ETL02bValidateMaestro y ETL04LoadDWHDW) ──────────────────&#xA;-- Dealer: RUT de la factura = RUTID de DICBaseDealerParent, o RUT_SOCIEDAD de DICBaseDealerParentSociety → su RUTID.&#xA;-- Sala por VIN (D-ARQ-44): (1) Vin_Modelos__c.Sala_de_venta__c → SFOBaseAccount.Name → alias 'Sales force' → SUCURSALID;&#xA;--                          (2) sala del VIN en la última fotografía de V4WBaseStockDealer.&#xA;--   Solo vale una sala del mismo dealer facturado (traspasos: el wholesale queda en el dealer facturado).&#xA;IF OBJECT_ID(N'tempdb..#Parent')    IS NOT NULL DROP TABLE #Parent;&#xA;IF OBJECT_ID(N'tempdb..#Sociedad')  IS NOT NULL DROP TABLE #Sociedad;&#xA;IF OBJECT_ID(N'tempdb..#VinSala')   IS NOT NULL DROP TABLE #VinSala;&#xA;IF OBJECT_ID(N'tempdb..#StockSala') IS NOT NULL DROP TABLE #StockSala;&#xA;IF OBJECT_ID(N'tempdb..#Res')       IS NOT NULL DROP TABLE #Res;&#xA;&#xA;SELECT DISTINCT LTRIM(RTRIM(p.RUTID)) AS RUTID INTO #Parent FROM HMDCBIDW.dbo.DICBaseDealerParent AS p;&#xA;&#xA;SELECT LTRIM(RTRIM(so.RUT_SOCIEDAD)) AS RutSociedad, LTRIM(RTRIM(so.RUTID)) AS RUTID,&#xA;       so.SUCURSALID AS SalaSociedad, so.ES_PERSONA AS EsPersona&#xA;INTO   #Sociedad&#xA;FROM   HMDCBIDW.dbo.DICBaseDealerParentSociety AS so&#xA;WHERE  so.ACTIVO = 1;&#xA;&#xA;SELECT x.VIN, x.SUCURSALID, x.RUTID, x.SalaNombre&#xA;INTO   #VinSala&#xA;FROM (&#xA;    SELECT LTRIM(RTRIM(CONVERT(nvarchar(255), v.Name))) AS VIN, al.SUCURSALID, LTRIM(RTRIM(b.RUTID)) AS RUTID,&#xA;           CONVERT(nvarchar(255), acc.Name) AS SalaNombre,&#xA;           ROW_NUMBER() OVER (PARTITION BY v.Name ORDER BY al.SUCURSALID) AS Rn&#xA;    FROM   HMDCBIDW.dbo.SFOBaseVin_Modelos__c AS v&#xA;    JOIN   HMDCBIDW.dbo.SFOBaseAccount        AS acc ON acc.Id = v.Sala_de_venta__c&#xA;    JOIN   HMDCBIDW.dbo.DICBaseDealerAlias    AS al  ON al.ALIAS1 = acc.Name AND al.ORIGEN = N'Sales force' AND al.ACTIVO = 1&#xA;    JOIN   HMDCBIDW.dbo.DICBaseDealerBranch   AS b   ON b.SUCURSALID = al.SUCURSALID&#xA;    WHERE  v.IsDeleted = 0 AND v.Linea_de_Producto__c = N'Automoviles'&#xA;) AS x&#xA;WHERE x.Rn = 1;&#xA;&#xA;SELECT x.VIN, x.SUCURSALID, x.RUTID&#xA;INTO   #StockSala&#xA;FROM (&#xA;    SELECT sd.VIN, sd.SUCURSALID, LTRIM(RTRIM(sd.RUTID)) AS RUTID,&#xA;           ROW_NUMBER() OVER (PARTITION BY sd.VIN ORDER BY sd.FechaCorte DESC) AS Rn&#xA;    FROM   HMDCBIDW.dbo.V4WBaseStockDealer AS sd&#xA;    WHERE  sd.VIN IS NOT NULL AND sd.SUCURSALID IS NOT NULL&#xA;) AS x&#xA;WHERE x.Rn = 1;&#xA;&#xA;SELECT s.RowNumber,&#xA;       d.RUTID,&#xA;       CASE WHEN vs.RUTID = d.RUTID THEN vs.SUCURSALID&#xA;            WHEN ss.RUTID = d.RUTID THEN ss.SUCURSALID END                     AS SUCURSALID,&#xA;       so.SalaSociedad, ISNULL(so.EsPersona, 0)                                AS EsPersona,&#xA;       CASE WHEN vs.RUTID IS NOT NULL AND vs.RUTID &lt;&gt; d.RUTID THEN vs.SalaNombre END AS SalaOtroDealer&#xA;INTO   #Res&#xA;FROM   HMDCBISA.dbo.V4WStgFacturaWholesale AS s&#xA;LEFT JOIN #Sociedad  AS so ON so.RutSociedad = s.RUT&#xA;OUTER APPLY (SELECT COALESCE((SELECT TOP (1) p.RUTID FROM #Parent p WHERE p.RUTID = s.RUT), so.RUTID) AS RUTID) AS d&#xA;LEFT JOIN #VinSala   AS vs ON vs.VIN = s.VIN&#xA;LEFT JOIN #StockSala AS ss ON ss.VIN = s.VIN&#xA;WHERE  s.ExecutionID = @ExecutionID;&#xA;CREATE UNIQUE CLUSTERED INDEX IX_Res ON #Res (RowNumber);&#xA;-- ── fin resolución ───────────────────────────────────────────────────────────────────&#xA;&#xA;-- Sin datos personales (D-36, D-ARQ-45)&#xA;UPDATE s SET s.RazonSocial = NULL&#xA;FROM   HMDCBISA.dbo.V4WStgFacturaWholesale AS s&#xA;JOIN   #Res AS r ON r.RowNumber = s.RowNumber&#xA;WHERE  s.ExecutionID = @ExecutionID&#xA;  AND  (r.EsPersona = 1 OR TRY_CONVERT(int, LEFT(s.RUT, CHARINDEX(N'-', s.RUT + N'-') - 1)) &lt; 50000000);&#xA;&#xA;IF OBJECT_ID(N'tempdb..#Codigo') IS NOT NULL DROP TABLE #Codigo;&#xA;IF OBJECT_ID(N'tempdb..#Vin')    IS NOT NULL DROP TABLE #Vin;&#xA;IF OBJECT_ID(N'tempdb..#Falla')  IS NOT NULL DROP TABLE #Falla;&#xA;&#xA;SELECT DISTINCT UPPER(LTRIM(RTRIM(CONVERT(nvarchar(255), v.Codigoarticulo__c)))) AS Codigo&#xA;INTO   #Codigo&#xA;FROM   HMDCBIDW.dbo.SFOBaseVin_Modelos__c AS v&#xA;WHERE  v.IsDeleted = 0 AND v.Linea_de_Producto__c = N'Automoviles' AND v.Codigoarticulo__c IS NOT NULL;&#xA;&#xA;SELECT DISTINCT LTRIM(RTRIM(CONVERT(nvarchar(255), v.Name))) AS VIN&#xA;INTO   #Vin&#xA;FROM   HMDCBIDW.dbo.SFOBaseVin_Modelos__c AS v&#xA;WHERE  v.IsDeleted = 0 AND v.Linea_de_Producto__c = N'Automoviles';&#xA;CREATE UNIQUE CLUSTERED INDEX IX_Vin ON #Vin (VIN);&#xA;&#xA;SELECT s.RowNumber, s.[NumeroInterno], s.[TipoDocumento], s.[NumeroDocumento], s.[GlosaDocumento], s.[Estado], s.[Fecha], s.[VIN], s.[Motor], s.[Color], s.[RUT], s.[RazonSocial], s.[Articulo], s.[DescripcionArticulo], s.[Cantidad], s.[ValorTotalSinDesc], s.[ValorTotalConDesc], s.[CostoVenta], s.[Descuento], s.[DvcNumDocto], f.MotivoFalla, f.DetalleError, CONVERT(int, 1) AS Rn&#xA;INTO   #Falla&#xA;FROM   HMDCBISA.dbo.V4WStgFacturaWholesale AS s&#xA;JOIN   #Res AS r ON r.RowNumber = s.RowNumber&#xA;CROSS APPLY (&#xA;    SELECT N'RUT_FUERA_DIC', N'RUT ' + ISNULL(s.RUT, N'(vacío)') + N' no está en DICBaseDealerParent ni en DICBaseDealerParentSociety'&#xA;    WHERE r.RUTID IS NULL&#xA;    UNION ALL&#xA;    SELECT N'CODIGO_FUERA_MAESTRO', N'Articulo ' + ISNULL(s.Articulo, N'(vacío)') + N' no existe en SFOBaseVin_Modelos__c (Automoviles)'&#xA;    WHERE NOT EXISTS (SELECT 1 FROM #Codigo c WHERE c.Codigo = s.Articulo)&#xA;    UNION ALL&#xA;    SELECT N'VIN_VACIO', N'Factura sin VIN'&#xA;    WHERE s.VIN IS NULL&#xA;    UNION ALL&#xA;    SELECT N'VIN_FUERA_MAESTRO', N'VIN ' + s.VIN + N' no existe en SFOBaseVin_Modelos__c (Automoviles)'&#xA;    WHERE s.VIN IS NOT NULL AND NOT EXISTS (SELECT 1 FROM #Vin v WHERE v.VIN = s.VIN)&#xA;) AS f (MotivoFalla, DetalleError)&#xA;WHERE  s.ExecutionID = @ExecutionID;&#xA;&#xA;INSERT INTO #Falla&#xA;SELECT s.RowNumber, s.[NumeroInterno], s.[TipoDocumento], s.[NumeroDocumento], s.[GlosaDocumento], s.[Estado], s.[Fecha], s.[VIN], s.[Motor], s.[Color], s.[RUT], s.[RazonSocial], s.[Articulo], s.[DescripcionArticulo], s.[Cantidad], s.[ValorTotalSinDesc], s.[ValorTotalConDesc], s.[CostoVenta], s.[Descuento], s.[DvcNumDocto], N'DUPLICADO', N'Documento repetido en la vista del .185', 1&#xA;FROM   HMDCBISA.dbo.V4WStgFacturaWholesale AS s&#xA;WHERE  s.ExecutionID = @ExecutionID&#xA;  AND  (SELECT COUNT(*) FROM HMDCBISA.dbo.V4WStgFacturaWholesale x WHERE x.ExecutionID = @ExecutionID AND x.[NumeroInterno] = s.[NumeroInterno] AND x.[TipoDocumento] = s.[TipoDocumento] AND x.[NumeroDocumento] = s.[NumeroDocumento]) &gt; 1;&#xA;&#xA;;WITH d AS (SELECT Rn, ROW_NUMBER() OVER (PARTITION BY [NumeroInterno], [TipoDocumento], [NumeroDocumento], MotivoFalla ORDER BY RowNumber) AS r FROM #Falla)&#xA;UPDATE d SET Rn = r;&#xA;&#xA;BEGIN TRANSACTION;&#xA;&#xA;UPDATE q&#xA;SET    q.ExecutionIDUltima = @ExecutionID, q.FechaUltimaVez = @Ahora,&#xA;       q.RowNumber = f.RowNumber, q.DetalleError = f.DetalleError,&#xA;       q.[GlosaDocumento] = f.[GlosaDocumento], q.[Estado] = f.[Estado], q.[Fecha] = f.[Fecha], q.[VIN] = f.[VIN], q.[Motor] = f.[Motor], q.[Color] = f.[Color], q.[RUT] = f.[RUT], q.[RazonSocial] = f.[RazonSocial], q.[Articulo] = f.[Articulo], q.[DescripcionArticulo] = f.[DescripcionArticulo], q.[Cantidad] = f.[Cantidad], q.[ValorTotalSinDesc] = f.[ValorTotalSinDesc], q.[ValorTotalConDesc] = f.[ValorTotalConDesc], q.[CostoVenta] = f.[CostoVenta], q.[Descuento] = f.[Descuento], q.[DvcNumDocto] = f.[DvcNumDocto]&#xA;FROM   HMDCBISA.dbo.V4WQcFacturaWholesale AS q&#xA;JOIN   #Falla AS f ON f.[NumeroInterno] = q.[NumeroInterno] AND f.[TipoDocumento] = q.[TipoDocumento] AND f.[NumeroDocumento] = q.[NumeroDocumento] AND f.MotivoFalla = q.MotivoFalla AND f.Rn = 1&#xA;WHERE  q.EstadoQc = N'Pendiente';&#xA;&#xA;INSERT INTO HMDCBISA.dbo.V4WQcFacturaWholesale&#xA;       (ExecutionID, ExecutionIDUltima, RowNumber, MotivoFalla, DetalleError, EstadoQc, FechaPrimeraVez, FechaUltimaVez, [NumeroInterno], [TipoDocumento], [NumeroDocumento], [GlosaDocumento], [Estado], [Fecha], [VIN], [Motor], [Color], [RUT], [RazonSocial], [Articulo], [DescripcionArticulo], [Cantidad], [ValorTotalSinDesc], [ValorTotalConDesc], [CostoVenta], [Descuento], [DvcNumDocto])&#xA;SELECT @ExecutionID, @ExecutionID, f.RowNumber, f.MotivoFalla, f.DetalleError, N'Pendiente', @Ahora, @Ahora, f.[NumeroInterno], f.[TipoDocumento], f.[NumeroDocumento], f.[GlosaDocumento], f.[Estado], f.[Fecha], f.[VIN], f.[Motor], f.[Color], f.[RUT], f.[RazonSocial], f.[Articulo], f.[DescripcionArticulo], f.[Cantidad], f.[ValorTotalSinDesc], f.[ValorTotalConDesc], f.[CostoVenta], f.[Descuento], f.[DvcNumDocto]&#xA;FROM   #Falla AS f&#xA;WHERE  f.Rn = 1&#xA;  AND  NOT EXISTS (SELECT 1 FROM HMDCBISA.dbo.V4WQcFacturaWholesale q&#xA;                   WHERE q.[NumeroInterno] = f.[NumeroInterno] AND q.[TipoDocumento] = f.[TipoDocumento] AND q.[NumeroDocumento] = f.[NumeroDocumento] AND q.MotivoFalla = f.MotivoFalla AND q.EstadoQc = N'Pendiente');&#xA;&#xA;UPDATE q&#xA;SET    q.EstadoQc = N'Resuelta', q.FechaResuelta = @Ahora, q.ExecutionIDResuelta = @ExecutionID&#xA;FROM   HMDCBISA.dbo.V4WQcFacturaWholesale AS q&#xA;WHERE  q.EstadoQc = N'Pendiente'&#xA;  AND  NOT EXISTS (SELECT 1 FROM #Falla f WHERE f.[NumeroInterno] = q.[NumeroInterno] AND f.[TipoDocumento] = q.[TipoDocumento] AND f.[NumeroDocumento] = q.[NumeroDocumento] AND f.MotivoFalla = q.MotivoFalla);&#xA;&#xA;DELETE s&#xA;FROM   HMDCBISA.dbo.V4WStgFacturaWholesale AS s&#xA;WHERE  s.ExecutionID = @ExecutionID&#xA;  AND  EXISTS (SELECT 1 FROM #Falla f WHERE f.RowNumber = s.RowNumber);&#xA;&#xA;COMMIT TRANSACTION;&#xA;&#xA;SELECT COUNT(DISTINCT RowNumber) AS RowsQc FROM #Falla;&#xA;"
-          SQLTask:ResultType="ResultSetType_SingleRow" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
-          <SQLTask:ResultBinding
-            SQLTask:ResultName="RowsQc"
-            SQLTask:DtsVariableName="User::CtlRowsFailed" />
-          <SQLTask:ParameterBinding
-            SQLTask:ParameterName="0"
-            SQLTask:DtsVariableName="User::CtlExecutionID"
-            SQLTask:ParameterDirection="Input"
-            SQLTask:DataType="3"
-            SQLTask:ParameterSize="0" />
-        </SQLTask:SqlTaskData>
-      </DTS:ObjectData>
-    </DTS:Executable>
-    <DTS:Executable
       DTS:refId="Package\ETL02LoadDWHSA"
       DTS:CreationName="Microsoft.ScriptTask"
       DTS:Description="Script Task"
@@ -2664,240 +2637,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           VSTAMinorVersion="0"
           Language="CSharp"
           ReadOnlyVariables="User::CtlExecutionID,User::WmCurrentLoadDate,$Project::vSQLConnStr,$Project::vSQLConnHMDC">
-          <ProjectItem
-            Name="Properties\Settings.settings"
-            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
-<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
-</SettingsFile>]]></ProjectItem>
-          <ProjectItem
-            Name="Properties\Resources.resx"
-            Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
-<root>
-  <!-- 
-    Microsoft ResX Schema 
-    
-    Version 2.0
-    
-    The primary goals of this format is to allow a simple XML format 
-    that is mostly human readable. The generation and parsing of the 
-    various data types are done through the TypeConverter classes 
-    associated with the data types.
-    
-    Example:
-    
-    ... ado.net/XML headers & schema ...
-    <resheader name="resmimetype">text/microsoft-resx</resheader>
-    <resheader name="version">2.0</resheader>
-    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
-    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
-    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
-    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
-    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
-        <value>[base64 mime encoded serialized .NET Framework object]</value>
-    </data>
-    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
-        <comment>This is a comment</comment>
-    </data>
-                
-    There are any number of "resheader" rows that contain simple 
-    name/value pairs.
-    
-    Each data row contains a name, and value. The row also contains a 
-    type or mimetype. Type corresponds to a .NET class that support 
-    text/value conversion through the TypeConverter architecture. 
-    Classes that don't support this are serialized and stored with the 
-    mimetype set.
-    
-    The mimetype is used for serialized objects, and tells the 
-    ResXResourceReader how to depersist the object. This is currently not 
-    extensible. For a given mimetype the value must be set accordingly:
-    
-    Note - application/x-microsoft.net.object.binary.base64 is the format 
-    that the ResXResourceWriter will generate, however the reader can 
-    read any of the formats listed below.
-    
-    mimetype: application/x-microsoft.net.object.binary.base64
-    value   : The object must be serialized with 
-            : System.Serialization.Formatters.Binary.BinaryFormatter
-            : and then encoded with base64 encoding.
-    
-    mimetype: application/x-microsoft.net.object.soap.base64
-    value   : The object must be serialized with 
-            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
-            : and then encoded with base64 encoding.
-
-    mimetype: application/x-microsoft.net.object.bytearray.base64
-    value   : The object must be serialized into a byte array 
-            : using a System.ComponentModel.TypeConverter
-            : and then encoded with base64 encoding.
-    -->
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-    <xsd:element name="root" msdata:IsDataSet="true">
-      <xsd:complexType>
-        <xsd:choice maxOccurs="unbounded">
-          <xsd:element name="metadata">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" />
-              </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" />
-              <xsd:attribute name="type" type="xsd:string" />
-              <xsd:attribute name="mimetype" type="xsd:string" />
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="assembly">
-            <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string" />
-              <xsd:attribute name="name" type="xsd:string" />
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="data">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
-              </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="resheader">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-              </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" />
-            </xsd:complexType>
-          </xsd:element>
-        </xsd:choice>
-      </xsd:complexType>
-    </xsd:element>
-  </xsd:schema>
-  <resheader name="resmimetype">
-    <value>text/microsoft-resx</value>
-  </resheader>
-  <resheader name="version">
-    <value>2.0</value>
-  </resheader>
-  <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-  <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-</root>]]></ProjectItem>
-          <ProjectItem
-            Name="ST_2fc95aac9b5f4cf3bf9a987ea710b1ea.csproj"
-            Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <PropertyGroup>
-    <ProjectTypeGuids>{30D016F9-3734-4E33-A861-5E7D899E18F3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>8.0.30703</ProductVersion>
-    <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{41DA01D4-AE96-4FB3-B20B-8F868802F7D3}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ST_2fc95aac9b5f4cf3bf9a987ea710b1ea</RootNamespace>
-    <AssemblyName>ST_2fc95aac9b5f4cf3bf9a987ea710b1ea</AssemblyName>
-    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
-    <FileAlignment>512</FileAlignment>
-    <ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>true</ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>
-    <TargetFrameworkProfile></TargetFrameworkProfile>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
-    <DebugSymbols>true</DebugSymbols>
-    <DebugType>full</DebugType>
-    <Optimize>false</Optimize>
-    <OutputPath>.\bin\Debug\</OutputPath>
-    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
-    <DebugSymbols>false</DebugSymbols>
-    <Optimize>true</Optimize>
-    <OutputPath>.\bin\Release\</OutputPath>
-    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
-    <DefineConstants>TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <ItemGroup>
-    <Reference Include="System" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Windows.Forms" />
-    <Reference Include="System.Xml" />
-    <Reference Include="Microsoft.SqlServer.ManagedDTS, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
-    <Reference Include="Microsoft.SqlServer.ScriptTask, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
-  </ItemGroup>
-  <ItemGroup>
-    <AppDesigner Include="Properties\" />
-    <Compile Include="Properties\AssemblyInfo.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
-    <None Include="Properties\Settings.settings">
-      <Generator>SettingsSingleFileGenerator</Generator>
-      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
-    </None>
-    <Compile Include="Properties\Settings.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Settings.settings</DependentUpon>
-    </Compile>
-    <Compile Include="ScriptMain.cs">
-      <SubType>Code</SubType>
-    </Compile>
-  </ItemGroup>
-  <!-- Include the build rules for a C# project.-->
-  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
-  <ProjectExtensions>
-    <VisualStudio>
-      <FlavorProperties GUID="{30D016F9-3734-4E33-A861-5E7D899E18F3}">
-        <ProjectProperties HostName="VSTAHostName" HostPackage="{B3A685AA-7EAF-4BC6-9940-57959FA5AC07}" ApplicationType="usd" Language="cs" TemplatesPath="" />
-        <Host Name="ScriptTask" />
-        <ProjectClient>
-          <HostIdentifier>SSIS_ST150</HostIdentifier>
-        </ProjectClient>
-      </FlavorProperties>
-    </VisualStudio>
-  </ProjectExtensions>
-</Project>]]></ProjectItem>
-          <ProjectItem
-            Name="Project"
-            Encoding="UTF16LE"><![CDATA[<?xml version="1.0" encoding="UTF-16" standalone="yes"?>
-<c:Project xmlns:c="http://schemas.microsoft.com/codeprojectml/2010/08/main" xmlns:msb="http://schemas.microsoft.com/developer/msbuild/2003" runtimeVersion="4.0" schemaVersion="1.0">
-  <msb:PropertyGroup>
-    <msb:CodeName>ST_2fc95aac9b5f4cf3bf9a987ea710b1ea</msb:CodeName>
-    <msb:Language>msBuild</msb:Language>
-    <msb:DisplayName>ST_2fc95aac9b5f4cf3bf9a987ea710b1ea</msb:DisplayName>
-    <msb:ProjectId>{5502A35A-0156-40BC-A648-A4A83852D69E}</msb:ProjectId>
-  </msb:PropertyGroup>
-  <msb:ItemGroup>
-    <msb:Project Include="ST_2fc95aac9b5f4cf3bf9a987ea710b1ea.csproj" />
-    <msb:File Include="Properties\Settings.settings" />
-    <msb:File Include="Properties\AssemblyInfo.cs" />
-    <msb:File Include="Properties\Resources.resx" />
-    <msb:File Include="Properties\Resources.Designer.cs" />
-    <msb:File Include="Properties\Settings.Designer.cs" />
-    <msb:File Include="ScriptMain.cs" />
-  </msb:ItemGroup>
-</c:Project>]]></ProjectItem>
           <ProjectItem
             Name="ScriptMain.cs"
             Encoding="UTF8"><![CDATA[#region Help:  Introduction to the script task
@@ -3054,34 +2793,124 @@ WHERE   v.Linea_producto = 1
     }
 }]]></ProjectItem>
           <ProjectItem
-            Name="Properties\Settings.Designer.cs"
-            Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
-// <auto-generated>
-//     This code was generated by a tool.
-//
-//     Changes to this file may cause incorrect behavior and will be lost if
-//     the code is regenerated.
-// </auto-generated>
-//------------------------------------------------------------------------------
-
-[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_2fc95aac9b5f4cf3bf9a987ea710b1ea.Properties.Settings.get_Default():ST_2fc95aac9b5f4cf3bf9a987ea710b1ea.Properties.Sett" +
-    "ings")]
-
-namespace ST_2fc95aac9b5f4cf3bf9a987ea710b1ea.Properties {
+            Name="Properties\Resources.resx"
+            Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
     
+    Version 2.0
     
-    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
-        
-        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-        private static Settings defaultInstance = new Settings();
-        
-        public static Settings Default {
-            get {
-                return defaultInstance;
-            }
-        }
-    }
-}]]></ProjectItem>
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+</root>]]></ProjectItem>
           <ProjectItem
             Name="Properties\AssemblyInfo.cs"
             Encoding="UTF8"><![CDATA[using System.Reflection;
@@ -3112,6 +2941,150 @@ using System.Runtime.CompilerServices;
 // by using the '*' as shown below:
 
 [assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
+          <ProjectItem
+            Name="ST_2fc95aac9b5f4cf3bf9a987ea710b1ea.csproj"
+            Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectTypeGuids>{30D016F9-3734-4E33-A861-5E7D899E18F3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{41DA01D4-AE96-4FB3-B20B-8F868802F7D3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ST_2fc95aac9b5f4cf3bf9a987ea710b1ea</RootNamespace>
+    <AssemblyName>ST_2fc95aac9b5f4cf3bf9a987ea710b1ea</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>true</ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>
+    <TargetFrameworkProfile></TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>.\bin\Debug\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <OutputPath>.\bin\Release\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.SqlServer.ManagedDTS, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.SqlServer.ScriptTask, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="ScriptMain.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <!-- Include the build rules for a C# project.-->
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{30D016F9-3734-4E33-A861-5E7D899E18F3}">
+        <ProjectProperties HostName="VSTAHostName" HostPackage="{B3A685AA-7EAF-4BC6-9940-57959FA5AC07}" ApplicationType="usd" Language="cs" TemplatesPath="" />
+        <Host Name="ScriptTask" />
+        <ProjectClient>
+          <HostIdentifier>SSIS_ST150</HostIdentifier>
+        </ProjectClient>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>]]></ProjectItem>
+          <ProjectItem
+            Name="Project"
+            Encoding="UTF16LE"><![CDATA[<?xml version="1.0" encoding="UTF-16" standalone="yes"?>
+<c:Project xmlns:c="http://schemas.microsoft.com/codeprojectml/2010/08/main" xmlns:msb="http://schemas.microsoft.com/developer/msbuild/2003" runtimeVersion="4.0" schemaVersion="1.0">
+  <msb:PropertyGroup>
+    <msb:CodeName>ST_2fc95aac9b5f4cf3bf9a987ea710b1ea</msb:CodeName>
+    <msb:Language>msBuild</msb:Language>
+    <msb:DisplayName>ST_2fc95aac9b5f4cf3bf9a987ea710b1ea</msb:DisplayName>
+    <msb:ProjectId>{5502A35A-0156-40BC-A648-A4A83852D69E}</msb:ProjectId>
+  </msb:PropertyGroup>
+  <msb:ItemGroup>
+    <msb:Project Include="ST_2fc95aac9b5f4cf3bf9a987ea710b1ea.csproj" />
+    <msb:File Include="Properties\Settings.settings" />
+    <msb:File Include="Properties\AssemblyInfo.cs" />
+    <msb:File Include="Properties\Resources.resx" />
+    <msb:File Include="Properties\Resources.Designer.cs" />
+    <msb:File Include="Properties\Settings.Designer.cs" />
+    <msb:File Include="ScriptMain.cs" />
+  </msb:ItemGroup>
+</c:Project>]]></ProjectItem>
+          <ProjectItem
+            Name="Properties\Settings.Designer.cs"
+            Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
+// <auto-generated>
+//     This code was generated by a tool.
+//
+//     Changes to this file may cause incorrect behavior and will be lost if
+//     the code is regenerated.
+// </auto-generated>
+//------------------------------------------------------------------------------
+
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_2fc95aac9b5f4cf3bf9a987ea710b1ea.Properties.Settings.get_Default():ST_2fc95aac9b5f4cf3bf9a987ea710b1ea.Properties.Sett" +
+    "ings")]
+
+namespace ST_2fc95aac9b5f4cf3bf9a987ea710b1ea.Properties {
+    
+    
+    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
+        
+        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
+        private static Settings defaultInstance = new Settings();
+        
+        public static Settings Default {
+            get {
+                return defaultInstance;
+            }
+        }
+    }
+}]]></ProjectItem>
+          <ProjectItem
+            Name="Properties\Settings.settings"
+            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
+<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
+  <Settings />
+</SettingsFile>]]></ProjectItem>
           <ProjectItem
             Name="Properties\Resources.Designer.cs"
             Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
@@ -3509,14 +3482,41 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
-      DTS:refId="Package\ETL03ValidateFile"
+      DTS:refId="Package\ETL03ValidateMaestro"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{30B107DF-77F8-4786-992F-B314CFF38AC1}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="ETL03ValidateMaestro"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{0F0ACF89-D7FD-4BB3-B898-1223E842050F}"
+          SQLTask:SqlStatementSource="/* FacturaWholesale__ETL02bValidateMaestro_v1.2.sql   (v1.2 06-11: plan V1 v6, SOL-011 / D-ARQ-50 · reemplaza v1.1 en _reemplazados/)&#xA;   Paquete : FacturaWholesale (EtlVentasAutos, ProcessID 34) · Tarea: ETL02bValidateMaestro&#xA;   Autor   : Franco Véliz (Agente V4W) · 2026-11-05 · D-22, D-32, D-35, D-36, D-37, D-ARQ-44, D-ARQ-45&#xA;   Conexión: HMDCBISA&#xA;   Qué hace: 1) Resuelve dealer y sala (bloque Resolución). 2) Borra en Stg la razón social de personas (ES_PERSONA o RUT &lt; 50.000.000; D-36, D-ARQ-45). 3) Valida: RUT_FUERA_DIC, CODIGO_FUERA_MAESTRO, VIN_VACIO, VIN_FUERA_MAESTRO, DUPLICADO. Sin VIN_SIN_SALA: la sala es opcional (D-ARQ-50); la completan Vin_Modelos__c, Stock Dealer o la imputación (42). 4) Actualiza la Qc persistente; lo que ya no falla queda Resuelto (recarga completa). 5) Saca de Stg lo que no cruza. Devuelve RowsQc.&#xA;   Parámetros (OLE DB, en orden): 1) User::CtlExecutionID&#xA;*/&#xA;SET NOCOUNT ON;&#xA;SET XACT_ABORT ON;&#xA;DECLARE @ExecutionID bigint = ?;&#xA;DECLARE @Ahora datetime2(0) = SYSDATETIME();&#xA;&#xA;-- ── Resolución (idéntica en ETL02bValidateMaestro y ETL04LoadDWHDW) ──────────────────&#xA;-- Dealer: RUT de la factura = RUTID de DICBaseDealerParent, o RUT_SOCIEDAD de DICBaseDealerParentSociety → su RUTID.&#xA;-- Sala por VIN (D-ARQ-44): (1) Vin_Modelos__c.Sala_de_venta__c → SFOBaseAccount.Name → alias 'Sales force' → SUCURSALID;&#xA;--                          (2) sala del VIN en la última fotografía de V4WBaseStockDealer.&#xA;--   Solo vale una sala del mismo dealer facturado (traspasos: el wholesale queda en el dealer facturado).&#xA;IF OBJECT_ID(N'tempdb..#Parent')    IS NOT NULL DROP TABLE #Parent;&#xA;IF OBJECT_ID(N'tempdb..#Sociedad')  IS NOT NULL DROP TABLE #Sociedad;&#xA;IF OBJECT_ID(N'tempdb..#VinSala')   IS NOT NULL DROP TABLE #VinSala;&#xA;IF OBJECT_ID(N'tempdb..#StockSala') IS NOT NULL DROP TABLE #StockSala;&#xA;IF OBJECT_ID(N'tempdb..#Res')       IS NOT NULL DROP TABLE #Res;&#xA;&#xA;SELECT DISTINCT LTRIM(RTRIM(p.RUTID)) AS RUTID INTO #Parent FROM HMDCBIDW.dbo.DICBaseDealerParent AS p;&#xA;&#xA;SELECT LTRIM(RTRIM(so.RUT_SOCIEDAD)) AS RutSociedad, LTRIM(RTRIM(so.RUTID)) AS RUTID,&#xA;       so.SUCURSALID AS SalaSociedad, so.ES_PERSONA AS EsPersona&#xA;INTO   #Sociedad&#xA;FROM   HMDCBIDW.dbo.DICBaseDealerParentSociety AS so&#xA;WHERE  so.ACTIVO = 1;&#xA;&#xA;SELECT x.VIN, x.SUCURSALID, x.RUTID, x.SalaNombre&#xA;INTO   #VinSala&#xA;FROM (&#xA;    SELECT LTRIM(RTRIM(CONVERT(nvarchar(255), v.Name))) AS VIN, al.SUCURSALID, LTRIM(RTRIM(b.RUTID)) AS RUTID,&#xA;           CONVERT(nvarchar(255), acc.Name) AS SalaNombre,&#xA;           ROW_NUMBER() OVER (PARTITION BY v.Name ORDER BY al.SUCURSALID) AS Rn&#xA;    FROM   HMDCBIDW.dbo.SFOBaseVin_Modelos__c AS v&#xA;    JOIN   HMDCBIDW.dbo.SFOBaseAccount        AS acc ON acc.Id = v.Sala_de_venta__c&#xA;    JOIN   HMDCBIDW.dbo.DICBaseDealerAlias    AS al  ON al.ALIAS1 = acc.Name AND al.ORIGEN = N'Sales force' AND al.ACTIVO = 1&#xA;    JOIN   HMDCBIDW.dbo.DICBaseDealerBranch   AS b   ON b.SUCURSALID = al.SUCURSALID&#xA;    WHERE  v.IsDeleted = 0 AND v.Linea_de_Producto__c = N'Automoviles'&#xA;) AS x&#xA;WHERE x.Rn = 1;&#xA;&#xA;SELECT x.VIN, x.SUCURSALID, x.RUTID&#xA;INTO   #StockSala&#xA;FROM (&#xA;    SELECT sd.VIN, sd.SUCURSALID, LTRIM(RTRIM(sd.RUTID)) AS RUTID,&#xA;           ROW_NUMBER() OVER (PARTITION BY sd.VIN ORDER BY sd.FechaCorte DESC) AS Rn&#xA;    FROM   HMDCBIDW.dbo.V4WBaseStockDealer AS sd&#xA;    WHERE  sd.VIN IS NOT NULL AND sd.SUCURSALID IS NOT NULL&#xA;) AS x&#xA;WHERE x.Rn = 1;&#xA;&#xA;SELECT s.RowNumber,&#xA;       d.RUTID,&#xA;       CASE WHEN vs.RUTID = d.RUTID THEN vs.SUCURSALID&#xA;            WHEN ss.RUTID = d.RUTID THEN ss.SUCURSALID END                     AS SUCURSALID,&#xA;       so.SalaSociedad, ISNULL(so.EsPersona, 0)                                AS EsPersona,&#xA;       CASE WHEN vs.RUTID IS NOT NULL AND vs.RUTID &lt;&gt; d.RUTID THEN vs.SalaNombre END AS SalaOtroDealer&#xA;INTO   #Res&#xA;FROM   HMDCBISA.dbo.V4WStgFacturaWholesale AS s&#xA;LEFT JOIN #Sociedad  AS so ON so.RutSociedad = s.RUT&#xA;OUTER APPLY (SELECT COALESCE((SELECT TOP (1) p.RUTID FROM #Parent p WHERE p.RUTID = s.RUT), so.RUTID) AS RUTID) AS d&#xA;LEFT JOIN #VinSala   AS vs ON vs.VIN = s.VIN&#xA;LEFT JOIN #StockSala AS ss ON ss.VIN = s.VIN&#xA;WHERE  s.ExecutionID = @ExecutionID;&#xA;CREATE UNIQUE CLUSTERED INDEX IX_Res ON #Res (RowNumber);&#xA;-- ── fin resolución ───────────────────────────────────────────────────────────────────&#xA;&#xA;-- Sin datos personales (D-36, D-ARQ-45)&#xA;UPDATE s SET s.RazonSocial = NULL&#xA;FROM   HMDCBISA.dbo.V4WStgFacturaWholesale AS s&#xA;JOIN   #Res AS r ON r.RowNumber = s.RowNumber&#xA;WHERE  s.ExecutionID = @ExecutionID&#xA;  AND  (r.EsPersona = 1 OR TRY_CONVERT(int, LEFT(s.RUT, CHARINDEX(N'-', s.RUT + N'-') - 1)) &lt; 50000000);&#xA;&#xA;IF OBJECT_ID(N'tempdb..#Codigo') IS NOT NULL DROP TABLE #Codigo;&#xA;IF OBJECT_ID(N'tempdb..#Vin')    IS NOT NULL DROP TABLE #Vin;&#xA;IF OBJECT_ID(N'tempdb..#Falla')  IS NOT NULL DROP TABLE #Falla;&#xA;&#xA;SELECT DISTINCT UPPER(LTRIM(RTRIM(CONVERT(nvarchar(255), v.Codigoarticulo__c)))) AS Codigo&#xA;INTO   #Codigo&#xA;FROM   HMDCBIDW.dbo.SFOBaseVin_Modelos__c AS v&#xA;WHERE  v.IsDeleted = 0 AND v.Linea_de_Producto__c = N'Automoviles' AND v.Codigoarticulo__c IS NOT NULL;&#xA;&#xA;SELECT DISTINCT LTRIM(RTRIM(CONVERT(nvarchar(255), v.Name))) AS VIN&#xA;INTO   #Vin&#xA;FROM   HMDCBIDW.dbo.SFOBaseVin_Modelos__c AS v&#xA;WHERE  v.IsDeleted = 0 AND v.Linea_de_Producto__c = N'Automoviles';&#xA;CREATE UNIQUE CLUSTERED INDEX IX_Vin ON #Vin (VIN);&#xA;&#xA;SELECT s.RowNumber, s.[NumeroInterno], s.[TipoDocumento], s.[NumeroDocumento], s.[GlosaDocumento], s.[Estado], s.[Fecha], s.[VIN], s.[Motor], s.[Color], s.[RUT], s.[RazonSocial], s.[Articulo], s.[DescripcionArticulo], s.[Cantidad], s.[ValorTotalSinDesc], s.[ValorTotalConDesc], s.[CostoVenta], s.[Descuento], s.[DvcNumDocto], f.MotivoFalla, f.DetalleError, CONVERT(int, 1) AS Rn&#xA;INTO   #Falla&#xA;FROM   HMDCBISA.dbo.V4WStgFacturaWholesale AS s&#xA;JOIN   #Res AS r ON r.RowNumber = s.RowNumber&#xA;CROSS APPLY (&#xA;    SELECT N'RUT_FUERA_DIC', N'RUT ' + ISNULL(s.RUT, N'(vacío)') + N' no está en DICBaseDealerParent ni en DICBaseDealerParentSociety'&#xA;    WHERE r.RUTID IS NULL&#xA;    UNION ALL&#xA;    SELECT N'CODIGO_FUERA_MAESTRO', N'Articulo ' + ISNULL(s.Articulo, N'(vacío)') + N' no existe en SFOBaseVin_Modelos__c (Automoviles)'&#xA;    WHERE NOT EXISTS (SELECT 1 FROM #Codigo c WHERE c.Codigo = s.Articulo)&#xA;    UNION ALL&#xA;    SELECT N'VIN_VACIO', N'Factura sin VIN'&#xA;    WHERE s.VIN IS NULL&#xA;    UNION ALL&#xA;    SELECT N'VIN_FUERA_MAESTRO', N'VIN ' + s.VIN + N' no existe en SFOBaseVin_Modelos__c (Automoviles)'&#xA;    WHERE s.VIN IS NOT NULL AND NOT EXISTS (SELECT 1 FROM #Vin v WHERE v.VIN = s.VIN)&#xA;) AS f (MotivoFalla, DetalleError)&#xA;WHERE  s.ExecutionID = @ExecutionID;&#xA;&#xA;INSERT INTO #Falla&#xA;SELECT s.RowNumber, s.[NumeroInterno], s.[TipoDocumento], s.[NumeroDocumento], s.[GlosaDocumento], s.[Estado], s.[Fecha], s.[VIN], s.[Motor], s.[Color], s.[RUT], s.[RazonSocial], s.[Articulo], s.[DescripcionArticulo], s.[Cantidad], s.[ValorTotalSinDesc], s.[ValorTotalConDesc], s.[CostoVenta], s.[Descuento], s.[DvcNumDocto], N'DUPLICADO', N'Documento repetido en la vista del .185', 1&#xA;FROM   HMDCBISA.dbo.V4WStgFacturaWholesale AS s&#xA;WHERE  s.ExecutionID = @ExecutionID&#xA;  AND  (SELECT COUNT(*) FROM HMDCBISA.dbo.V4WStgFacturaWholesale x WHERE x.ExecutionID = @ExecutionID AND x.[NumeroInterno] = s.[NumeroInterno] AND x.[TipoDocumento] = s.[TipoDocumento] AND x.[NumeroDocumento] = s.[NumeroDocumento]) &gt; 1;&#xA;&#xA;;WITH d AS (SELECT Rn, ROW_NUMBER() OVER (PARTITION BY [NumeroInterno], [TipoDocumento], [NumeroDocumento], MotivoFalla ORDER BY RowNumber) AS r FROM #Falla)&#xA;UPDATE d SET Rn = r;&#xA;&#xA;BEGIN TRANSACTION;&#xA;&#xA;UPDATE q&#xA;SET    q.ExecutionIDUltima = @ExecutionID, q.FechaUltimaVez = @Ahora,&#xA;       q.RowNumber = f.RowNumber, q.DetalleError = f.DetalleError,&#xA;       q.[GlosaDocumento] = f.[GlosaDocumento], q.[Estado] = f.[Estado], q.[Fecha] = f.[Fecha], q.[VIN] = f.[VIN], q.[Motor] = f.[Motor], q.[Color] = f.[Color], q.[RUT] = f.[RUT], q.[RazonSocial] = f.[RazonSocial], q.[Articulo] = f.[Articulo], q.[DescripcionArticulo] = f.[DescripcionArticulo], q.[Cantidad] = f.[Cantidad], q.[ValorTotalSinDesc] = f.[ValorTotalSinDesc], q.[ValorTotalConDesc] = f.[ValorTotalConDesc], q.[CostoVenta] = f.[CostoVenta], q.[Descuento] = f.[Descuento], q.[DvcNumDocto] = f.[DvcNumDocto]&#xA;FROM   HMDCBISA.dbo.V4WQcFacturaWholesale AS q&#xA;JOIN   #Falla AS f ON f.[NumeroInterno] = q.[NumeroInterno] AND f.[TipoDocumento] = q.[TipoDocumento] AND f.[NumeroDocumento] = q.[NumeroDocumento] AND f.MotivoFalla = q.MotivoFalla AND f.Rn = 1&#xA;WHERE  q.EstadoQc = N'Pendiente';&#xA;&#xA;INSERT INTO HMDCBISA.dbo.V4WQcFacturaWholesale&#xA;       (ExecutionID, ExecutionIDUltima, RowNumber, MotivoFalla, DetalleError, EstadoQc, FechaPrimeraVez, FechaUltimaVez, [NumeroInterno], [TipoDocumento], [NumeroDocumento], [GlosaDocumento], [Estado], [Fecha], [VIN], [Motor], [Color], [RUT], [RazonSocial], [Articulo], [DescripcionArticulo], [Cantidad], [ValorTotalSinDesc], [ValorTotalConDesc], [CostoVenta], [Descuento], [DvcNumDocto])&#xA;SELECT @ExecutionID, @ExecutionID, f.RowNumber, f.MotivoFalla, f.DetalleError, N'Pendiente', @Ahora, @Ahora, f.[NumeroInterno], f.[TipoDocumento], f.[NumeroDocumento], f.[GlosaDocumento], f.[Estado], f.[Fecha], f.[VIN], f.[Motor], f.[Color], f.[RUT], f.[RazonSocial], f.[Articulo], f.[DescripcionArticulo], f.[Cantidad], f.[ValorTotalSinDesc], f.[ValorTotalConDesc], f.[CostoVenta], f.[Descuento], f.[DvcNumDocto]&#xA;FROM   #Falla AS f&#xA;WHERE  f.Rn = 1&#xA;  AND  NOT EXISTS (SELECT 1 FROM HMDCBISA.dbo.V4WQcFacturaWholesale q&#xA;                   WHERE q.[NumeroInterno] = f.[NumeroInterno] AND q.[TipoDocumento] = f.[TipoDocumento] AND q.[NumeroDocumento] = f.[NumeroDocumento] AND q.MotivoFalla = f.MotivoFalla AND q.EstadoQc = N'Pendiente');&#xA;&#xA;UPDATE q&#xA;SET    q.EstadoQc = N'Resuelta', q.FechaResuelta = @Ahora, q.ExecutionIDResuelta = @ExecutionID&#xA;FROM   HMDCBISA.dbo.V4WQcFacturaWholesale AS q&#xA;WHERE  q.EstadoQc = N'Pendiente'&#xA;  AND  NOT EXISTS (SELECT 1 FROM #Falla f WHERE f.[NumeroInterno] = q.[NumeroInterno] AND f.[TipoDocumento] = q.[TipoDocumento] AND f.[NumeroDocumento] = q.[NumeroDocumento] AND f.MotivoFalla = q.MotivoFalla);&#xA;&#xA;DELETE s&#xA;FROM   HMDCBISA.dbo.V4WStgFacturaWholesale AS s&#xA;WHERE  s.ExecutionID = @ExecutionID&#xA;  AND  EXISTS (SELECT 1 FROM #Falla f WHERE f.RowNumber = s.RowNumber);&#xA;&#xA;COMMIT TRANSACTION;&#xA;&#xA;SELECT COUNT(DISTINCT RowNumber) AS RowsQc FROM #Falla;&#xA;"
+          SQLTask:ResultType="ResultSetType_SingleRow" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
+          <SQLTask:ResultBinding
+            SQLTask:ResultName="RowsQc"
+            SQLTask:DtsVariableName="User::CtlRowsFailed" />
+          <SQLTask:ParameterBinding
+            SQLTask:ParameterName="0"
+            SQLTask:DtsVariableName="User::CtlExecutionID"
+            SQLTask:ParameterDirection="Input"
+            SQLTask:DataType="3"
+            SQLTask:ParameterSize="0" />
+        </SQLTask:SqlTaskData>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\ETL04ValidateFile"
       DTS:CreationName="Microsoft.ScriptTask"
       DTS:Description="Script Task"
       DTS:DisableEventHandlers="True"
       DTS:DTSID="{EA945139-7704-488E-8616-C09B1ED04F17}"
       DTS:ExecutableType="Microsoft.ScriptTask"
       DTS:LocaleID="-1"
-      DTS:ObjectName="ETL03ValidateFile"
+      DTS:ObjectName="ETL04ValidateFile"
       DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:ObjectData>
@@ -3527,14 +3527,35 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           Language="CSharp"
           ReadOnlyVariables="User::CtlComputerName,User::CtlExecutionID,User::CtlPackageName,User::CtlUserName,User::EtlFileModifiedDate,User::EtlFileName,User::EtlOperatorUser,$Package::CtlProcessID,$Package::EtlFilePath,$Package::EtlFileSheet,$Package::vMailCC,$Package::vMailFrom,$Package::vMailTO,$Project::vSMTPHost,$Project::vSQLConnStr,$Project::vSMTPPort,$Project::vLogoMain,$Project::vLogoWhite">
           <ProjectItem
-            Name="Properties\Settings.settings"
-            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
-<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
-</SettingsFile>]]></ProjectItem>
+            Name="Properties\AssemblyInfo.cs"
+            Encoding="UTF8"><![CDATA[using System.Reflection;
+using System.Runtime.CompilerServices;
+
+//
+// General Information about an assembly is controlled through the following 
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
+//
+[assembly: AssemblyTitle("ST_3b5335120ee1469aaa904846d3479804")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("ST_3b5335120ee1469aaa904846d3479804")]
+[assembly: AssemblyCopyright("Copyright @  2026")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+//
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version 
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Revision and Build Numbers 
+// by using the '*' as shown below:
+
+[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
           <ProjectItem
             Name="ST_ff694be232ea4a2a8a51957507785fb0.csproj"
             Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
@@ -4683,35 +4704,14 @@ namespace ST_3b5335120ee1469aaa904846d3479804.Properties {
     }
 }]]></ProjectItem>
           <ProjectItem
-            Name="Properties\AssemblyInfo.cs"
-            Encoding="UTF8"><![CDATA[using System.Reflection;
-using System.Runtime.CompilerServices;
-
-//
-// General Information about an assembly is controlled through the following 
-// set of attributes. Change these attribute values to modify the information
-// associated with an assembly.
-//
-[assembly: AssemblyTitle("ST_3b5335120ee1469aaa904846d3479804")]
-[assembly: AssemblyDescription("")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ST_3b5335120ee1469aaa904846d3479804")]
-[assembly: AssemblyCopyright("Copyright @  2026")]
-[assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]
-//
-// Version information for an assembly consists of the following four values:
-//
-//      Major Version
-//      Minor Version 
-//      Build Number
-//      Revision
-//
-// You can specify all the values or you can default the Revision and Build Numbers 
-// by using the '*' as shown below:
-
-[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
+            Name="Properties\Settings.settings"
+            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
+<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
+  <Settings />
+</SettingsFile>]]></ProjectItem>
           <ProjectItem
             Name="Properties\Resources.Designer.cs"
             Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
@@ -5549,13 +5549,13 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
-      DTS:refId="Package\ETL04LoadDWHDW"
+      DTS:refId="Package\ETL05LoadDWHDW"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
       DTS:DTSID="{F7734D30-E97B-4B0A-A617-52403A7843E2}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
-      DTS:ObjectName="ETL04LoadDWHDW"
+      DTS:ObjectName="ETL05LoadDWHDW"
       DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:ObjectData>
@@ -5582,67 +5582,13 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
-      DTS:refId="Package\ETL05DeleteDWHDW"
-      DTS:CreationName="Microsoft.ExecuteSQLTask"
-      DTS:Description="Execute SQL Task"
-      DTS:DTSID="{F02F0316-7A25-4538-8844-68A8F29298AD}"
-      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
-      DTS:LocaleID="-1"
-      DTS:ObjectName="ETL05DeleteDWHDW"
-      DTS:ThreadHint="0">
-      <DTS:Variables />
-      <DTS:ObjectData>
-        <SQLTask:SqlTaskData
-          SQLTask:Connection="{0EDA87BA-ED8A-499E-BDBB-0D4439C1A343}"
-          SQLTask:SqlStatementSource="/* FacturaWholesale__ETL05DeleteDWHDW_v1.0.sql&#xA;   Paquete : FacturaWholesale (EtlVentasAutos, ProcessID 34) · Tarea: ETL05DeleteDWHDW&#xA;   Autor   : Franco Véliz (Agente V4W) · 2026-11-04 · plan V1 v4, SOL-008, D-22, D-32, D-35, D-36&#xA;   Conexión: HMDCBIDW&#xA;   Qué hace: Borra de Base las filas D (ya no vienen en la fuente o pasaron a Qc). Devuelve RowsDeleted. 📝 Tarea nueva en SOL-009.&#xA;   Parámetros (OLE DB, en orden): 1) User::CtlExecutionID&#xA;*/&#xA;DECLARE @RowsDeleted int;&#xA;DELETE tgt&#xA;FROM   HMDCBIDW.dbo.V4WBaseFacturaWholesale AS tgt&#xA;JOIN   HMDCBISA.dbo.V4WLoadFacturaWholesale AS src ON src.[NumeroInterno] = tgt.[NumeroInterno] AND src.[TipoDocumento] = tgt.[TipoDocumento] AND src.[NumeroDocumento] = tgt.[NumeroDocumento]&#xA;WHERE  src.ExecutionID = ? AND src.TypeLoad = N'D';&#xA;SET @RowsDeleted = @@ROWCOUNT;&#xA;SELECT @RowsDeleted AS RowsDeleted;&#xA;"
-          SQLTask:ResultType="ResultSetType_SingleRow" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
-          <SQLTask:ResultBinding
-            SQLTask:ResultName="RowsDeleted"
-            SQLTask:DtsVariableName="User::EtlRowsDeleted" />
-          <SQLTask:ParameterBinding
-            SQLTask:ParameterName="0"
-            SQLTask:DtsVariableName="User::CtlExecutionID"
-            SQLTask:ParameterDirection="Input"
-            SQLTask:DataType="3"
-            SQLTask:ParameterSize="0" />
-        </SQLTask:SqlTaskData>
-      </DTS:ObjectData>
-    </DTS:Executable>
-    <DTS:Executable
-      DTS:refId="Package\ETL05InsertDWHDW"
-      DTS:CreationName="Microsoft.ExecuteSQLTask"
-      DTS:Description="Execute SQL Task"
-      DTS:DTSID="{4586BEE4-C778-4611-AEFC-3FBF383280DE}"
-      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
-      DTS:LocaleID="-1"
-      DTS:ObjectName="ETL05InsertDWHDW"
-      DTS:ThreadHint="0">
-      <DTS:Variables />
-      <DTS:ObjectData>
-        <SQLTask:SqlTaskData
-          SQLTask:Connection="{0EDA87BA-ED8A-499E-BDBB-0D4439C1A343}"
-          SQLTask:SqlStatementSource="/* FacturaWholesale__ETL05InsertDWHDW_v1.2.sql   (v1.2 06-11: plan V1 v6, SOL-011 / D-ARQ-50 · reemplaza v1.1 en _reemplazados/)&#xA;   Paquete : FacturaWholesale (EtlVentasAutos, ProcessID 34) · Tarea: ETL05InsertDWHDW&#xA;   Autor   : Franco Véliz (Agente V4W) · 2026-11-05 · D-22, D-32, D-35, D-36, D-37, D-ARQ-44, D-ARQ-45&#xA;   Conexión: HMDCBIDW&#xA;   Qué hace: Inserta en Base las filas I. Devuelve RowsInsert.&#xA;   Parámetros (OLE DB, en orden): 1) User::CtlExecutionID&#xA;*/&#xA;DECLARE @RowsInsert int;&#xA;INSERT INTO HMDCBIDW.dbo.V4WBaseFacturaWholesale ([NumeroInterno], [TipoDocumento], [NumeroDocumento], [GlosaDocumento], [Estado], [Fecha], [VIN], [Motor], [Color], [RUT], [RazonSocial], [Articulo], [DescripcionArticulo], [Cantidad], [ValorTotalSinDesc], [ValorTotalConDesc], [CostoVenta], [Descuento], [DvcNumDocto], RUTID, CodigoArticulo, SUCURSALID, PendienteEnvio, FechaDespacho, ExecutionID, Hash64, CreateDate, LastModifiedDate)&#xA;SELECT s.[NumeroInterno], s.[TipoDocumento], s.[NumeroDocumento], s.[GlosaDocumento], s.[Estado], s.[Fecha], s.[VIN], s.[Motor], s.[Color], s.[RUT], s.[RazonSocial], s.[Articulo], s.[DescripcionArticulo], s.[Cantidad], s.[ValorTotalSinDesc], s.[ValorTotalConDesc], s.[CostoVenta], s.[Descuento], s.[DvcNumDocto], s.RUTID, s.CodigoArticulo, s.SUCURSALID, s.PendienteEnvio, s.FechaDespacho, s.ExecutionID, s.HashNuevo, SYSDATETIME(), NULL&#xA;FROM   HMDCBISA.dbo.V4WLoadFacturaWholesale AS s&#xA;WHERE  s.ExecutionID = ? AND s.TypeLoad = N'I';&#xA;SET @RowsInsert = @@ROWCOUNT;&#xA;SELECT @RowsInsert AS RowsInsert;"
-          SQLTask:ResultType="ResultSetType_SingleRow" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
-          <SQLTask:ResultBinding
-            SQLTask:ResultName="RowsInsert"
-            SQLTask:DtsVariableName="User::CtlRowsInserted" />
-          <SQLTask:ParameterBinding
-            SQLTask:ParameterName="0"
-            SQLTask:DtsVariableName="User::CtlExecutionID"
-            SQLTask:ParameterDirection="Input"
-            SQLTask:DataType="3"
-            SQLTask:ParameterSize="0" />
-        </SQLTask:SqlTaskData>
-      </DTS:ObjectData>
-    </DTS:Executable>
-    <DTS:Executable
-      DTS:refId="Package\ETL05UpdateDWHDW"
+      DTS:refId="Package\ETL06UpdateDWHDW"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
       DTS:DTSID="{D777B212-04BA-423B-B966-55932BF4CF79}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
-      DTS:ObjectName="ETL05UpdateDWHDW"
+      DTS:ObjectName="ETL06UpdateDWHDW"
       DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:ObjectData>
@@ -5663,13 +5609,67 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
-      DTS:refId="Package\ETL07ReportFile"
+      DTS:refId="Package\ETL07InsertDWHDW"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{4586BEE4-C778-4611-AEFC-3FBF383280DE}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="ETL07InsertDWHDW"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{0EDA87BA-ED8A-499E-BDBB-0D4439C1A343}"
+          SQLTask:SqlStatementSource="/* FacturaWholesale__ETL05InsertDWHDW_v1.2.sql   (v1.2 06-11: plan V1 v6, SOL-011 / D-ARQ-50 · reemplaza v1.1 en _reemplazados/)&#xA;   Paquete : FacturaWholesale (EtlVentasAutos, ProcessID 34) · Tarea: ETL05InsertDWHDW&#xA;   Autor   : Franco Véliz (Agente V4W) · 2026-11-05 · D-22, D-32, D-35, D-36, D-37, D-ARQ-44, D-ARQ-45&#xA;   Conexión: HMDCBIDW&#xA;   Qué hace: Inserta en Base las filas I. Devuelve RowsInsert.&#xA;   Parámetros (OLE DB, en orden): 1) User::CtlExecutionID&#xA;*/&#xA;DECLARE @RowsInsert int;&#xA;INSERT INTO HMDCBIDW.dbo.V4WBaseFacturaWholesale ([NumeroInterno], [TipoDocumento], [NumeroDocumento], [GlosaDocumento], [Estado], [Fecha], [VIN], [Motor], [Color], [RUT], [RazonSocial], [Articulo], [DescripcionArticulo], [Cantidad], [ValorTotalSinDesc], [ValorTotalConDesc], [CostoVenta], [Descuento], [DvcNumDocto], RUTID, CodigoArticulo, SUCURSALID, PendienteEnvio, FechaDespacho, ExecutionID, Hash64, CreateDate, LastModifiedDate)&#xA;SELECT s.[NumeroInterno], s.[TipoDocumento], s.[NumeroDocumento], s.[GlosaDocumento], s.[Estado], s.[Fecha], s.[VIN], s.[Motor], s.[Color], s.[RUT], s.[RazonSocial], s.[Articulo], s.[DescripcionArticulo], s.[Cantidad], s.[ValorTotalSinDesc], s.[ValorTotalConDesc], s.[CostoVenta], s.[Descuento], s.[DvcNumDocto], s.RUTID, s.CodigoArticulo, s.SUCURSALID, s.PendienteEnvio, s.FechaDespacho, s.ExecutionID, s.HashNuevo, SYSDATETIME(), NULL&#xA;FROM   HMDCBISA.dbo.V4WLoadFacturaWholesale AS s&#xA;WHERE  s.ExecutionID = ? AND s.TypeLoad = N'I';&#xA;SET @RowsInsert = @@ROWCOUNT;&#xA;SELECT @RowsInsert AS RowsInsert;"
+          SQLTask:ResultType="ResultSetType_SingleRow" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
+          <SQLTask:ResultBinding
+            SQLTask:ResultName="RowsInsert"
+            SQLTask:DtsVariableName="User::CtlRowsInserted" />
+          <SQLTask:ParameterBinding
+            SQLTask:ParameterName="0"
+            SQLTask:DtsVariableName="User::CtlExecutionID"
+            SQLTask:ParameterDirection="Input"
+            SQLTask:DataType="3"
+            SQLTask:ParameterSize="0" />
+        </SQLTask:SqlTaskData>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\ETL08DeleteDWHDW"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{F02F0316-7A25-4538-8844-68A8F29298AD}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="ETL08DeleteDWHDW"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{0EDA87BA-ED8A-499E-BDBB-0D4439C1A343}"
+          SQLTask:SqlStatementSource="/* FacturaWholesale__ETL05DeleteDWHDW_v1.0.sql&#xA;   Paquete : FacturaWholesale (EtlVentasAutos, ProcessID 34) · Tarea: ETL05DeleteDWHDW&#xA;   Autor   : Franco Véliz (Agente V4W) · 2026-11-04 · plan V1 v4, SOL-008, D-22, D-32, D-35, D-36&#xA;   Conexión: HMDCBIDW&#xA;   Qué hace: Borra de Base las filas D (ya no vienen en la fuente o pasaron a Qc). Devuelve RowsDeleted. 📝 Tarea nueva en SOL-009.&#xA;   Parámetros (OLE DB, en orden): 1) User::CtlExecutionID&#xA;*/&#xA;DECLARE @RowsDeleted int;&#xA;DELETE tgt&#xA;FROM   HMDCBIDW.dbo.V4WBaseFacturaWholesale AS tgt&#xA;JOIN   HMDCBISA.dbo.V4WLoadFacturaWholesale AS src ON src.[NumeroInterno] = tgt.[NumeroInterno] AND src.[TipoDocumento] = tgt.[TipoDocumento] AND src.[NumeroDocumento] = tgt.[NumeroDocumento]&#xA;WHERE  src.ExecutionID = ? AND src.TypeLoad = N'D';&#xA;SET @RowsDeleted = @@ROWCOUNT;&#xA;SELECT @RowsDeleted AS RowsDeleted;&#xA;"
+          SQLTask:ResultType="ResultSetType_SingleRow" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
+          <SQLTask:ResultBinding
+            SQLTask:ResultName="RowsDeleted"
+            SQLTask:DtsVariableName="User::EtlRowsDeleted" />
+          <SQLTask:ParameterBinding
+            SQLTask:ParameterName="0"
+            SQLTask:DtsVariableName="User::CtlExecutionID"
+            SQLTask:ParameterDirection="Input"
+            SQLTask:DataType="3"
+            SQLTask:ParameterSize="0" />
+        </SQLTask:SqlTaskData>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\ETL09ReportFile"
       DTS:CreationName="Microsoft.ScriptTask"
       DTS:Description="Script Task"
       DTS:DTSID="{90A70D06-417C-4CB6-B5DF-91A542862B6C}"
       DTS:ExecutableType="Microsoft.ScriptTask"
       DTS:LocaleID="-1"
-      DTS:ObjectName="ETL07ReportFile"
+      DTS:ObjectName="ETL09ReportFile"
       DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:ObjectData>
@@ -5680,14 +5680,35 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           Language="CSharp"
           ReadOnlyVariables="User::CtlAuditBatchID,User::CtlBatchId,User::CtlComputerName,User::CtlExecutionID,User::CtlPackageName,User::CtlRowsFailed,User::CtlRowsInserted,User::CtlRowsRead,User::CtlRowsUpdated,User::EtlFileModifiedDate,User::EtlFileName,User::EtlOperatorUser,$Package::CtlProcessID,$Package::EtlFilePath,$Package::EtlFileSheet,$Package::vMailCC,$Package::vMailFrom,$Package::vMailTO,$Project::vSMTPHost,$Project::vSQLConnStr,$Project::vSMTPPort,$Project::vSQLConnPa,$Project::vLogoMain,$Project::vLogoWhite">
           <ProjectItem
-            Name="Properties\Settings.settings"
-            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
-<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
-</SettingsFile>]]></ProjectItem>
+            Name="Properties\AssemblyInfo.cs"
+            Encoding="UTF8"><![CDATA[using System.Reflection;
+using System.Runtime.CompilerServices;
+
+//
+// General Information about an assembly is controlled through the following 
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
+//
+[assembly: AssemblyTitle("ST_d067887a49ea4994a2f9b8d9ae04bf98")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("ST_d067887a49ea4994a2f9b8d9ae04bf98")]
+[assembly: AssemblyCopyright("Copyright @  2026")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+//
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version 
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Revision and Build Numbers 
+// by using the '*' as shown below:
+
+[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
           <ProjectItem
             Name="Properties\Resources.resx"
             Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
@@ -6858,35 +6879,14 @@ namespace ST_d067887a49ea4994a2f9b8d9ae04bf98.Properties {
     }
 }]]></ProjectItem>
           <ProjectItem
-            Name="Properties\AssemblyInfo.cs"
-            Encoding="UTF8"><![CDATA[using System.Reflection;
-using System.Runtime.CompilerServices;
-
-//
-// General Information about an assembly is controlled through the following 
-// set of attributes. Change these attribute values to modify the information
-// associated with an assembly.
-//
-[assembly: AssemblyTitle("ST_d067887a49ea4994a2f9b8d9ae04bf98")]
-[assembly: AssemblyDescription("")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ST_d067887a49ea4994a2f9b8d9ae04bf98")]
-[assembly: AssemblyCopyright("Copyright @  2026")]
-[assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]
-//
-// Version information for an assembly consists of the following four values:
-//
-//      Major Version
-//      Minor Version 
-//      Build Number
-//      Revision
-//
-// You can specify all the values or you can default the Revision and Build Numbers 
-// by using the '*' as shown below:
-
-[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
+            Name="Properties\Settings.settings"
+            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
+<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
+  <Settings />
+</SettingsFile>]]></ProjectItem>
           <ProjectItem
             Name="Properties\Resources.Designer.cs"
             Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
@@ -7657,7 +7657,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
       DTS:refId="Package.PrecedenceConstraints[Constraint]"
       DTS:CreationName=""
       DTS:DTSID="{88758E59-CB8A-428B-ABE4-CDCF23F2EA3D}"
-      DTS:From="Package\ETL03ValidateFile"
+      DTS:From="Package\ETL04ValidateFile"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint"
       DTS:To="Package\CTL04OpenBatchId" />
@@ -7668,7 +7668,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
       DTS:From="Package\CTL04OpenBatchId"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 1"
-      DTS:To="Package\ETL04LoadDWHDW" />
+      DTS:To="Package\ETL05LoadDWHDW" />
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 10]"
       DTS:CreationName=""
@@ -7700,7 +7700,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
       DTS:From="Package\CTL06InsertAuditRow"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 15 1"
-      DTS:To="Package\ETL05UpdateDWHDW" />
+      DTS:To="Package\ETL06UpdateDWHDW" />
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 18]"
       DTS:CreationName=""
@@ -7729,10 +7729,10 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
       DTS:refId="Package.PrecedenceConstraints[Constraint 3]"
       DTS:CreationName=""
       DTS:DTSID="{41981C3F-77A0-4752-BD6C-F420CC96E96C}"
-      DTS:From="Package\ETL05InsertDWHDW"
+      DTS:From="Package\ETL07InsertDWHDW"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 3"
-      DTS:To="Package\ETL05DeleteDWHDW" />
+      DTS:To="Package\ETL08DeleteDWHDW" />
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 4]"
       DTS:CreationName=""
@@ -7740,15 +7740,15 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
       DTS:From="Package\ETL02LoadDWHSA"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 4"
-      DTS:To="Package\ETL02bValidateMaestro" />
+      DTS:To="Package\ETL03ValidateMaestro" />
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 5]"
       DTS:CreationName=""
       DTS:DTSID="{2707A68D-5347-4C03-913D-8E38834F5BFF}"
-      DTS:From="Package\ETL02bValidateMaestro"
+      DTS:From="Package\ETL03ValidateMaestro"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 5"
-      DTS:To="Package\ETL03ValidateFile" />
+      DTS:To="Package\ETL04ValidateFile" />
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 5 1]"
       DTS:CreationName=""
@@ -7761,7 +7761,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
       DTS:refId="Package.PrecedenceConstraints[Constraint 6]"
       DTS:CreationName=""
       DTS:DTSID="{0EFC75F7-590E-4CA8-A84C-38CB56A1EB7F}"
-      DTS:From="Package\ETL04LoadDWHDW"
+      DTS:From="Package\ETL05LoadDWHDW"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 6"
       DTS:To="Package\CTL05UpdateAuditRow" />
@@ -7777,7 +7777,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
       DTS:refId="Package.PrecedenceConstraints[Constraint 7]"
       DTS:CreationName=""
       DTS:DTSID="{BA11828B-794E-4C00-98BE-3D9A0A0AF109}"
-      DTS:From="Package\ETL05DeleteDWHDW"
+      DTS:From="Package\ETL08DeleteDWHDW"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 7"
       DTS:To="Package\CTL07CloseBatchId" />
@@ -7796,15 +7796,15 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
       DTS:From="Package\CTL11CloseExecutionOK"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 9"
-      DTS:To="Package\ETL07ReportFile" />
+      DTS:To="Package\ETL09ReportFile" />
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 9 1]"
       DTS:CreationName=""
       DTS:DTSID="{85DAEA7D-1755-461F-BFA4-0102278F99E5}"
-      DTS:From="Package\ETL05UpdateDWHDW"
+      DTS:From="Package\ETL06UpdateDWHDW"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 9 1"
-      DTS:To="Package\ETL05InsertDWHDW" />
+      DTS:To="Package\ETL07InsertDWHDW" />
   </DTS:PrecedenceConstraints>
   <DTS:EventHandlers>
     <DTS:EventHandler
@@ -7844,6 +7844,15 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
               Language="CSharp"
               ReadOnlyVariables="System::ErrorDescription"
               ReadWriteVariables="User::CtlDurationMs, User::CtlStartTime, User::CtlErrorMessage">
+              <ProjectItem
+                Name="Properties\Settings.settings"
+                Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
+<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
+  <Settings />
+</SettingsFile>]]></ProjectItem>
               <ProjectItem
                 Name="Properties\Resources.resx"
                 Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
@@ -7963,35 +7972,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
 </root>]]></ProjectItem>
-              <ProjectItem
-                Name="Properties\Settings.Designer.cs"
-                Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
-// <auto-generated>
-//     This code was generated by a tool.
-//
-//     Changes to this file may cause incorrect behavior and will be lost if
-//     the code is regenerated.
-// </auto-generated>
-//------------------------------------------------------------------------------
-
-[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_00db73c960c04c0b95fe1e17813bd535.Properties.Settings.get_Default():ST_00db73c960c04c0b95fe1e17813bd535.Properties.Sett" +
-    "ings")]
-
-namespace ST_00db73c960c04c0b95fe1e17813bd535.Properties {
-    
-    
-    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
-        
-        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-        private static Settings defaultInstance = new Settings();
-        
-        public static Settings Default {
-            get {
-                return defaultInstance;
-            }
-        }
-    }
-}]]></ProjectItem>
               <ProjectItem
                 Name="ScriptMain.cs"
                 Encoding="UTF8"><![CDATA[#region Help:  Introduction to the script task
@@ -8223,6 +8203,35 @@ namespace ST_00db73c960c04c0b95fe1e17813bd535
   </msb:ItemGroup>
 </c:Project>]]></ProjectItem>
               <ProjectItem
+                Name="Properties\Settings.Designer.cs"
+                Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
+// <auto-generated>
+//     This code was generated by a tool.
+//
+//     Changes to this file may cause incorrect behavior and will be lost if
+//     the code is regenerated.
+// </auto-generated>
+//------------------------------------------------------------------------------
+
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_00db73c960c04c0b95fe1e17813bd535.Properties.Settings.get_Default():ST_00db73c960c04c0b95fe1e17813bd535.Properties.Sett" +
+    "ings")]
+
+namespace ST_00db73c960c04c0b95fe1e17813bd535.Properties {
+    
+    
+    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
+        
+        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
+        private static Settings defaultInstance = new Settings();
+        
+        public static Settings Default {
+            get {
+                return defaultInstance;
+            }
+        }
+    }
+}]]></ProjectItem>
+              <ProjectItem
                 Name="Properties\AssemblyInfo.cs"
                 Encoding="UTF8"><![CDATA[using System.Reflection;
 using System.Runtime.CompilerServices;
@@ -8252,15 +8261,6 @@ using System.Runtime.CompilerServices;
 // by using the '*' as shown below:
 
 [assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
-              <ProjectItem
-                Name="Properties\Settings.settings"
-                Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
-<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
-</SettingsFile>]]></ProjectItem>
               <ProjectItem
                 Name="Properties\Resources.Designer.cs"
                 Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
@@ -8521,6 +8521,15 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
               ReadOnlyVariables="System::ErrorCode,System::ErrorDescription,System::SourceName,User::CtlDurationMs,User::CtlExecutionID,User::CtlIpExecution,User::CtlRowsInserted,User::CtlRowsRead,User::CtlRowsUpdated,User::CtlStartTime,System::ExecutionInstanceGUID,System::MachineName,System::PackageName,System::UserName,$Package::CtlProcessID,$Package::vMailCC,$Package::vMailFrom,$Package::vMailTO,$Project::vSMTPHost,$Project::vSQLConnStr,$Project::vSMTPPort,$Project::vSQLConnPa,$Project::vLogoMain,$Project::vLogoWhite"
               ReadWriteVariables="User::CtlErrorMessage,User::CtlErrorNotified,User::CtlServerExecutionID,User::EtlDestObject">
               <ProjectItem
+                Name="Properties\Settings.settings"
+                Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
+<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
+  <Settings />
+</SettingsFile>]]></ProjectItem>
+              <ProjectItem
                 Name="Properties\Resources.resx"
                 Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
 <root>
@@ -8639,35 +8648,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
 </root>]]></ProjectItem>
-              <ProjectItem
-                Name="Properties\Settings.Designer.cs"
-                Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
-// <auto-generated>
-//     This code was generated by a tool.
-//
-//     Changes to this file may cause incorrect behavior and will be lost if
-//     the code is regenerated.
-// </auto-generated>
-//------------------------------------------------------------------------------
-
-[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_9d9cab44adfd425f94091267efa0f08c.Properties.Settings.get_Default():ST_9d9cab44adfd425f94091267efa0f08c.Properties.Sett" +
-    "ings")]
-
-namespace ST_9d9cab44adfd425f94091267efa0f08c.Properties {
-    
-    
-    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
-        
-        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-        private static Settings defaultInstance = new Settings();
-        
-        public static Settings Default {
-            get {
-                return defaultInstance;
-            }
-        }
-    }
-}]]></ProjectItem>
               <ProjectItem
                 Name="ScriptMain.cs"
                 Encoding="UTF8"><![CDATA[#region Help:  Introduction to the script task
@@ -9072,6 +9052,35 @@ namespace ST_9d9cab44adfd425f94091267efa0f08c
   </msb:ItemGroup>
 </c:Project>]]></ProjectItem>
               <ProjectItem
+                Name="Properties\Settings.Designer.cs"
+                Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
+// <auto-generated>
+//     This code was generated by a tool.
+//
+//     Changes to this file may cause incorrect behavior and will be lost if
+//     the code is regenerated.
+// </auto-generated>
+//------------------------------------------------------------------------------
+
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_9d9cab44adfd425f94091267efa0f08c.Properties.Settings.get_Default():ST_9d9cab44adfd425f94091267efa0f08c.Properties.Sett" +
+    "ings")]
+
+namespace ST_9d9cab44adfd425f94091267efa0f08c.Properties {
+    
+    
+    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
+        
+        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
+        private static Settings defaultInstance = new Settings();
+        
+        public static Settings Default {
+            get {
+                return defaultInstance;
+            }
+        }
+    }
+}]]></ProjectItem>
+              <ProjectItem
                 Name="Properties\AssemblyInfo.cs"
                 Encoding="UTF8"><![CDATA[using System.Reflection;
 using System.Runtime.CompilerServices;
@@ -9101,15 +9110,6 @@ using System.Runtime.CompilerServices;
 // by using the '*' as shown below:
 
 [assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
-              <ProjectItem
-                Name="Properties\Settings.settings"
-                Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
-<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
-</SettingsFile>]]></ProjectItem>
               <ProjectItem
                 Name="Properties\Resources.Designer.cs"
                 Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
@@ -9614,7 +9614,7 @@ AAAAAAAAAAAAAAAAAA==</BinaryItem>
         <NodeLayout
           Size="161,42"
           Id="Package\CTL01InitContext"
-          TopLeft="48.75,22" />
+          TopLeft="48.75,21" />
         <NodeLayout
           Size="176,42"
           Id="Package\CTL02GetWaterMark"
@@ -9660,8 +9660,8 @@ AAAAAAAAAAAAAAAAAA==</BinaryItem>
           Id="Package\ETL01TruncateStaging"
           TopLeft="844.083333333333,17.333333333333" />
         <NodeLayout
-          Size="189,42"
-          Id="Package\ETL02bValidateMaestro"
+          Size="183,42"
+          Id="Package\ETL03ValidateMaestro"
           TopLeft="295.333333333333,102" />
         <NodeLayout
           Size="167,42"
@@ -9669,27 +9669,27 @@ AAAAAAAAAAAAAAAAAA==</BinaryItem>
           TopLeft="42,100" />
         <NodeLayout
           Size="162,42"
-          Id="Package\ETL03ValidateFile"
+          Id="Package\ETL04ValidateFile"
           TopLeft="585.416666666667,101" />
         <NodeLayout
           Size="172,42"
-          Id="Package\ETL04LoadDWHDW"
+          Id="Package\ETL05LoadDWHDW"
           TopLeft="41.6666666666667,186" />
         <NodeLayout
           Size="179,42"
-          Id="Package\ETL05DeleteDWHDW"
+          Id="Package\ETL08DeleteDWHDW"
           TopLeft="297,266" />
         <NodeLayout
           Size="177,42"
-          Id="Package\ETL05InsertDWHDW"
+          Id="Package\ETL07InsertDWHDW"
           TopLeft="42.416666666667,270" />
         <NodeLayout
           Size="183,42"
-          Id="Package\ETL05UpdateDWHDW"
+          Id="Package\ETL06UpdateDWHDW"
           TopLeft="836.75,179.666666666667" />
         <NodeLayout
           Size="156,42"
-          Id="Package\ETL07ReportFile"
+          Id="Package\ETL09ReportFile"
           TopLeft="856.75,349.666666666667" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
@@ -9831,14 +9831,14 @@ AAAAAAAAAAAAAAAAAA==</BinaryItem>
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="83.6666666666671,0"
+              EndConnector="83.666666666667,0"
               Start="0,0"
-              End="76.1666666666671,0">
+              End="76.166666666667,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="76.1666666666671,0" />
+                    End="76.166666666667,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -9953,14 +9953,14 @@ AAAAAAAAAAAAAAAAAA==</BinaryItem>
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="86.3333333333333,0"
+              EndConnector="86.333333333333,0"
               Start="0,0"
-              End="78.8333333333333,0">
+              End="78.833333333333,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="78.8333333333333,0" />
+                    End="78.833333333333,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -9971,18 +9971,18 @@ AAAAAAAAAAAAAAAAAA==</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 5]"
-          TopLeft="484.333333333333,122.5">
+          TopLeft="478.333333333333,122.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="101.083333333334,0"
+              EndConnector="107.083333333334,0"
               Start="0,0"
-              End="93.5833333333337,0">
+              End="99.583333333334,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="93.5833333333337,0" />
+                    End="99.583333333334,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -10037,7 +10037,7 @@ AAAAAAAAAAAAAAAAAA==</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 6 1]"
-          TopLeft="209.75,41.5">
+          TopLeft="209.75,41">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -10107,14 +10107,14 @@ AAAAAAAAAAAAAAAAAA==</BinaryItem>
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="93.2500000000001,0"
+              EndConnector="93.25,0"
               Start="0,0"
-              End="85.7500000000001,0">
+              End="85.75,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="85.7500000000001,0" />
+                    End="85.75,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>

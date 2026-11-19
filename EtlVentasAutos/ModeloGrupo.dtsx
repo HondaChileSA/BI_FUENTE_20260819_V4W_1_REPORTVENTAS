@@ -11,8 +11,8 @@
   DTS:LocaleID="13322"
   DTS:ObjectName="ModeloGrupo"
   DTS:PackageType="5"
-  DTS:VersionBuild="705"
-  DTS:VersionGUID="{CF8CE432-FE7F-460D-9216-D1513F96F178}">
+  DTS:VersionBuild="710"
+  DTS:VersionGUID="{D1AF5627-4F6A-4578-A30D-E3433844DD1C}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:PackageParameters>
@@ -373,35 +373,14 @@
           ReadOnlyVariables="System::MachineName,System::PackageName,System::ServerExecutionID,$Package::EtlFilePath,$Package::EtlFileSheet"
           ReadWriteVariables="User::CtlBatchId,User::CtlComputerName,User::CtlDurationMs,User::CtlIpExecution,User::CtlPackageName,User::CtlRowsFailed,User::CtlRowsInserted,User::CtlRowsRead,User::CtlRowsUpdated,User::CtlServerExecutionID,User::CtlStartTime,User::CtlUserName,User::EtlFileModifiedDate,User::EtlOperatorUser">
           <ProjectItem
-            Name="Properties\AssemblyInfo.cs"
-            Encoding="UTF8"><![CDATA[using System.Reflection;
-using System.Runtime.CompilerServices;
-
-//
-// General Information about an assembly is controlled through the following 
-// set of attributes. Change these attribute values to modify the information
-// associated with an assembly.
-//
-[assembly: AssemblyTitle("ST_11bef39853c2463fb43443456932be2f")]
-[assembly: AssemblyDescription("")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ST_11bef39853c2463fb43443456932be2f")]
-[assembly: AssemblyCopyright("Copyright @  2025")]
-[assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]
-//
-// Version information for an assembly consists of the following four values:
-//
-//      Major Version
-//      Minor Version 
-//      Build Number
-//      Revision
-//
-// You can specify all the values or you can default the Revision and Build Numbers 
-// by using the '*' as shown below:
-
-[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
+            Name="Properties\Settings.settings"
+            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
+<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
+  <Settings />
+</SettingsFile>]]></ProjectItem>
           <ProjectItem
             Name="Properties\Resources.resx"
             Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
@@ -818,14 +797,35 @@ namespace ST_11bef39853c2463fb43443456932be2f.Properties {
     }
 }]]></ProjectItem>
           <ProjectItem
-            Name="Properties\Settings.settings"
-            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
-<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
-</SettingsFile>]]></ProjectItem>
+            Name="Properties\AssemblyInfo.cs"
+            Encoding="UTF8"><![CDATA[using System.Reflection;
+using System.Runtime.CompilerServices;
+
+//
+// General Information about an assembly is controlled through the following 
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
+//
+[assembly: AssemblyTitle("ST_11bef39853c2463fb43443456932be2f")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("ST_11bef39853c2463fb43443456932be2f")]
+[assembly: AssemblyCopyright("Copyright @  2025")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+//
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version 
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Revision and Build Numbers 
+// by using the '*' as shown below:
+
+[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
           <ProjectItem
             Name="Properties\Resources.Designer.cs"
             Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
@@ -1163,7 +1163,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
       DTS:ExecutableType="Microsoft.ScriptTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="CTL04OpenBatchId"
-      DTS:ThreadHint="1">
+      DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:ObjectData>
         <ScriptProject
@@ -1173,6 +1173,36 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
           Language="CSharp"
           ReadOnlyVariables="User::CtlBatchId,User::CtlComputerName,User::CtlExecutionID,User::CtlPackageName,User::CtlRowsRead,User::EtlOperatorUser,$Project::vSQLConnPa"
           ReadWriteVariables="User::CtlAuditBatchID">
+          <ProjectItem
+            Name="Properties\AssemblyInfo.cs"
+            Encoding="UTF8"><![CDATA[using System.Reflection;
+using System.Runtime.CompilerServices;
+
+//
+// General Information about an assembly is controlled through the following 
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
+//
+[assembly: AssemblyTitle("ST_d28da747962e4fbcac900e275910a346")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("ST_d28da747962e4fbcac900e275910a346")]
+[assembly: AssemblyCopyright("Copyright @  2026")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+//
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version 
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Revision and Build Numbers 
+// by using the '*' as shown below:
+
+[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
           <ProjectItem
             Name="Properties\Resources.resx"
             Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
@@ -1292,35 +1322,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
 </root>]]></ProjectItem>
-          <ProjectItem
-            Name="Properties\Settings.Designer.cs"
-            Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
-// <auto-generated>
-//     This code was generated by a tool.
-//
-//     Changes to this file may cause incorrect behavior and will be lost if
-//     the code is regenerated.
-// </auto-generated>
-//------------------------------------------------------------------------------
-
-[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_d28da747962e4fbcac900e275910a346.Properties.Settings.get_Default():ST_d28da747962e4fbcac900e275910a346.Properties.Sett" +
-    "ings")]
-
-namespace ST_d28da747962e4fbcac900e275910a346.Properties {
-    
-    
-    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
-        
-        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-        private static Settings defaultInstance = new Settings();
-        
-        public static Settings Default {
-            get {
-                return defaultInstance;
-            }
-        }
-    }
-}]]></ProjectItem>
           <ProjectItem
             Name="ScriptMain.cs"
             Encoding="UTF8"><![CDATA[#region Help:  Introduction to the script task
@@ -1520,35 +1521,34 @@ namespace ST_d28da747962e4fbcac900e275910a346
   </msb:ItemGroup>
 </c:Project>]]></ProjectItem>
           <ProjectItem
-            Name="Properties\AssemblyInfo.cs"
-            Encoding="UTF8"><![CDATA[using System.Reflection;
-using System.Runtime.CompilerServices;
+            Name="Properties\Settings.Designer.cs"
+            Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
+// <auto-generated>
+//     This code was generated by a tool.
+//
+//     Changes to this file may cause incorrect behavior and will be lost if
+//     the code is regenerated.
+// </auto-generated>
+//------------------------------------------------------------------------------
 
-//
-// General Information about an assembly is controlled through the following 
-// set of attributes. Change these attribute values to modify the information
-// associated with an assembly.
-//
-[assembly: AssemblyTitle("ST_d28da747962e4fbcac900e275910a346")]
-[assembly: AssemblyDescription("")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ST_d28da747962e4fbcac900e275910a346")]
-[assembly: AssemblyCopyright("Copyright @  2026")]
-[assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]
-//
-// Version information for an assembly consists of the following four values:
-//
-//      Major Version
-//      Minor Version 
-//      Build Number
-//      Revision
-//
-// You can specify all the values or you can default the Revision and Build Numbers 
-// by using the '*' as shown below:
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_d28da747962e4fbcac900e275910a346.Properties.Settings.get_Default():ST_d28da747962e4fbcac900e275910a346.Properties.Sett" +
+    "ings")]
 
-[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
+namespace ST_d28da747962e4fbcac900e275910a346.Properties {
+    
+    
+    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
+        
+        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
+        private static Settings defaultInstance = new Settings();
+        
+        public static Settings Default {
+            get {
+                return defaultInstance;
+            }
+        }
+    }
+}]]></ProjectItem>
           <ProjectItem
             Name="Properties\Settings.settings"
             Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
@@ -1791,7 +1791,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="CTL05UpdateAuditRow"
-      DTS:ThreadHint="1">
+      DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -1826,7 +1826,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="CTL06InsertAuditRow"
-      DTS:ThreadHint="1">
+      DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -1861,7 +1861,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="CTL07CloseBatchId"
-      DTS:ThreadHint="1">
+      DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -1942,35 +1942,14 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
           Language="CSharp"
           ReadWriteVariables="User::CtlDurationMs,User::CtlStartTime">
           <ProjectItem
-            Name="Properties\AssemblyInfo.cs"
-            Encoding="UTF8"><![CDATA[using System.Reflection;
-using System.Runtime.CompilerServices;
-
-//
-// General Information about an assembly is controlled through the following 
-// set of attributes. Change these attribute values to modify the information
-// associated with an assembly.
-//
-[assembly: AssemblyTitle("ST_9971acfbc5fc4b56a79c37373fee75d8")]
-[assembly: AssemblyDescription("")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ST_9971acfbc5fc4b56a79c37373fee75d8")]
-[assembly: AssemblyCopyright("Copyright @  2025")]
-[assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]
-//
-// Version information for an assembly consists of the following four values:
-//
-//      Major Version
-//      Minor Version 
-//      Build Number
-//      Revision
-//
-// You can specify all the values or you can default the Revision and Build Numbers 
-// by using the '*' as shown below:
-
-[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
+            Name="Properties\Settings.settings"
+            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
+<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
+  <Settings />
+</SettingsFile>]]></ProjectItem>
           <ProjectItem
             Name="Properties\Resources.resx"
             Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
@@ -2325,14 +2304,35 @@ namespace ST_9971acfbc5fc4b56a79c37373fee75d8.Properties {
     }
 }]]></ProjectItem>
           <ProjectItem
-            Name="Properties\Settings.settings"
-            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
-<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
-</SettingsFile>]]></ProjectItem>
+            Name="Properties\AssemblyInfo.cs"
+            Encoding="UTF8"><![CDATA[using System.Reflection;
+using System.Runtime.CompilerServices;
+
+//
+// General Information about an assembly is controlled through the following 
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
+//
+[assembly: AssemblyTitle("ST_9971acfbc5fc4b56a79c37373fee75d8")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("ST_9971acfbc5fc4b56a79c37373fee75d8")]
+[assembly: AssemblyCopyright("Copyright @  2025")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+//
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version 
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Revision and Build Numbers 
+// by using the '*' as shown below:
+
+[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
           <ProjectItem
             Name="ST_0e977696b67e4b0393d1db038c1786a4.csproj"
             Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
@@ -2631,13 +2631,13 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
-      DTS:refId="Package\ETL00aCheckFile"
+      DTS:refId="Package\ETL01CheckFile"
       DTS:CreationName="Microsoft.ScriptTask"
       DTS:Description="Script Task"
       DTS:DTSID="{C2C50313-3F23-4E88-8E50-A1ED572D42F4}"
       DTS:ExecutableType="Microsoft.ScriptTask"
       DTS:LocaleID="-1"
-      DTS:ObjectName="ETL00aCheckFile"
+      DTS:ObjectName="ETL01CheckFile"
       DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:ObjectData>
@@ -2648,15 +2648,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           Language="CSharp"
           ReadOnlyVariables="$Package::CtlProcessID,$Package::EtlFilePath,$Project::vSQLConnDw"
           ReadWriteVariables="User::EtlArchivoCambiado,User::EtlEstadoArchivo,User::EtlFileModifiedDate,User::EtlHashArchivo,User::EtlOperatorUser,User::EtlTamanoBytes">
-          <ProjectItem
-            Name="Properties\Settings.settings"
-            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
-<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
-</SettingsFile>]]></ProjectItem>
           <ProjectItem
             Name="Properties\Resources.resx"
             Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
@@ -2776,6 +2767,35 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
 </root>]]></ProjectItem>
+          <ProjectItem
+            Name="Properties\Settings.Designer.cs"
+            Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
+// <auto-generated>
+//     This code was generated by a tool.
+//
+//     Changes to this file may cause incorrect behavior and will be lost if
+//     the code is regenerated.
+// </auto-generated>
+//------------------------------------------------------------------------------
+
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_1eea5bfed806408f9ed3b445df6d54b9.Properties.Settings.get_Default():ST_1eea5bfed806408f9ed3b445df6d54b9.Properties.Sett" +
+    "ings")]
+
+namespace ST_1eea5bfed806408f9ed3b445df6d54b9.Properties {
+    
+    
+    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
+        
+        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
+        private static Settings defaultInstance = new Settings();
+        
+        public static Settings Default {
+            get {
+                return defaultInstance;
+            }
+        }
+    }
+}]]></ProjectItem>
           <ProjectItem
             Name="ScriptMain.cs"
             Encoding="UTF8"><![CDATA[#region Help:  Introduction to the script task
@@ -3023,35 +3043,6 @@ ORDER BY ArchivoCargadoID DESC;";
   </msb:ItemGroup>
 </c:Project>]]></ProjectItem>
           <ProjectItem
-            Name="Properties\Settings.Designer.cs"
-            Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
-// <auto-generated>
-//     This code was generated by a tool.
-//
-//     Changes to this file may cause incorrect behavior and will be lost if
-//     the code is regenerated.
-// </auto-generated>
-//------------------------------------------------------------------------------
-
-[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_1eea5bfed806408f9ed3b445df6d54b9.Properties.Settings.get_Default():ST_1eea5bfed806408f9ed3b445df6d54b9.Properties.Sett" +
-    "ings")]
-
-namespace ST_1eea5bfed806408f9ed3b445df6d54b9.Properties {
-    
-    
-    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
-        
-        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-        private static Settings defaultInstance = new Settings();
-        
-        public static Settings Default {
-            get {
-                return defaultInstance;
-            }
-        }
-    }
-}]]></ProjectItem>
-          <ProjectItem
             Name="Properties\AssemblyInfo.cs"
             Encoding="UTF8"><![CDATA[using System.Reflection;
 using System.Runtime.CompilerServices;
@@ -3081,6 +3072,15 @@ using System.Runtime.CompilerServices;
 // by using the '*' as shown below:
 
 [assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
+          <ProjectItem
+            Name="Properties\Settings.settings"
+            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
+<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
+  <Settings />
+</SettingsFile>]]></ProjectItem>
           <ProjectItem
             Name="Properties\Resources.Designer.cs"
             Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
@@ -3343,15 +3343,15 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
-      DTS:refId="Package\ETL00ValidateFile"
+      DTS:refId="Package\ETL02ValidateFile"
       DTS:CreationName="Microsoft.ScriptTask"
       DTS:Description="Script Task"
       DTS:DisableEventHandlers="True"
       DTS:DTSID="{f5a35ab7-80c8-43d8-83e2-572d64727e53}"
       DTS:ExecutableType="Microsoft.ScriptTask"
       DTS:LocaleID="-1"
-      DTS:ObjectName="ETL00ValidateFile"
-      DTS:ThreadHint="1">
+      DTS:ObjectName="ETL02ValidateFile"
+      DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:ObjectData>
         <ScriptProject
@@ -3361,15 +3361,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           Language="CSharp"
           ReadOnlyVariables="User::CtlBatchId,User::CtlComputerName,User::CtlExecutionID,User::CtlPackageName,User::CtlUserName,User::EtlFileModifiedDate,User::EtlFileName,User::EtlOperatorUser,System::PackageName,$Package::CtlProcessID,$Package::EtlFilePath,$Package::EtlFileSheet,$Package::vMailCC,$Package::vMailFrom,$Package::vMailTO,$Project::vSMTPHost,$Project::vSQLConnStr,$Project::vSMTPPort,$Project::vLogoMain,$Project::vLogoWhite"
           ReadWriteVariables="User::CtlAuditBatchID,User::CtlRowsFailed">
-          <ProjectItem
-            Name="Properties\Settings.settings"
-            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
-<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
-</SettingsFile>]]></ProjectItem>
           <ProjectItem
             Name="Properties\Resources.resx"
             Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
@@ -3489,6 +3480,35 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
 </root>]]></ProjectItem>
+          <ProjectItem
+            Name="Properties\Settings.Designer.cs"
+            Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
+// <auto-generated>
+//     This code was generated by a tool.
+//
+//     Changes to this file may cause incorrect behavior and will be lost if
+//     the code is regenerated.
+// </auto-generated>
+//------------------------------------------------------------------------------
+
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_ba366888471244399bd5102ff4e29239.Properties.Settings.get_Default():ST_ba366888471244399bd5102ff4e29239.Properties.Sett" +
+    "ings")]
+
+namespace ST_ba366888471244399bd5102ff4e29239.Properties {
+    
+    
+    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
+        
+        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
+        private static Settings defaultInstance = new Settings();
+        
+        public static Settings Default {
+            get {
+                return defaultInstance;
+            }
+        }
+    }
+}]]></ProjectItem>
           <ProjectItem
             Name="ScriptMain.cs"
             Encoding="UTF8"><![CDATA[#region Namespaces
@@ -4801,35 +4821,6 @@ namespace ST_ba366888471244399bd5102ff4e29239
   </msb:ItemGroup>
 </c:Project>]]></ProjectItem>
           <ProjectItem
-            Name="Properties\Settings.Designer.cs"
-            Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
-// <auto-generated>
-//     This code was generated by a tool.
-//
-//     Changes to this file may cause incorrect behavior and will be lost if
-//     the code is regenerated.
-// </auto-generated>
-//------------------------------------------------------------------------------
-
-[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_ba366888471244399bd5102ff4e29239.Properties.Settings.get_Default():ST_ba366888471244399bd5102ff4e29239.Properties.Sett" +
-    "ings")]
-
-namespace ST_ba366888471244399bd5102ff4e29239.Properties {
-    
-    
-    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
-        
-        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-        private static Settings defaultInstance = new Settings();
-        
-        public static Settings Default {
-            get {
-                return defaultInstance;
-            }
-        }
-    }
-}]]></ProjectItem>
-          <ProjectItem
             Name="Properties\AssemblyInfo.cs"
             Encoding="UTF8"><![CDATA[using System.Reflection;
 using System.Runtime.CompilerServices;
@@ -4859,6 +4850,15 @@ using System.Runtime.CompilerServices;
 // by using the '*' as shown below:
 
 [assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
+          <ProjectItem
+            Name="Properties\Settings.settings"
+            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
+<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
+  <Settings />
+</SettingsFile>]]></ProjectItem>
           <ProjectItem
             Name="Properties\Resources.Designer.cs"
             Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
@@ -5741,14 +5741,14 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
-      DTS:refId="Package\ETL01TruncateStaging"
+      DTS:refId="Package\ETL03TruncateStaging"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
       DTS:DTSID="{66357483-40e5-4690-a33f-29234eb56a44}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
-      DTS:ObjectName="ETL01TruncateStaging"
-      DTS:ThreadHint="1">
+      DTS:ObjectName="ETL03TruncateStaging"
+      DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -5757,40 +5757,13 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
-      DTS:refId="Package\ETL02bValidateMaestro"
-      DTS:CreationName="Microsoft.ExecuteSQLTask"
-      DTS:Description="Execute SQL Task"
-      DTS:DTSID="{A6828239-E246-4F5F-9477-39DDB6780140}"
-      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
-      DTS:LocaleID="-1"
-      DTS:ObjectName="ETL02bValidateMaestro"
-      DTS:ThreadHint="1">
-      <DTS:Variables />
-      <DTS:ObjectData>
-        <SQLTask:SqlTaskData
-          SQLTask:Connection="{0F0ACF89-D7FD-4BB3-B898-1223E842050F}"
-          SQLTask:SqlStatementSource="/* ModeloGrupo__ETL02bValidateMaestro_v1.0.sql&#xA;   Paquete : ModeloGrupo (EtlVentasAutos) · Tarea: ETL02bValidateMaestro&#xA;   Autor   : Franco Véliz (Agente V4W) · 2026-11-04 · plan V1 v4, SOL-008&#xA;   Conexión: HMDCBISA&#xA;   Qué hace: Valida Stg contra el maestro y duplicados; actualiza la Qc persistente (Pendiente/Resuelta) y saca de Stg las filas que no cruzan (D-22). Devuelve RowsQc (fila única).&#xA;   Parámetros (OLE DB, en orden): 1) User::CtlExecutionID&#xA;*/&#xA;SET NOCOUNT ON;&#xA;SET XACT_ABORT ON;&#xA;DECLARE @ExecutionID bigint = ?;&#xA;DECLARE @Ahora datetime2(0) = SYSDATETIME();&#xA;&#xA;IF OBJECT_ID(N'tempdb..#Maestro') IS NOT NULL DROP TABLE #Maestro;&#xA;IF OBJECT_ID(N'tempdb..#Falla')   IS NOT NULL DROP TABLE #Falla;&#xA;&#xA;SELECT DISTINCT UPPER(LTRIM(RTRIM(CONVERT(nvarchar(255), v.Codigoarticulo__c)))) AS Codigo&#xA;INTO #Maestro&#xA;FROM HMDCBIDW.dbo.SFOBaseVin_Modelos__c AS v&#xA;WHERE v.IsDeleted = 0&#xA;  AND v.Linea_de_Producto__c = N'Automoviles'&#xA;  AND v.Codigoarticulo__c IS NOT NULL;&#xA;&#xA;-- 1. Filas que no cruzan (una fila puede tener más de un motivo)&#xA;SELECT s.RowNumber, s.[ModeloGrupoID], s.[CodigoArticulo], s.[Modelo], s.[Familia], s.[Activo], f.MotivoFalla, f.DetalleError,&#xA;       ROW_NUMBER() OVER (PARTITION BY s.[ModeloGrupoID], f.MotivoFalla ORDER BY s.RowNumber) AS Rn&#xA;INTO #Falla&#xA;FROM HMDCBISA.dbo.V4WStgModeloGrupo AS s&#xA;CROSS APPLY (&#xA;    -- CodigoArticulo repetido en el archivo&#xA;    SELECT N'DUPLICADO', N'CodigoArticulo ' + s.CodigoArticulo + N' repetido en el archivo'&#xA;    WHERE (SELECT COUNT(*) FROM HMDCBISA.dbo.V4WStgModeloGrupo x WHERE x.ExecutionID = @ExecutionID AND x.CodigoArticulo = s.CodigoArticulo) &gt; 1&#xA;    UNION ALL&#xA;    -- El código no existe en el maestro de modelos (Vin_Modelos__c, Autos)&#xA;    SELECT N'CODIGO_FUERA_MAESTRO', N'CodigoArticulo ' + s.CodigoArticulo + N' no existe en SFOBaseVin_Modelos__c (Automoviles)'&#xA;    WHERE NOT EXISTS (SELECT 1 FROM #Maestro m WHERE m.Codigo = s.CodigoArticulo)&#xA;) AS f (MotivoFalla, DetalleError)&#xA;WHERE s.ExecutionID = @ExecutionID;&#xA;&#xA;-- Llave repetida en el archivo: todas sus filas a Qc&#xA;INSERT INTO #Falla&#xA;SELECT s.RowNumber, s.[ModeloGrupoID], s.[CodigoArticulo], s.[Modelo], s.[Familia], s.[Activo], N'DUPLICADO', N'ModeloGrupoID ' + CONVERT(nvarchar(20), s.[ModeloGrupoID]) + N' repetido en el archivo',&#xA;       ROW_NUMBER() OVER (PARTITION BY s.[ModeloGrupoID] ORDER BY s.RowNumber)&#xA;FROM HMDCBISA.dbo.V4WStgModeloGrupo AS s&#xA;WHERE s.ExecutionID = @ExecutionID&#xA;  AND (SELECT COUNT(*) FROM HMDCBISA.dbo.V4WStgModeloGrupo x WHERE x.ExecutionID = @ExecutionID AND x.[ModeloGrupoID] = s.[ModeloGrupoID]) &gt; 1&#xA;  AND NOT EXISTS (SELECT 1 FROM #Falla f WHERE f.RowNumber = s.RowNumber AND f.MotivoFalla = N'DUPLICADO');&#xA;&#xA;-- Una sola fila por llave y motivo hacia la Qc (índice único filtrado UX_V4WQcModeloGrupo_Pendiente)&#xA;;WITH d AS (SELECT Rn, ROW_NUMBER() OVER (PARTITION BY [ModeloGrupoID], MotivoFalla ORDER BY RowNumber) AS r FROM #Falla)&#xA;UPDATE d SET Rn = r;&#xA;&#xA;BEGIN TRANSACTION;&#xA;&#xA;-- 2. Pendientes que siguen fallando: se refrescan&#xA;UPDATE q&#xA;SET    q.ExecutionIDUltima = @ExecutionID, q.FechaUltimaVez = @Ahora,&#xA;       q.RowNumber = f.RowNumber, q.DetalleError = f.DetalleError,&#xA;       q.[CodigoArticulo] = f.[CodigoArticulo], q.[Modelo] = f.[Modelo], q.[Familia] = f.[Familia], q.[Activo] = f.[Activo]&#xA;FROM   HMDCBISA.dbo.V4WQcModeloGrupo AS q&#xA;JOIN   #Falla AS f ON f.[ModeloGrupoID] = q.[ModeloGrupoID] AND f.MotivoFalla = q.MotivoFalla AND f.Rn = 1&#xA;WHERE  q.EstadoQc = N'Pendiente';&#xA;&#xA;-- 3. Fallas nuevas&#xA;INSERT INTO HMDCBISA.dbo.V4WQcModeloGrupo&#xA;       (ExecutionID, ExecutionIDUltima, RowNumber, MotivoFalla, DetalleError, EstadoQc,&#xA;        FechaPrimeraVez, FechaUltimaVez, [ModeloGrupoID], [CodigoArticulo], [Modelo], [Familia], [Activo])&#xA;SELECT @ExecutionID, @ExecutionID, f.RowNumber, f.MotivoFalla, f.DetalleError, N'Pendiente',&#xA;       @Ahora, @Ahora, f.[ModeloGrupoID], f.[CodigoArticulo], f.[Modelo], f.[Familia], f.[Activo]&#xA;FROM   #Falla AS f&#xA;WHERE  f.Rn = 1&#xA;  AND  NOT EXISTS (SELECT 1 FROM HMDCBISA.dbo.V4WQcModeloGrupo q&#xA;                   WHERE q.[ModeloGrupoID] = f.[ModeloGrupoID] AND q.MotivoFalla = f.MotivoFalla AND q.EstadoQc = N'Pendiente');&#xA;&#xA;-- 4. Re-evaluación: el archivo se leyó completo, lo pendiente que ya no falla queda Resuelto&#xA;UPDATE q&#xA;SET    q.EstadoQc = N'Resuelta', q.FechaResuelta = @Ahora, q.ExecutionIDResuelta = @ExecutionID&#xA;FROM   HMDCBISA.dbo.V4WQcModeloGrupo AS q&#xA;WHERE  q.EstadoQc = N'Pendiente'&#xA;  AND  NOT EXISTS (SELECT 1 FROM #Falla f WHERE f.[ModeloGrupoID] = q.[ModeloGrupoID] AND f.MotivoFalla = q.MotivoFalla);&#xA;&#xA;-- 5. Lo que no cruza no sigue a Load/Base&#xA;DELETE s&#xA;FROM   HMDCBISA.dbo.V4WStgModeloGrupo AS s&#xA;WHERE  s.ExecutionID = @ExecutionID&#xA;  AND  EXISTS (SELECT 1 FROM #Falla f WHERE f.RowNumber = s.RowNumber);&#xA;&#xA;COMMIT TRANSACTION;&#xA;&#xA;SELECT COUNT(DISTINCT RowNumber) AS RowsQc FROM #Falla;&#xA;"
-          SQLTask:ResultType="ResultSetType_SingleRow" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
-          <SQLTask:ResultBinding
-            SQLTask:ResultName="RowsQc"
-            SQLTask:DtsVariableName="User::CtlRowsFailed" />
-          <SQLTask:ParameterBinding
-            SQLTask:ParameterName="0"
-            SQLTask:DtsVariableName="User::CtlExecutionID"
-            SQLTask:ParameterDirection="Input"
-            SQLTask:DataType="3"
-            SQLTask:ParameterSize="0" />
-        </SQLTask:SqlTaskData>
-      </DTS:ObjectData>
-    </DTS:Executable>
-    <DTS:Executable
-      DTS:refId="Package\ETL02LoadDWHSA"
+      DTS:refId="Package\ETL04LoadDWHSA"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
       DTS:DTSID="{4b986802-eefc-42cd-955d-d814a5b26022}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
-      DTS:ObjectName="ETL02LoadDWHSA"
+      DTS:ObjectName="ETL04LoadDWHSA"
       DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
       <DTS:Variables />
       <DTS:ObjectData>
@@ -5798,7 +5771,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           version="1">
           <components>
             <component
-              refId="Package\ETL02LoadDWHSA\ModeloGrupoxlsx"
+              refId="Package\ETL04LoadDWHSA\ModeloGrupoxlsx"
               componentClassID="Microsoft.ManagedComponentHost"
               contactInfo="Includes and runs custom script code. For example, apply a business rule that limits the range of valid values in an &quot;income&quot; column or add values in two columns and calculate the average of the sum.;Microsoft Corporation; Microsoft SQL Server; Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;12"
               description="Includes and runs custom script code. For example, apply a business rule that limits the range of valid values in an &quot;income&quot; column or add values in two columns and calculate the average of the sum."
@@ -7057,47 +7030,47 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
               </properties>
               <outputs>
                 <output
-                  refId="Package\ETL02LoadDWHSA\ModeloGrupoxlsx.Outputs[Output 0]"
+                  refId="Package\ETL04LoadDWHSA\ModeloGrupoxlsx.Outputs[Output 0]"
                   hasSideEffects="true"
                   name="Output 0">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\ETL02LoadDWHSA\ModeloGrupoxlsx.Outputs[Output 0].Columns[ExecutionID]"
+                      refId="Package\ETL04LoadDWHSA\ModeloGrupoxlsx.Outputs[Output 0].Columns[ExecutionID]"
                       dataType="i8"
-                      lineageId="Package\ETL02LoadDWHSA\ModeloGrupoxlsx.Outputs[Output 0].Columns[ExecutionID]"
+                      lineageId="Package\ETL04LoadDWHSA\ModeloGrupoxlsx.Outputs[Output 0].Columns[ExecutionID]"
                       name="ExecutionID" />
                     <outputColumn
-                      refId="Package\ETL02LoadDWHSA\ModeloGrupoxlsx.Outputs[Output 0].Columns[RowNumber]"
+                      refId="Package\ETL04LoadDWHSA\ModeloGrupoxlsx.Outputs[Output 0].Columns[RowNumber]"
                       dataType="i4"
-                      lineageId="Package\ETL02LoadDWHSA\ModeloGrupoxlsx.Outputs[Output 0].Columns[RowNumber]"
+                      lineageId="Package\ETL04LoadDWHSA\ModeloGrupoxlsx.Outputs[Output 0].Columns[RowNumber]"
                       name="RowNumber" />
                     <outputColumn
-                      refId="Package\ETL02LoadDWHSA\ModeloGrupoxlsx.Outputs[Output 0].Columns[ModeloGrupoID]"
+                      refId="Package\ETL04LoadDWHSA\ModeloGrupoxlsx.Outputs[Output 0].Columns[ModeloGrupoID]"
                       dataType="i4"
-                      lineageId="Package\ETL02LoadDWHSA\ModeloGrupoxlsx.Outputs[Output 0].Columns[ModeloGrupoID]"
+                      lineageId="Package\ETL04LoadDWHSA\ModeloGrupoxlsx.Outputs[Output 0].Columns[ModeloGrupoID]"
                       name="ModeloGrupoID" />
                     <outputColumn
-                      refId="Package\ETL02LoadDWHSA\ModeloGrupoxlsx.Outputs[Output 0].Columns[CodigoArticulo]"
+                      refId="Package\ETL04LoadDWHSA\ModeloGrupoxlsx.Outputs[Output 0].Columns[CodigoArticulo]"
                       dataType="wstr"
                       length="25"
-                      lineageId="Package\ETL02LoadDWHSA\ModeloGrupoxlsx.Outputs[Output 0].Columns[CodigoArticulo]"
+                      lineageId="Package\ETL04LoadDWHSA\ModeloGrupoxlsx.Outputs[Output 0].Columns[CodigoArticulo]"
                       name="CodigoArticulo" />
                     <outputColumn
-                      refId="Package\ETL02LoadDWHSA\ModeloGrupoxlsx.Outputs[Output 0].Columns[Modelo]"
+                      refId="Package\ETL04LoadDWHSA\ModeloGrupoxlsx.Outputs[Output 0].Columns[Modelo]"
                       dataType="wstr"
                       length="50"
-                      lineageId="Package\ETL02LoadDWHSA\ModeloGrupoxlsx.Outputs[Output 0].Columns[Modelo]"
+                      lineageId="Package\ETL04LoadDWHSA\ModeloGrupoxlsx.Outputs[Output 0].Columns[Modelo]"
                       name="Modelo" />
                     <outputColumn
-                      refId="Package\ETL02LoadDWHSA\ModeloGrupoxlsx.Outputs[Output 0].Columns[Familia]"
+                      refId="Package\ETL04LoadDWHSA\ModeloGrupoxlsx.Outputs[Output 0].Columns[Familia]"
                       dataType="wstr"
                       length="50"
-                      lineageId="Package\ETL02LoadDWHSA\ModeloGrupoxlsx.Outputs[Output 0].Columns[Familia]"
+                      lineageId="Package\ETL04LoadDWHSA\ModeloGrupoxlsx.Outputs[Output 0].Columns[Familia]"
                       name="Familia" />
                     <outputColumn
-                      refId="Package\ETL02LoadDWHSA\ModeloGrupoxlsx.Outputs[Output 0].Columns[Activo]"
+                      refId="Package\ETL04LoadDWHSA\ModeloGrupoxlsx.Outputs[Output 0].Columns[Activo]"
                       dataType="bool"
-                      lineageId="Package\ETL02LoadDWHSA\ModeloGrupoxlsx.Outputs[Output 0].Columns[Activo]"
+                      lineageId="Package\ETL04LoadDWHSA\ModeloGrupoxlsx.Outputs[Output 0].Columns[Activo]"
                       name="Activo" />
                   </outputColumns>
                   <externalMetadataColumns />
@@ -7105,7 +7078,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
               </outputs>
             </component>
             <component
-              refId="Package\ETL02LoadDWHSA\RowRead"
+              refId="Package\ETL04LoadDWHSA\RowRead"
               componentClassID="Microsoft.RowCount"
               contactInfo="Row Count;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
               description="Counts rows as they pass through a data flow. For example, use the number of rows processed to determine whether or not to perform cleanup operations, or update text in an e-mail message to communicate processing status."
@@ -7118,7 +7091,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
               </properties>
               <inputs>
                 <input
-                  refId="Package\ETL02LoadDWHSA\RowRead.Inputs[Row Count Input 1]"
+                  refId="Package\ETL04LoadDWHSA\RowRead.Inputs[Row Count Input 1]"
                   hasSideEffects="true"
                   name="Row Count Input 1">
                   <externalMetadataColumns />
@@ -7126,15 +7099,15 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
               </inputs>
               <outputs>
                 <output
-                  refId="Package\ETL02LoadDWHSA\RowRead.Outputs[Row Count Output 1]"
+                  refId="Package\ETL04LoadDWHSA\RowRead.Outputs[Row Count Output 1]"
                   name="Row Count Output 1"
-                  synchronousInputId="Package\ETL02LoadDWHSA\RowRead.Inputs[Row Count Input 1]">
+                  synchronousInputId="Package\ETL04LoadDWHSA\RowRead.Inputs[Row Count Input 1]">
                   <externalMetadataColumns />
                 </output>
               </outputs>
             </component>
             <component
-              refId="Package\ETL02LoadDWHSA\V4WStgModeloGrupo"
+              refId="Package\ETL04LoadDWHSA\V4WStgModeloGrupo"
               componentClassID="Microsoft.OLEDBDestination"
               contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
               description="OLE DB Destination"
@@ -7191,7 +7164,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
               </properties>
               <connections>
                 <connection
-                  refId="Package\ETL02LoadDWHSA\V4WStgModeloGrupo.Connections[OleDbConnection]"
+                  refId="Package\ETL04LoadDWHSA\V4WStgModeloGrupo.Connections[OleDbConnection]"
                   connectionManagerID="{0F0ACF89-D7FD-4BB3-B898-1223E842050F}:external"
                   connectionManagerRefId="Project.ConnectionManagers[10.144.5.223.HMDCBISA]"
                   description="The OLE DB runtime connection used to access the database."
@@ -7199,89 +7172,89 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
               </connections>
               <inputs>
                 <input
-                  refId="Package\ETL02LoadDWHSA\V4WStgModeloGrupo.Inputs[OLE DB Destination Input]"
+                  refId="Package\ETL04LoadDWHSA\V4WStgModeloGrupo.Inputs[OLE DB Destination Input]"
                   errorOrTruncationOperation="Insert"
                   errorRowDisposition="FailComponent"
                   hasSideEffects="true"
                   name="OLE DB Destination Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\ETL02LoadDWHSA\V4WStgModeloGrupo.Inputs[OLE DB Destination Input].Columns[ExecutionID]"
+                      refId="Package\ETL04LoadDWHSA\V4WStgModeloGrupo.Inputs[OLE DB Destination Input].Columns[ExecutionID]"
                       cachedDataType="i8"
                       cachedName="ExecutionID"
-                      externalMetadataColumnId="Package\ETL02LoadDWHSA\V4WStgModeloGrupo.Inputs[OLE DB Destination Input].ExternalColumns[ExecutionID]"
-                      lineageId="Package\ETL02LoadDWHSA\ModeloGrupoxlsx.Outputs[Output 0].Columns[ExecutionID]" />
+                      externalMetadataColumnId="Package\ETL04LoadDWHSA\V4WStgModeloGrupo.Inputs[OLE DB Destination Input].ExternalColumns[ExecutionID]"
+                      lineageId="Package\ETL04LoadDWHSA\ModeloGrupoxlsx.Outputs[Output 0].Columns[ExecutionID]" />
                     <inputColumn
-                      refId="Package\ETL02LoadDWHSA\V4WStgModeloGrupo.Inputs[OLE DB Destination Input].Columns[RowNumber]"
+                      refId="Package\ETL04LoadDWHSA\V4WStgModeloGrupo.Inputs[OLE DB Destination Input].Columns[RowNumber]"
                       cachedDataType="i4"
                       cachedName="RowNumber"
-                      externalMetadataColumnId="Package\ETL02LoadDWHSA\V4WStgModeloGrupo.Inputs[OLE DB Destination Input].ExternalColumns[RowNumber]"
-                      lineageId="Package\ETL02LoadDWHSA\ModeloGrupoxlsx.Outputs[Output 0].Columns[RowNumber]" />
+                      externalMetadataColumnId="Package\ETL04LoadDWHSA\V4WStgModeloGrupo.Inputs[OLE DB Destination Input].ExternalColumns[RowNumber]"
+                      lineageId="Package\ETL04LoadDWHSA\ModeloGrupoxlsx.Outputs[Output 0].Columns[RowNumber]" />
                     <inputColumn
-                      refId="Package\ETL02LoadDWHSA\V4WStgModeloGrupo.Inputs[OLE DB Destination Input].Columns[ModeloGrupoID]"
+                      refId="Package\ETL04LoadDWHSA\V4WStgModeloGrupo.Inputs[OLE DB Destination Input].Columns[ModeloGrupoID]"
                       cachedDataType="i4"
                       cachedName="ModeloGrupoID"
-                      externalMetadataColumnId="Package\ETL02LoadDWHSA\V4WStgModeloGrupo.Inputs[OLE DB Destination Input].ExternalColumns[ModeloGrupoID]"
-                      lineageId="Package\ETL02LoadDWHSA\ModeloGrupoxlsx.Outputs[Output 0].Columns[ModeloGrupoID]" />
+                      externalMetadataColumnId="Package\ETL04LoadDWHSA\V4WStgModeloGrupo.Inputs[OLE DB Destination Input].ExternalColumns[ModeloGrupoID]"
+                      lineageId="Package\ETL04LoadDWHSA\ModeloGrupoxlsx.Outputs[Output 0].Columns[ModeloGrupoID]" />
                     <inputColumn
-                      refId="Package\ETL02LoadDWHSA\V4WStgModeloGrupo.Inputs[OLE DB Destination Input].Columns[CodigoArticulo]"
+                      refId="Package\ETL04LoadDWHSA\V4WStgModeloGrupo.Inputs[OLE DB Destination Input].Columns[CodigoArticulo]"
                       cachedDataType="wstr"
                       cachedLength="25"
                       cachedName="CodigoArticulo"
-                      externalMetadataColumnId="Package\ETL02LoadDWHSA\V4WStgModeloGrupo.Inputs[OLE DB Destination Input].ExternalColumns[CodigoArticulo]"
-                      lineageId="Package\ETL02LoadDWHSA\ModeloGrupoxlsx.Outputs[Output 0].Columns[CodigoArticulo]" />
+                      externalMetadataColumnId="Package\ETL04LoadDWHSA\V4WStgModeloGrupo.Inputs[OLE DB Destination Input].ExternalColumns[CodigoArticulo]"
+                      lineageId="Package\ETL04LoadDWHSA\ModeloGrupoxlsx.Outputs[Output 0].Columns[CodigoArticulo]" />
                     <inputColumn
-                      refId="Package\ETL02LoadDWHSA\V4WStgModeloGrupo.Inputs[OLE DB Destination Input].Columns[Modelo]"
+                      refId="Package\ETL04LoadDWHSA\V4WStgModeloGrupo.Inputs[OLE DB Destination Input].Columns[Modelo]"
                       cachedDataType="wstr"
                       cachedLength="50"
                       cachedName="Modelo"
-                      externalMetadataColumnId="Package\ETL02LoadDWHSA\V4WStgModeloGrupo.Inputs[OLE DB Destination Input].ExternalColumns[Modelo]"
-                      lineageId="Package\ETL02LoadDWHSA\ModeloGrupoxlsx.Outputs[Output 0].Columns[Modelo]" />
+                      externalMetadataColumnId="Package\ETL04LoadDWHSA\V4WStgModeloGrupo.Inputs[OLE DB Destination Input].ExternalColumns[Modelo]"
+                      lineageId="Package\ETL04LoadDWHSA\ModeloGrupoxlsx.Outputs[Output 0].Columns[Modelo]" />
                     <inputColumn
-                      refId="Package\ETL02LoadDWHSA\V4WStgModeloGrupo.Inputs[OLE DB Destination Input].Columns[Familia]"
+                      refId="Package\ETL04LoadDWHSA\V4WStgModeloGrupo.Inputs[OLE DB Destination Input].Columns[Familia]"
                       cachedDataType="wstr"
                       cachedLength="50"
                       cachedName="Familia"
-                      externalMetadataColumnId="Package\ETL02LoadDWHSA\V4WStgModeloGrupo.Inputs[OLE DB Destination Input].ExternalColumns[Familia]"
-                      lineageId="Package\ETL02LoadDWHSA\ModeloGrupoxlsx.Outputs[Output 0].Columns[Familia]" />
+                      externalMetadataColumnId="Package\ETL04LoadDWHSA\V4WStgModeloGrupo.Inputs[OLE DB Destination Input].ExternalColumns[Familia]"
+                      lineageId="Package\ETL04LoadDWHSA\ModeloGrupoxlsx.Outputs[Output 0].Columns[Familia]" />
                     <inputColumn
-                      refId="Package\ETL02LoadDWHSA\V4WStgModeloGrupo.Inputs[OLE DB Destination Input].Columns[Activo]"
+                      refId="Package\ETL04LoadDWHSA\V4WStgModeloGrupo.Inputs[OLE DB Destination Input].Columns[Activo]"
                       cachedDataType="bool"
                       cachedName="Activo"
-                      externalMetadataColumnId="Package\ETL02LoadDWHSA\V4WStgModeloGrupo.Inputs[OLE DB Destination Input].ExternalColumns[Activo]"
-                      lineageId="Package\ETL02LoadDWHSA\ModeloGrupoxlsx.Outputs[Output 0].Columns[Activo]" />
+                      externalMetadataColumnId="Package\ETL04LoadDWHSA\V4WStgModeloGrupo.Inputs[OLE DB Destination Input].ExternalColumns[Activo]"
+                      lineageId="Package\ETL04LoadDWHSA\ModeloGrupoxlsx.Outputs[Output 0].Columns[Activo]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\ETL02LoadDWHSA\V4WStgModeloGrupo.Inputs[OLE DB Destination Input].ExternalColumns[ExecutionID]"
+                      refId="Package\ETL04LoadDWHSA\V4WStgModeloGrupo.Inputs[OLE DB Destination Input].ExternalColumns[ExecutionID]"
                       dataType="i8"
                       name="ExecutionID" />
                     <externalMetadataColumn
-                      refId="Package\ETL02LoadDWHSA\V4WStgModeloGrupo.Inputs[OLE DB Destination Input].ExternalColumns[RowNumber]"
+                      refId="Package\ETL04LoadDWHSA\V4WStgModeloGrupo.Inputs[OLE DB Destination Input].ExternalColumns[RowNumber]"
                       dataType="i4"
                       name="RowNumber" />
                     <externalMetadataColumn
-                      refId="Package\ETL02LoadDWHSA\V4WStgModeloGrupo.Inputs[OLE DB Destination Input].ExternalColumns[ModeloGrupoID]"
+                      refId="Package\ETL04LoadDWHSA\V4WStgModeloGrupo.Inputs[OLE DB Destination Input].ExternalColumns[ModeloGrupoID]"
                       dataType="i4"
                       name="ModeloGrupoID" />
                     <externalMetadataColumn
-                      refId="Package\ETL02LoadDWHSA\V4WStgModeloGrupo.Inputs[OLE DB Destination Input].ExternalColumns[CodigoArticulo]"
+                      refId="Package\ETL04LoadDWHSA\V4WStgModeloGrupo.Inputs[OLE DB Destination Input].ExternalColumns[CodigoArticulo]"
                       dataType="wstr"
                       length="25"
                       name="CodigoArticulo" />
                     <externalMetadataColumn
-                      refId="Package\ETL02LoadDWHSA\V4WStgModeloGrupo.Inputs[OLE DB Destination Input].ExternalColumns[Modelo]"
+                      refId="Package\ETL04LoadDWHSA\V4WStgModeloGrupo.Inputs[OLE DB Destination Input].ExternalColumns[Modelo]"
                       dataType="wstr"
                       length="50"
                       name="Modelo" />
                     <externalMetadataColumn
-                      refId="Package\ETL02LoadDWHSA\V4WStgModeloGrupo.Inputs[OLE DB Destination Input].ExternalColumns[Familia]"
+                      refId="Package\ETL04LoadDWHSA\V4WStgModeloGrupo.Inputs[OLE DB Destination Input].ExternalColumns[Familia]"
                       dataType="wstr"
                       length="50"
                       name="Familia" />
                     <externalMetadataColumn
-                      refId="Package\ETL02LoadDWHSA\V4WStgModeloGrupo.Inputs[OLE DB Destination Input].ExternalColumns[Activo]"
+                      refId="Package\ETL04LoadDWHSA\V4WStgModeloGrupo.Inputs[OLE DB Destination Input].ExternalColumns[Activo]"
                       dataType="bool"
                       name="Activo" />
                   </externalMetadataColumns>
@@ -7289,22 +7262,22 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
               </inputs>
               <outputs>
                 <output
-                  refId="Package\ETL02LoadDWHSA\V4WStgModeloGrupo.Outputs[OLE DB Destination Error Output]"
+                  refId="Package\ETL04LoadDWHSA\V4WStgModeloGrupo.Outputs[OLE DB Destination Error Output]"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="OLE DB Destination Error Output"
-                  synchronousInputId="Package\ETL02LoadDWHSA\V4WStgModeloGrupo.Inputs[OLE DB Destination Input]">
+                  synchronousInputId="Package\ETL04LoadDWHSA\V4WStgModeloGrupo.Inputs[OLE DB Destination Input]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\ETL02LoadDWHSA\V4WStgModeloGrupo.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      refId="Package\ETL04LoadDWHSA\V4WStgModeloGrupo.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\ETL02LoadDWHSA\V4WStgModeloGrupo.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      lineageId="Package\ETL04LoadDWHSA\V4WStgModeloGrupo.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\ETL02LoadDWHSA\V4WStgModeloGrupo.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      refId="Package\ETL04LoadDWHSA\V4WStgModeloGrupo.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\ETL02LoadDWHSA\V4WStgModeloGrupo.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      lineageId="Package\ETL04LoadDWHSA\V4WStgModeloGrupo.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -7315,29 +7288,56 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
           </components>
           <paths>
             <path
-              refId="Package\ETL02LoadDWHSA.Paths[Output 0]"
-              endId="Package\ETL02LoadDWHSA\RowRead.Inputs[Row Count Input 1]"
+              refId="Package\ETL04LoadDWHSA.Paths[Output 0]"
+              endId="Package\ETL04LoadDWHSA\RowRead.Inputs[Row Count Input 1]"
               name="Output 0"
-              startId="Package\ETL02LoadDWHSA\ModeloGrupoxlsx.Outputs[Output 0]" />
+              startId="Package\ETL04LoadDWHSA\ModeloGrupoxlsx.Outputs[Output 0]" />
             <path
-              refId="Package\ETL02LoadDWHSA.Paths[Row Count Output 1]"
-              endId="Package\ETL02LoadDWHSA\V4WStgModeloGrupo.Inputs[OLE DB Destination Input]"
+              refId="Package\ETL04LoadDWHSA.Paths[Row Count Output 1]"
+              endId="Package\ETL04LoadDWHSA\V4WStgModeloGrupo.Inputs[OLE DB Destination Input]"
               name="Row Count Output 1"
-              startId="Package\ETL02LoadDWHSA\RowRead.Outputs[Row Count Output 1]" />
+              startId="Package\ETL04LoadDWHSA\RowRead.Outputs[Row Count Output 1]" />
           </paths>
         </pipeline>
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
-      DTS:refId="Package\ETL03ValidateFile"
+      DTS:refId="Package\ETL05ValidateMaestro"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{A6828239-E246-4F5F-9477-39DDB6780140}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="ETL05ValidateMaestro"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{0F0ACF89-D7FD-4BB3-B898-1223E842050F}"
+          SQLTask:SqlStatementSource="/* ModeloGrupo__ETL02bValidateMaestro_v1.0.sql&#xA;   Paquete : ModeloGrupo (EtlVentasAutos) · Tarea: ETL02bValidateMaestro&#xA;   Autor   : Franco Véliz (Agente V4W) · 2026-11-04 · plan V1 v4, SOL-008&#xA;   Conexión: HMDCBISA&#xA;   Qué hace: Valida Stg contra el maestro y duplicados; actualiza la Qc persistente (Pendiente/Resuelta) y saca de Stg las filas que no cruzan (D-22). Devuelve RowsQc (fila única).&#xA;   Parámetros (OLE DB, en orden): 1) User::CtlExecutionID&#xA;*/&#xA;SET NOCOUNT ON;&#xA;SET XACT_ABORT ON;&#xA;DECLARE @ExecutionID bigint = ?;&#xA;DECLARE @Ahora datetime2(0) = SYSDATETIME();&#xA;&#xA;IF OBJECT_ID(N'tempdb..#Maestro') IS NOT NULL DROP TABLE #Maestro;&#xA;IF OBJECT_ID(N'tempdb..#Falla')   IS NOT NULL DROP TABLE #Falla;&#xA;&#xA;SELECT DISTINCT UPPER(LTRIM(RTRIM(CONVERT(nvarchar(255), v.Codigoarticulo__c)))) AS Codigo&#xA;INTO #Maestro&#xA;FROM HMDCBIDW.dbo.SFOBaseVin_Modelos__c AS v&#xA;WHERE v.IsDeleted = 0&#xA;  AND v.Linea_de_Producto__c = N'Automoviles'&#xA;  AND v.Codigoarticulo__c IS NOT NULL;&#xA;&#xA;-- 1. Filas que no cruzan (una fila puede tener más de un motivo)&#xA;SELECT s.RowNumber, s.[ModeloGrupoID], s.[CodigoArticulo], s.[Modelo], s.[Familia], s.[Activo], f.MotivoFalla, f.DetalleError,&#xA;       ROW_NUMBER() OVER (PARTITION BY s.[ModeloGrupoID], f.MotivoFalla ORDER BY s.RowNumber) AS Rn&#xA;INTO #Falla&#xA;FROM HMDCBISA.dbo.V4WStgModeloGrupo AS s&#xA;CROSS APPLY (&#xA;    -- CodigoArticulo repetido en el archivo&#xA;    SELECT N'DUPLICADO', N'CodigoArticulo ' + s.CodigoArticulo + N' repetido en el archivo'&#xA;    WHERE (SELECT COUNT(*) FROM HMDCBISA.dbo.V4WStgModeloGrupo x WHERE x.ExecutionID = @ExecutionID AND x.CodigoArticulo = s.CodigoArticulo) &gt; 1&#xA;    UNION ALL&#xA;    -- El código no existe en el maestro de modelos (Vin_Modelos__c, Autos)&#xA;    SELECT N'CODIGO_FUERA_MAESTRO', N'CodigoArticulo ' + s.CodigoArticulo + N' no existe en SFOBaseVin_Modelos__c (Automoviles)'&#xA;    WHERE NOT EXISTS (SELECT 1 FROM #Maestro m WHERE m.Codigo = s.CodigoArticulo)&#xA;) AS f (MotivoFalla, DetalleError)&#xA;WHERE s.ExecutionID = @ExecutionID;&#xA;&#xA;-- Llave repetida en el archivo: todas sus filas a Qc&#xA;INSERT INTO #Falla&#xA;SELECT s.RowNumber, s.[ModeloGrupoID], s.[CodigoArticulo], s.[Modelo], s.[Familia], s.[Activo], N'DUPLICADO', N'ModeloGrupoID ' + CONVERT(nvarchar(20), s.[ModeloGrupoID]) + N' repetido en el archivo',&#xA;       ROW_NUMBER() OVER (PARTITION BY s.[ModeloGrupoID] ORDER BY s.RowNumber)&#xA;FROM HMDCBISA.dbo.V4WStgModeloGrupo AS s&#xA;WHERE s.ExecutionID = @ExecutionID&#xA;  AND (SELECT COUNT(*) FROM HMDCBISA.dbo.V4WStgModeloGrupo x WHERE x.ExecutionID = @ExecutionID AND x.[ModeloGrupoID] = s.[ModeloGrupoID]) &gt; 1&#xA;  AND NOT EXISTS (SELECT 1 FROM #Falla f WHERE f.RowNumber = s.RowNumber AND f.MotivoFalla = N'DUPLICADO');&#xA;&#xA;-- Una sola fila por llave y motivo hacia la Qc (índice único filtrado UX_V4WQcModeloGrupo_Pendiente)&#xA;;WITH d AS (SELECT Rn, ROW_NUMBER() OVER (PARTITION BY [ModeloGrupoID], MotivoFalla ORDER BY RowNumber) AS r FROM #Falla)&#xA;UPDATE d SET Rn = r;&#xA;&#xA;BEGIN TRANSACTION;&#xA;&#xA;-- 2. Pendientes que siguen fallando: se refrescan&#xA;UPDATE q&#xA;SET    q.ExecutionIDUltima = @ExecutionID, q.FechaUltimaVez = @Ahora,&#xA;       q.RowNumber = f.RowNumber, q.DetalleError = f.DetalleError,&#xA;       q.[CodigoArticulo] = f.[CodigoArticulo], q.[Modelo] = f.[Modelo], q.[Familia] = f.[Familia], q.[Activo] = f.[Activo]&#xA;FROM   HMDCBISA.dbo.V4WQcModeloGrupo AS q&#xA;JOIN   #Falla AS f ON f.[ModeloGrupoID] = q.[ModeloGrupoID] AND f.MotivoFalla = q.MotivoFalla AND f.Rn = 1&#xA;WHERE  q.EstadoQc = N'Pendiente';&#xA;&#xA;-- 3. Fallas nuevas&#xA;INSERT INTO HMDCBISA.dbo.V4WQcModeloGrupo&#xA;       (ExecutionID, ExecutionIDUltima, RowNumber, MotivoFalla, DetalleError, EstadoQc,&#xA;        FechaPrimeraVez, FechaUltimaVez, [ModeloGrupoID], [CodigoArticulo], [Modelo], [Familia], [Activo])&#xA;SELECT @ExecutionID, @ExecutionID, f.RowNumber, f.MotivoFalla, f.DetalleError, N'Pendiente',&#xA;       @Ahora, @Ahora, f.[ModeloGrupoID], f.[CodigoArticulo], f.[Modelo], f.[Familia], f.[Activo]&#xA;FROM   #Falla AS f&#xA;WHERE  f.Rn = 1&#xA;  AND  NOT EXISTS (SELECT 1 FROM HMDCBISA.dbo.V4WQcModeloGrupo q&#xA;                   WHERE q.[ModeloGrupoID] = f.[ModeloGrupoID] AND q.MotivoFalla = f.MotivoFalla AND q.EstadoQc = N'Pendiente');&#xA;&#xA;-- 4. Re-evaluación: el archivo se leyó completo, lo pendiente que ya no falla queda Resuelto&#xA;UPDATE q&#xA;SET    q.EstadoQc = N'Resuelta', q.FechaResuelta = @Ahora, q.ExecutionIDResuelta = @ExecutionID&#xA;FROM   HMDCBISA.dbo.V4WQcModeloGrupo AS q&#xA;WHERE  q.EstadoQc = N'Pendiente'&#xA;  AND  NOT EXISTS (SELECT 1 FROM #Falla f WHERE f.[ModeloGrupoID] = q.[ModeloGrupoID] AND f.MotivoFalla = q.MotivoFalla);&#xA;&#xA;-- 5. Lo que no cruza no sigue a Load/Base&#xA;DELETE s&#xA;FROM   HMDCBISA.dbo.V4WStgModeloGrupo AS s&#xA;WHERE  s.ExecutionID = @ExecutionID&#xA;  AND  EXISTS (SELECT 1 FROM #Falla f WHERE f.RowNumber = s.RowNumber);&#xA;&#xA;COMMIT TRANSACTION;&#xA;&#xA;SELECT COUNT(DISTINCT RowNumber) AS RowsQc FROM #Falla;&#xA;"
+          SQLTask:ResultType="ResultSetType_SingleRow" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
+          <SQLTask:ResultBinding
+            SQLTask:ResultName="RowsQc"
+            SQLTask:DtsVariableName="User::CtlRowsFailed" />
+          <SQLTask:ParameterBinding
+            SQLTask:ParameterName="0"
+            SQLTask:DtsVariableName="User::CtlExecutionID"
+            SQLTask:ParameterDirection="Input"
+            SQLTask:DataType="3"
+            SQLTask:ParameterSize="0" />
+        </SQLTask:SqlTaskData>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\ETL06ValidateFile"
       DTS:CreationName="Microsoft.ScriptTask"
       DTS:Description="Script Task"
       DTS:DisableEventHandlers="True"
       DTS:DTSID="{c0017b35-b498-4134-ae4c-f6328412328b}"
       DTS:ExecutableType="Microsoft.ScriptTask"
       DTS:LocaleID="-1"
-      DTS:ObjectName="ETL03ValidateFile"
-      DTS:ThreadHint="1">
+      DTS:ObjectName="ETL06ValidateFile"
+      DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:ObjectData>
         <ScriptProject
@@ -7346,15 +7346,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
           VSTAMinorVersion="0"
           Language="CSharp"
           ReadOnlyVariables="User::CtlComputerName,User::CtlExecutionID,User::CtlPackageName,User::CtlUserName,User::EtlFileModifiedDate,User::EtlFileName,User::EtlOperatorUser,$Package::CtlProcessID,$Package::EtlFilePath,$Package::EtlFileSheet,$Package::vMailCC,$Package::vMailFrom,$Package::vMailTO,$Project::vSMTPHost,$Project::vSQLConnStr,$Project::vSMTPPort,$Project::vLogoMain,$Project::vLogoWhite">
-          <ProjectItem
-            Name="Properties\Settings.settings"
-            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
-<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
-</SettingsFile>]]></ProjectItem>
           <ProjectItem
             Name="ST_ff694be232ea4a2a8a51957507785fb0.csproj"
             Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
@@ -7560,6 +7551,35 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
 </root>]]></ProjectItem>
+          <ProjectItem
+            Name="Properties\Settings.Designer.cs"
+            Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
+// <auto-generated>
+//     This code was generated by a tool.
+//
+//     Changes to this file may cause incorrect behavior and will be lost if
+//     the code is regenerated.
+// </auto-generated>
+//------------------------------------------------------------------------------
+
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_3b5335120ee1469aaa904846d3479804.Properties.Settings.get_Default():ST_3b5335120ee1469aaa904846d3479804.Properties.Sett" +
+    "ings")]
+
+namespace ST_3b5335120ee1469aaa904846d3479804.Properties {
+    
+    
+    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
+        
+        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
+        private static Settings defaultInstance = new Settings();
+        
+        public static Settings Default {
+            get {
+                return defaultInstance;
+            }
+        }
+    }
+}]]></ProjectItem>
           <ProjectItem
             Name="ScriptMain.cs"
             Encoding="UTF8"><![CDATA[#region Help:  Introduction to the script task
@@ -8328,35 +8348,6 @@ ORDER BY RowNumber", columns, Config.TableQc);
   </msb:ItemGroup>
 </c:Project>]]></ProjectItem>
           <ProjectItem
-            Name="Properties\Settings.Designer.cs"
-            Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
-// <auto-generated>
-//     This code was generated by a tool.
-//
-//     Changes to this file may cause incorrect behavior and will be lost if
-//     the code is regenerated.
-// </auto-generated>
-//------------------------------------------------------------------------------
-
-[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_3b5335120ee1469aaa904846d3479804.Properties.Settings.get_Default():ST_3b5335120ee1469aaa904846d3479804.Properties.Sett" +
-    "ings")]
-
-namespace ST_3b5335120ee1469aaa904846d3479804.Properties {
-    
-    
-    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
-        
-        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-        private static Settings defaultInstance = new Settings();
-        
-        public static Settings Default {
-            get {
-                return defaultInstance;
-            }
-        }
-    }
-}]]></ProjectItem>
-          <ProjectItem
             Name="Properties\AssemblyInfo.cs"
             Encoding="UTF8"><![CDATA[using System.Reflection;
 using System.Runtime.CompilerServices;
@@ -8386,6 +8377,15 @@ using System.Runtime.CompilerServices;
 // by using the '*' as shown below:
 
 [assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
+          <ProjectItem
+            Name="Properties\Settings.settings"
+            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
+<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
+  <Settings />
+</SettingsFile>]]></ProjectItem>
           <ProjectItem
             Name="Properties\Resources.Designer.cs"
             Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
@@ -9052,14 +9052,14 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
-      DTS:refId="Package\ETL04LoadDWHDW"
+      DTS:refId="Package\ETL07LoadDWHDW"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
       DTS:DTSID="{08DADAEE-86C9-435D-A75A-611BF1D6DC53}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
-      DTS:ObjectName="ETL04LoadDWHDW"
-      DTS:ThreadHint="1">
+      DTS:ObjectName="ETL07LoadDWHDW"
+      DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -9079,41 +9079,14 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
-      DTS:refId="Package\ETL05InsertDWHDW"
-      DTS:CreationName="Microsoft.ExecuteSQLTask"
-      DTS:Description="Execute SQL Task"
-      DTS:DTSID="{96ed54a3-1b78-4509-a082-a9c390f4650d}"
-      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
-      DTS:LocaleID="-1"
-      DTS:ObjectName="ETL05InsertDWHDW"
-      DTS:ThreadHint="1">
-      <DTS:Variables />
-      <DTS:ObjectData>
-        <SQLTask:SqlTaskData
-          SQLTask:Connection="{0EDA87BA-ED8A-499E-BDBB-0D4439C1A343}"
-          SQLTask:SqlStatementSource="/* ModeloGrupo__ETL05InsertDWHDW_v1.0.sql&#xA;   Paquete : ModeloGrupo (EtlVentasAutos) · Tarea: ETL05InsertDWHDW&#xA;   Autor   : Franco Véliz (Agente V4W) · 2026-11-04 · plan V1 v4, SOL-008&#xA;   Conexión: HMDCBIDW&#xA;   Qué hace: Inserta en Base las filas TypeLoad I. Devuelve RowsInsert.&#xA;   Parámetros (OLE DB, en orden): 1) User::CtlExecutionID&#xA;*/&#xA;DECLARE @RowsInsert int;&#xA;INSERT INTO HMDCBIDW.dbo.V4WBaseModeloGrupo ([ModeloGrupoID], [CodigoArticulo], [Modelo], [Familia], [Activo], ExecutionID, Hash64, CreateDate, LastModifiedDate)&#xA;SELECT s.[ModeloGrupoID], s.[CodigoArticulo], s.[Modelo], s.[Familia], s.[Activo], s.ExecutionID, s.HashNuevo, SYSDATETIME(), NULL&#xA;FROM   HMDCBISA.dbo.V4WLoadModeloGrupo AS s&#xA;WHERE  s.ExecutionID = ? AND s.TypeLoad = N'I';&#xA;SET @RowsInsert = @@ROWCOUNT;&#xA;SELECT @RowsInsert AS RowsInsert;"
-          SQLTask:ResultType="ResultSetType_SingleRow" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
-          <SQLTask:ResultBinding
-            SQLTask:ResultName="RowsInsert"
-            SQLTask:DtsVariableName="User::CtlRowsInserted" />
-          <SQLTask:ParameterBinding
-            SQLTask:ParameterName="0"
-            SQLTask:DtsVariableName="User::CtlExecutionID"
-            SQLTask:ParameterDirection="Input"
-            SQLTask:DataType="3"
-            SQLTask:ParameterSize="0" />
-        </SQLTask:SqlTaskData>
-      </DTS:ObjectData>
-    </DTS:Executable>
-    <DTS:Executable
-      DTS:refId="Package\ETL05UpdateDWHDW"
+      DTS:refId="Package\ETL08UpdateDWHDW"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
       DTS:DTSID="{5ef75b6f-0258-48b0-b804-4d3f65ad22d5}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
-      DTS:ObjectName="ETL05UpdateDWHDW"
-      DTS:ThreadHint="1">
+      DTS:ObjectName="ETL08UpdateDWHDW"
+      DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -9133,13 +9106,67 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
-      DTS:refId="Package\ETL06RegisterFile"
+      DTS:refId="Package\ETL09InsertDWHDW"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{96ed54a3-1b78-4509-a082-a9c390f4650d}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="ETL09InsertDWHDW"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{0EDA87BA-ED8A-499E-BDBB-0D4439C1A343}"
+          SQLTask:SqlStatementSource="/* ModeloGrupo__ETL05InsertDWHDW_v1.0.sql&#xA;   Paquete : ModeloGrupo (EtlVentasAutos) · Tarea: ETL05InsertDWHDW&#xA;   Autor   : Franco Véliz (Agente V4W) · 2026-11-04 · plan V1 v4, SOL-008&#xA;   Conexión: HMDCBIDW&#xA;   Qué hace: Inserta en Base las filas TypeLoad I. Devuelve RowsInsert.&#xA;   Parámetros (OLE DB, en orden): 1) User::CtlExecutionID&#xA;*/&#xA;DECLARE @RowsInsert int;&#xA;INSERT INTO HMDCBIDW.dbo.V4WBaseModeloGrupo ([ModeloGrupoID], [CodigoArticulo], [Modelo], [Familia], [Activo], ExecutionID, Hash64, CreateDate, LastModifiedDate)&#xA;SELECT s.[ModeloGrupoID], s.[CodigoArticulo], s.[Modelo], s.[Familia], s.[Activo], s.ExecutionID, s.HashNuevo, SYSDATETIME(), NULL&#xA;FROM   HMDCBISA.dbo.V4WLoadModeloGrupo AS s&#xA;WHERE  s.ExecutionID = ? AND s.TypeLoad = N'I';&#xA;SET @RowsInsert = @@ROWCOUNT;&#xA;SELECT @RowsInsert AS RowsInsert;"
+          SQLTask:ResultType="ResultSetType_SingleRow" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
+          <SQLTask:ResultBinding
+            SQLTask:ResultName="RowsInsert"
+            SQLTask:DtsVariableName="User::CtlRowsInserted" />
+          <SQLTask:ParameterBinding
+            SQLTask:ParameterName="0"
+            SQLTask:DtsVariableName="User::CtlExecutionID"
+            SQLTask:ParameterDirection="Input"
+            SQLTask:DataType="3"
+            SQLTask:ParameterSize="0" />
+        </SQLTask:SqlTaskData>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\ETL10ReevaluateQc"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Execute SQL Task"
+      DTS:DTSID="{BE7BAE18-9249-439D-91E9-0B2213829599}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="ETL10ReevaluateQc"
+      DTS:ThreadHint="1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{0F0ACF89-D7FD-4BB3-B898-1223E842050F}"
+          SQLTask:SqlStatementSource="/* ModeloGrupo__ETL08ReevaluateQc_v1.0.sql&#xA;   Paquete : ModeloGrupo (EtlVentasAutos) · Tarea: ETL08ReevaluateQc&#xA;   Autor   : Franco Véliz (Agente V4W) · 2026-11-04 · plan V1 v4, SOL-008&#xA;   Conexión: HMDCBISA&#xA;   Qué hace: Camino SIN CAMBIOS: re-evalúa la Qc pendiente CODIGO_FUERA_MAESTRO contra el maestro actual. Lo que ahora cruza (y no tiene otro motivo pendiente) pasa a Base y queda Resuelta. Devuelve RowsReevaluadas.&#xA;   Parámetros (OLE DB, en orden): 1) User::CtlExecutionID&#xA;*/&#xA;SET NOCOUNT ON;&#xA;SET XACT_ABORT ON;&#xA;DECLARE @ExecutionID bigint = ?;&#xA;DECLARE @Ahora datetime2(0) = SYSDATETIME();&#xA;IF OBJECT_ID(N'tempdb..#Maestro') IS NOT NULL DROP TABLE #Maestro;&#xA;IF OBJECT_ID(N'tempdb..#Pasa')    IS NOT NULL DROP TABLE #Pasa;&#xA;&#xA;SELECT DISTINCT UPPER(LTRIM(RTRIM(CONVERT(nvarchar(255), v.Codigoarticulo__c)))) AS Codigo&#xA;INTO #Maestro&#xA;FROM HMDCBIDW.dbo.SFOBaseVin_Modelos__c AS v&#xA;WHERE v.IsDeleted = 0&#xA;  AND v.Linea_de_Producto__c = N'Automoviles'&#xA;  AND v.Codigoarticulo__c IS NOT NULL;&#xA;&#xA;SELECT q.QcID, q.[ModeloGrupoID], q.[CodigoArticulo], q.[Modelo], q.[Familia], q.[Activo]&#xA;INTO   #Pasa&#xA;FROM   HMDCBISA.dbo.V4WQcModeloGrupo AS q&#xA;WHERE  q.EstadoQc = N'Pendiente' AND q.MotivoFalla = N'CODIGO_FUERA_MAESTRO'&#xA;  AND  NOT (NOT EXISTS (SELECT 1 FROM #Maestro m WHERE m.Codigo = q.CodigoArticulo))&#xA;  AND  NOT EXISTS (SELECT 1 FROM HMDCBISA.dbo.V4WQcModeloGrupo o&#xA;                   WHERE o.[ModeloGrupoID] = q.[ModeloGrupoID] AND o.EstadoQc = N'Pendiente' AND o.QcID &lt;&gt; q.QcID);&#xA;&#xA;BEGIN TRANSACTION;&#xA;&#xA;MERGE HMDCBIDW.dbo.V4WBaseModeloGrupo AS tgt&#xA;USING (SELECT p.*, CONVERT(bigint, SUBSTRING(HASHBYTES('SHA2_256', CONCAT(ISNULL(CONVERT(nvarchar(200), p.[ModeloGrupoID]), N''), NCHAR(31), ISNULL(CONVERT(nvarchar(200), p.[CodigoArticulo]), N''), NCHAR(31), ISNULL(CONVERT(nvarchar(200), p.[Modelo]), N''), NCHAR(31), ISNULL(CONVERT(nvarchar(200), p.[Familia]), N''), NCHAR(31), ISNULL(CONVERT(nvarchar(200), p.[Activo]), N''))), 1, 8)) AS HashNuevo FROM #Pasa AS p) AS src&#xA;   ON tgt.[ModeloGrupoID] = src.[ModeloGrupoID]&#xA;WHEN MATCHED AND tgt.Hash64 &lt;&gt; src.HashNuevo THEN&#xA;     UPDATE SET tgt.[CodigoArticulo] = src.[CodigoArticulo], tgt.[Modelo] = src.[Modelo], tgt.[Familia] = src.[Familia], tgt.[Activo] = src.[Activo],&#xA;                tgt.Hash64 = src.HashNuevo, tgt.ExecutionID = @ExecutionID, tgt.LastModifiedDate = SYSDATETIME()&#xA;WHEN NOT MATCHED THEN&#xA;     INSERT ([ModeloGrupoID], [CodigoArticulo], [Modelo], [Familia], [Activo], ExecutionID, Hash64, CreateDate, LastModifiedDate)&#xA;     VALUES (src.[ModeloGrupoID], src.[CodigoArticulo], src.[Modelo], src.[Familia], src.[Activo], @ExecutionID, src.HashNuevo, SYSDATETIME(), NULL);&#xA;&#xA;UPDATE q&#xA;SET    q.EstadoQc = N'Resuelta', q.FechaResuelta = @Ahora, q.ExecutionIDResuelta = @ExecutionID&#xA;FROM   HMDCBISA.dbo.V4WQcModeloGrupo AS q&#xA;JOIN   #Pasa AS p ON p.QcID = q.QcID;&#xA;&#xA;COMMIT TRANSACTION;&#xA;&#xA;SELECT COUNT(*) AS RowsReevaluadas FROM #Pasa;&#xA;"
+          SQLTask:ResultType="ResultSetType_SingleRow" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
+          <SQLTask:ResultBinding
+            SQLTask:ResultName="RowsReevaluadas"
+            SQLTask:DtsVariableName="User::CtlRowsUpdated" />
+          <SQLTask:ParameterBinding
+            SQLTask:ParameterName="0"
+            SQLTask:DtsVariableName="User::CtlExecutionID"
+            SQLTask:ParameterDirection="Input"
+            SQLTask:DataType="3"
+            SQLTask:ParameterSize="0" />
+        </SQLTask:SqlTaskData>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\ETL11RegisterFile"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
       DTS:DTSID="{27DB6A28-4762-4DBD-926B-0D23B3887058}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
-      DTS:ObjectName="ETL06RegisterFile"
+      DTS:ObjectName="ETL11RegisterFile"
       DTS:ThreadHint="2">
       <DTS:Variables />
       <DTS:ObjectData>
@@ -9216,13 +9243,13 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
-      DTS:refId="Package\ETL07ReportFile"
+      DTS:refId="Package\ETL12ReportFile"
       DTS:CreationName="Microsoft.ScriptTask"
       DTS:Description="Script Task"
       DTS:DTSID="{f6d102a4-2133-41e4-82e7-0e5011bca162}"
       DTS:ExecutableType="Microsoft.ScriptTask"
       DTS:LocaleID="-1"
-      DTS:ObjectName="ETL07ReportFile"
+      DTS:ObjectName="ETL12ReportFile"
       DTS:ThreadHint="2">
       <DTS:Variables />
       <DTS:ObjectData>
@@ -9232,15 +9259,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           VSTAMinorVersion="0"
           Language="CSharp"
           ReadOnlyVariables="User::CtlAuditBatchID,User::CtlBatchId,User::CtlComputerName,User::CtlExecutionID,User::CtlPackageName,User::CtlRowsFailed,User::CtlRowsInserted,User::CtlRowsRead,User::CtlRowsUpdated,User::EtlFileModifiedDate,User::EtlFileName,User::EtlOperatorUser,$Package::CtlProcessID,$Package::EtlFilePath,$Package::EtlFileSheet,$Package::vMailCC,$Package::vMailFrom,$Package::vMailTO,$Project::vSMTPHost,$Project::vSQLConnStr,$Project::vSMTPPort,$Project::vSQLConnPa,$Project::vLogoMain,$Project::vLogoWhite">
-          <ProjectItem
-            Name="Properties\Settings.settings"
-            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
-<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
-</SettingsFile>]]></ProjectItem>
           <ProjectItem
             Name="Properties\Resources.resx"
             Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
@@ -9360,6 +9378,35 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
 </root>]]></ProjectItem>
+          <ProjectItem
+            Name="Properties\Settings.Designer.cs"
+            Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
+// <auto-generated>
+//     This code was generated by a tool.
+//
+//     Changes to this file may cause incorrect behavior and will be lost if
+//     the code is regenerated.
+// </auto-generated>
+//------------------------------------------------------------------------------
+
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_d067887a49ea4994a2f9b8d9ae04bf98.Properties.Settings.get_Default():ST_d067887a49ea4994a2f9b8d9ae04bf98.Properties.Sett" +
+    "ings")]
+
+namespace ST_d067887a49ea4994a2f9b8d9ae04bf98.Properties {
+    
+    
+    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
+        
+        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
+        private static Settings defaultInstance = new Settings();
+        
+        public static Settings Default {
+            get {
+                return defaultInstance;
+            }
+        }
+    }
+}]]></ProjectItem>
           <ProjectItem
             Name="ScriptMain.cs"
             Encoding="UTF8"><![CDATA[#region Help:  Introduction to the script task
@@ -10369,35 +10416,6 @@ ORDER BY {3};",
   </msb:ItemGroup>
 </c:Project>]]></ProjectItem>
           <ProjectItem
-            Name="Properties\Settings.Designer.cs"
-            Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
-// <auto-generated>
-//     This code was generated by a tool.
-//
-//     Changes to this file may cause incorrect behavior and will be lost if
-//     the code is regenerated.
-// </auto-generated>
-//------------------------------------------------------------------------------
-
-[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_d067887a49ea4994a2f9b8d9ae04bf98.Properties.Settings.get_Default():ST_d067887a49ea4994a2f9b8d9ae04bf98.Properties.Sett" +
-    "ings")]
-
-namespace ST_d067887a49ea4994a2f9b8d9ae04bf98.Properties {
-    
-    
-    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
-        
-        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-        private static Settings defaultInstance = new Settings();
-        
-        public static Settings Default {
-            get {
-                return defaultInstance;
-            }
-        }
-    }
-}]]></ProjectItem>
-          <ProjectItem
             Name="Properties\AssemblyInfo.cs"
             Encoding="UTF8"><![CDATA[using System.Reflection;
 using System.Runtime.CompilerServices;
@@ -10427,6 +10445,15 @@ using System.Runtime.CompilerServices;
 // by using the '*' as shown below:
 
 [assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
+          <ProjectItem
+            Name="Properties\Settings.settings"
+            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
+<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
+  <Settings />
+</SettingsFile>]]></ProjectItem>
           <ProjectItem
             Name="Properties\Resources.Designer.cs"
             Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
@@ -11182,40 +11209,13 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
         </ScriptProject>
       </DTS:ObjectData>
     </DTS:Executable>
-    <DTS:Executable
-      DTS:refId="Package\ETL08ReevaluateQc"
-      DTS:CreationName="Microsoft.ExecuteSQLTask"
-      DTS:Description="Execute SQL Task"
-      DTS:DTSID="{BE7BAE18-9249-439D-91E9-0B2213829599}"
-      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
-      DTS:LocaleID="-1"
-      DTS:ObjectName="ETL08ReevaluateQc"
-      DTS:ThreadHint="0">
-      <DTS:Variables />
-      <DTS:ObjectData>
-        <SQLTask:SqlTaskData
-          SQLTask:Connection="{0F0ACF89-D7FD-4BB3-B898-1223E842050F}"
-          SQLTask:SqlStatementSource="/* ModeloGrupo__ETL08ReevaluateQc_v1.0.sql&#xA;   Paquete : ModeloGrupo (EtlVentasAutos) · Tarea: ETL08ReevaluateQc&#xA;   Autor   : Franco Véliz (Agente V4W) · 2026-11-04 · plan V1 v4, SOL-008&#xA;   Conexión: HMDCBISA&#xA;   Qué hace: Camino SIN CAMBIOS: re-evalúa la Qc pendiente CODIGO_FUERA_MAESTRO contra el maestro actual. Lo que ahora cruza (y no tiene otro motivo pendiente) pasa a Base y queda Resuelta. Devuelve RowsReevaluadas.&#xA;   Parámetros (OLE DB, en orden): 1) User::CtlExecutionID&#xA;*/&#xA;SET NOCOUNT ON;&#xA;SET XACT_ABORT ON;&#xA;DECLARE @ExecutionID bigint = ?;&#xA;DECLARE @Ahora datetime2(0) = SYSDATETIME();&#xA;IF OBJECT_ID(N'tempdb..#Maestro') IS NOT NULL DROP TABLE #Maestro;&#xA;IF OBJECT_ID(N'tempdb..#Pasa')    IS NOT NULL DROP TABLE #Pasa;&#xA;&#xA;SELECT DISTINCT UPPER(LTRIM(RTRIM(CONVERT(nvarchar(255), v.Codigoarticulo__c)))) AS Codigo&#xA;INTO #Maestro&#xA;FROM HMDCBIDW.dbo.SFOBaseVin_Modelos__c AS v&#xA;WHERE v.IsDeleted = 0&#xA;  AND v.Linea_de_Producto__c = N'Automoviles'&#xA;  AND v.Codigoarticulo__c IS NOT NULL;&#xA;&#xA;SELECT q.QcID, q.[ModeloGrupoID], q.[CodigoArticulo], q.[Modelo], q.[Familia], q.[Activo]&#xA;INTO   #Pasa&#xA;FROM   HMDCBISA.dbo.V4WQcModeloGrupo AS q&#xA;WHERE  q.EstadoQc = N'Pendiente' AND q.MotivoFalla = N'CODIGO_FUERA_MAESTRO'&#xA;  AND  NOT (NOT EXISTS (SELECT 1 FROM #Maestro m WHERE m.Codigo = q.CodigoArticulo))&#xA;  AND  NOT EXISTS (SELECT 1 FROM HMDCBISA.dbo.V4WQcModeloGrupo o&#xA;                   WHERE o.[ModeloGrupoID] = q.[ModeloGrupoID] AND o.EstadoQc = N'Pendiente' AND o.QcID &lt;&gt; q.QcID);&#xA;&#xA;BEGIN TRANSACTION;&#xA;&#xA;MERGE HMDCBIDW.dbo.V4WBaseModeloGrupo AS tgt&#xA;USING (SELECT p.*, CONVERT(bigint, SUBSTRING(HASHBYTES('SHA2_256', CONCAT(ISNULL(CONVERT(nvarchar(200), p.[ModeloGrupoID]), N''), NCHAR(31), ISNULL(CONVERT(nvarchar(200), p.[CodigoArticulo]), N''), NCHAR(31), ISNULL(CONVERT(nvarchar(200), p.[Modelo]), N''), NCHAR(31), ISNULL(CONVERT(nvarchar(200), p.[Familia]), N''), NCHAR(31), ISNULL(CONVERT(nvarchar(200), p.[Activo]), N''))), 1, 8)) AS HashNuevo FROM #Pasa AS p) AS src&#xA;   ON tgt.[ModeloGrupoID] = src.[ModeloGrupoID]&#xA;WHEN MATCHED AND tgt.Hash64 &lt;&gt; src.HashNuevo THEN&#xA;     UPDATE SET tgt.[CodigoArticulo] = src.[CodigoArticulo], tgt.[Modelo] = src.[Modelo], tgt.[Familia] = src.[Familia], tgt.[Activo] = src.[Activo],&#xA;                tgt.Hash64 = src.HashNuevo, tgt.ExecutionID = @ExecutionID, tgt.LastModifiedDate = SYSDATETIME()&#xA;WHEN NOT MATCHED THEN&#xA;     INSERT ([ModeloGrupoID], [CodigoArticulo], [Modelo], [Familia], [Activo], ExecutionID, Hash64, CreateDate, LastModifiedDate)&#xA;     VALUES (src.[ModeloGrupoID], src.[CodigoArticulo], src.[Modelo], src.[Familia], src.[Activo], @ExecutionID, src.HashNuevo, SYSDATETIME(), NULL);&#xA;&#xA;UPDATE q&#xA;SET    q.EstadoQc = N'Resuelta', q.FechaResuelta = @Ahora, q.ExecutionIDResuelta = @ExecutionID&#xA;FROM   HMDCBISA.dbo.V4WQcModeloGrupo AS q&#xA;JOIN   #Pasa AS p ON p.QcID = q.QcID;&#xA;&#xA;COMMIT TRANSACTION;&#xA;&#xA;SELECT COUNT(*) AS RowsReevaluadas FROM #Pasa;&#xA;"
-          SQLTask:ResultType="ResultSetType_SingleRow" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
-          <SQLTask:ResultBinding
-            SQLTask:ResultName="RowsReevaluadas"
-            SQLTask:DtsVariableName="User::CtlRowsUpdated" />
-          <SQLTask:ParameterBinding
-            SQLTask:ParameterName="0"
-            SQLTask:DtsVariableName="User::CtlExecutionID"
-            SQLTask:ParameterDirection="Input"
-            SQLTask:DataType="3"
-            SQLTask:ParameterSize="0" />
-        </SQLTask:SqlTaskData>
-      </DTS:ObjectData>
-    </DTS:Executable>
   </DTS:Executables>
   <DTS:PrecedenceConstraints>
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint]"
       DTS:CreationName=""
       DTS:DTSID="{1F79B34F-5770-4727-9139-ECA3A998638F}"
-      DTS:From="Package\ETL03ValidateFile"
+      DTS:From="Package\ETL06ValidateFile"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint"
       DTS:To="Package\CTL04OpenBatchId" />
@@ -11226,17 +11226,17 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
       DTS:From="Package\CTL04OpenBatchId"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 1"
-      DTS:To="Package\ETL04LoadDWHDW" />
+      DTS:To="Package\ETL07LoadDWHDW" />
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 10]"
       DTS:CreationName=""
       DTS:DTSID="{A74FD41C-7B62-44F2-A951-2CD9D881AB55}"
       DTS:EvalOp="1"
       DTS:Expression="@[User::EtlArchivoCambiado] == FALSE"
-      DTS:From="Package\ETL00aCheckFile"
+      DTS:From="Package\ETL01CheckFile"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 10"
-      DTS:To="Package\ETL08ReevaluateQc" />
+      DTS:To="Package\ETL10ReevaluateQc" />
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 12 1]"
       DTS:CreationName=""
@@ -11260,12 +11260,12 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
       DTS:From="Package\CTL06InsertAuditRow"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 15 1"
-      DTS:To="Package\ETL05UpdateDWHDW" />
+      DTS:To="Package\ETL08UpdateDWHDW" />
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 16 1]"
       DTS:CreationName=""
       DTS:DTSID="{0007b101-2062-4ad7-abd5-8dd35f0dcfaa}"
-      DTS:From="Package\ETL05InsertDWHDW"
+      DTS:From="Package\ETL09InsertDWHDW"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 16 1"
       DTS:To="Package\CTL07CloseBatchId" />
@@ -11278,7 +11278,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
       DTS:From="Package\CTL11CloseExecutionOK"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 17 1"
-      DTS:To="Package\ETL07ReportFile" />
+      DTS:To="Package\ETL12ReportFile" />
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 18]"
       DTS:CreationName=""
@@ -11294,7 +11294,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
       DTS:From="Package\CTL03OpenExecution"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 2"
-      DTS:To="Package\ETL00aCheckFile" />
+      DTS:To="Package\ETL01CheckFile" />
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 2 1]"
       DTS:CreationName=""
@@ -11309,26 +11309,26 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
       DTS:DTSID="{C9DF084E-18B7-48CB-AF08-6AB7C373973F}"
       DTS:EvalOp="1"
       DTS:Expression="@[User::EtlArchivoCambiado] == TRUE"
-      DTS:From="Package\ETL00aCheckFile"
+      DTS:From="Package\ETL01CheckFile"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 3"
-      DTS:To="Package\ETL00ValidateFile" />
+      DTS:To="Package\ETL02ValidateFile" />
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 4]"
       DTS:CreationName=""
       DTS:DTSID="{2D89ED5A-B84F-4361-8A30-7161D52A8241}"
-      DTS:From="Package\ETL02LoadDWHSA"
+      DTS:From="Package\ETL04LoadDWHSA"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 4"
-      DTS:To="Package\ETL02bValidateMaestro" />
+      DTS:To="Package\ETL05ValidateMaestro" />
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 5]"
       DTS:CreationName=""
       DTS:DTSID="{D4DBCB52-D695-47F1-97D0-528DF3348792}"
-      DTS:From="Package\ETL02bValidateMaestro"
+      DTS:From="Package\ETL05ValidateMaestro"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 5"
-      DTS:To="Package\ETL03ValidateFile" />
+      DTS:To="Package\ETL06ValidateFile" />
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 5 1]"
       DTS:CreationName=""
@@ -11341,7 +11341,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
       DTS:refId="Package.PrecedenceConstraints[Constraint 6]"
       DTS:CreationName=""
       DTS:DTSID="{F96C5E6A-D086-4FA6-85CD-D119980AC75B}"
-      DTS:From="Package\ETL04LoadDWHDW"
+      DTS:From="Package\ETL07LoadDWHDW"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 6"
       DTS:To="Package\CTL05UpdateAuditRow" />
@@ -11359,35 +11359,35 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
       DTS:DTSID="{4E615880-0A36-4627-A7B3-143F4C25555F}"
       DTS:From="Package\CTL07CloseBatchId"
       DTS:ObjectName="Constraint 7"
-      DTS:To="Package\ETL06RegisterFile" />
+      DTS:To="Package\ETL11RegisterFile" />
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 7 1]"
       DTS:CreationName=""
       DTS:DTSID="{00ee7961-c9e9-462c-a52d-959118fb1a2a}"
-      DTS:From="Package\ETL01TruncateStaging"
+      DTS:From="Package\ETL03TruncateStaging"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 7 1"
-      DTS:To="Package\ETL02LoadDWHSA" />
+      DTS:To="Package\ETL04LoadDWHSA" />
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 8]"
       DTS:CreationName=""
       DTS:DTSID="{599C54D1-6D55-4FF3-B2CB-406615CCB227}"
-      DTS:From="Package\ETL08ReevaluateQc"
+      DTS:From="Package\ETL10ReevaluateQc"
       DTS:ObjectName="Constraint 8"
-      DTS:To="Package\ETL06RegisterFile" />
+      DTS:To="Package\ETL11RegisterFile" />
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 8 1]"
       DTS:CreationName=""
       DTS:DTSID="{83f8187f-6a18-447c-9be0-bda374652ce7}"
-      DTS:From="Package\ETL00ValidateFile"
+      DTS:From="Package\ETL02ValidateFile"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 8 1"
-      DTS:To="Package\ETL01TruncateStaging" />
+      DTS:To="Package\ETL03TruncateStaging" />
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 9]"
       DTS:CreationName=""
       DTS:DTSID="{43974F94-2175-4601-A2A2-862B95CD1C84}"
-      DTS:From="Package\ETL06RegisterFile"
+      DTS:From="Package\ETL11RegisterFile"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 9"
       DTS:To="Package\CTL08GetNewWaterMark" />
@@ -11395,10 +11395,10 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
       DTS:refId="Package.PrecedenceConstraints[Constraint 9 1]"
       DTS:CreationName=""
       DTS:DTSID="{d752833a-5030-46f3-8e8d-137916869a2d}"
-      DTS:From="Package\ETL05UpdateDWHDW"
+      DTS:From="Package\ETL08UpdateDWHDW"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 9 1"
-      DTS:To="Package\ETL05InsertDWHDW" />
+      DTS:To="Package\ETL09InsertDWHDW" />
   </DTS:PrecedenceConstraints>
   <DTS:EventHandlers>
     <DTS:EventHandler
@@ -11439,35 +11439,14 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
               ReadOnlyVariables="System::ErrorDescription"
               ReadWriteVariables="User::CtlDurationMs, User::CtlStartTime, User::CtlErrorMessage">
               <ProjectItem
-                Name="Properties\AssemblyInfo.cs"
-                Encoding="UTF8"><![CDATA[using System.Reflection;
-using System.Runtime.CompilerServices;
-
-//
-// General Information about an assembly is controlled through the following 
-// set of attributes. Change these attribute values to modify the information
-// associated with an assembly.
-//
-[assembly: AssemblyTitle("ST_00db73c960c04c0b95fe1e17813bd535")]
-[assembly: AssemblyDescription("")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ST_00db73c960c04c0b95fe1e17813bd535")]
-[assembly: AssemblyCopyright("Copyright @  2025")]
-[assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]
-//
-// Version information for an assembly consists of the following four values:
-//
-//      Major Version
-//      Minor Version 
-//      Build Number
-//      Revision
-//
-// You can specify all the values or you can default the Revision and Build Numbers 
-// by using the '*' as shown below:
-
-[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
+                Name="Properties\Settings.settings"
+                Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
+<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
+  <Settings />
+</SettingsFile>]]></ProjectItem>
               <ProjectItem
                 Name="Properties\Resources.resx"
                 Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
@@ -11847,14 +11826,35 @@ namespace ST_00db73c960c04c0b95fe1e17813bd535.Properties {
     }
 }]]></ProjectItem>
               <ProjectItem
-                Name="Properties\Settings.settings"
-                Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
-<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
-</SettingsFile>]]></ProjectItem>
+                Name="Properties\AssemblyInfo.cs"
+                Encoding="UTF8"><![CDATA[using System.Reflection;
+using System.Runtime.CompilerServices;
+
+//
+// General Information about an assembly is controlled through the following 
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
+//
+[assembly: AssemblyTitle("ST_00db73c960c04c0b95fe1e17813bd535")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("ST_00db73c960c04c0b95fe1e17813bd535")]
+[assembly: AssemblyCopyright("Copyright @  2025")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+//
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version 
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Revision and Build Numbers 
+// by using the '*' as shown below:
+
+[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
               <ProjectItem
                 Name="Properties\Resources.Designer.cs"
                 Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
@@ -12115,35 +12115,14 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
               ReadOnlyVariables="System::ErrorCode,System::ErrorDescription,System::SourceName,User::CtlDurationMs,User::CtlExecutionID,User::CtlIpExecution,User::CtlRowsInserted,User::CtlRowsRead,User::CtlRowsUpdated,User::CtlStartTime,System::ExecutionInstanceGUID,System::MachineName,System::PackageName,System::UserName,$Package::CtlProcessID,$Package::vMailCC,$Package::vMailFrom,$Package::vMailTO,$Project::vSMTPHost,$Project::vSQLConnStr,$Project::vSMTPPort,$Project::vSQLConnPa,$Project::vLogoMain,$Project::vLogoWhite"
               ReadWriteVariables="User::CtlErrorMessage,User::CtlErrorNotified,User::CtlServerExecutionID,User::EtlDestObject">
               <ProjectItem
-                Name="Properties\AssemblyInfo.cs"
-                Encoding="UTF8"><![CDATA[using System.Reflection;
-using System.Runtime.CompilerServices;
-
-//
-// General Information about an assembly is controlled through the following 
-// set of attributes. Change these attribute values to modify the information
-// associated with an assembly.
-//
-[assembly: AssemblyTitle("ST_9d9cab44adfd425f94091267efa0f08c")]
-[assembly: AssemblyDescription("")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ST_9d9cab44adfd425f94091267efa0f08c")]
-[assembly: AssemblyCopyright("Copyright @  2025")]
-[assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]
-//
-// Version information for an assembly consists of the following four values:
-//
-//      Major Version
-//      Minor Version 
-//      Build Number
-//      Revision
-//
-// You can specify all the values or you can default the Revision and Build Numbers 
-// by using the '*' as shown below:
-
-[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
+                Name="Properties\Settings.settings"
+                Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
+<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
+  <Settings />
+</SettingsFile>]]></ProjectItem>
               <ProjectItem
                 Name="Properties\Resources.resx"
                 Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
@@ -12696,14 +12675,35 @@ namespace ST_9d9cab44adfd425f94091267efa0f08c.Properties {
     }
 }]]></ProjectItem>
               <ProjectItem
-                Name="Properties\Settings.settings"
-                Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
-<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
-</SettingsFile>]]></ProjectItem>
+                Name="Properties\AssemblyInfo.cs"
+                Encoding="UTF8"><![CDATA[using System.Reflection;
+using System.Runtime.CompilerServices;
+
+//
+// General Information about an assembly is controlled through the following 
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
+//
+[assembly: AssemblyTitle("ST_9d9cab44adfd425f94091267efa0f08c")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("ST_9d9cab44adfd425f94091267efa0f08c")]
+[assembly: AssemblyCopyright("Copyright @  2025")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+//
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version 
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Revision and Build Numbers 
+// by using the '*' as shown below:
+
+[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
               <ProjectItem
                 Name="Properties\Resources.Designer.cs"
                 Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
@@ -13208,19 +13208,19 @@ AAAAAAAAAAAAAAAAAA==</BinaryItem>
         <NodeLayout
           Size="161,42"
           Id="Package\CTL01InitContext"
-          TopLeft="47.75,25" />
+          TopLeft="36.75,24" />
         <NodeLayout
           Size="176,42"
           Id="Package\CTL02GetWaterMark"
-          TopLeft="307.75,22" />
+          TopLeft="300.75,22" />
         <NodeLayout
           Size="179,42"
           Id="Package\CTL03OpenExecution"
-          TopLeft="571.75,21" />
+          TopLeft="560.75,20" />
         <NodeLayout
           Size="170,42"
           Id="Package\CTL04OpenBatchId"
-          TopLeft="568,219.666666666667" />
+          TopLeft="582,221.666666666667" />
         <NodeLayout
           Size="187,42"
           Id="Package\CTL05UpdateAuditRow"
@@ -13228,11 +13228,11 @@ AAAAAAAAAAAAAAAAAA==</BinaryItem>
         <NodeLayout
           Size="181,42"
           Id="Package\CTL06InsertAuditRow"
-          TopLeft="556.083333333333,305.666666666667" />
+          TopLeft="564.083333333333,306.666666666667" />
         <NodeLayout
           Size="170,42"
           Id="Package\CTL07CloseBatchId"
-          TopLeft="558.083333333333,393.333333333333" />
+          TopLeft="562.083333333333,393.333333333333" />
         <NodeLayout
           Size="197,42"
           Id="Package\CTL08GetNewWaterMark"
@@ -13250,67 +13250,67 @@ AAAAAAAAAAAAAAAAAA==</BinaryItem>
           Id="Package\CTL11CloseExecutionOK"
           TopLeft="816.5,577.833333333333" />
         <NodeLayout
-          Size="158,42"
-          Id="Package\ETL00aCheckFile"
-          TopLeft="814.333333333333,15.6666666666667" />
+          Size="152,42"
+          Id="Package\ETL01CheckFile"
+          TopLeft="823.333333333333,18.6666666666667" />
         <NodeLayout
           Size="162,42"
-          Id="Package\ETL00ValidateFile"
-          TopLeft="34.5,139.5" />
+          Id="Package\ETL02ValidateFile"
+          TopLeft="28.5,127.5" />
         <NodeLayout
           Size="185,42"
-          Id="Package\ETL01TruncateStaging"
-          TopLeft="290.083333333333,133.333333333333" />
-        <NodeLayout
-          Size="189,42"
-          Id="Package\ETL02bValidateMaestro"
-          TopLeft="22.3333333333333,230" />
+          Id="Package\ETL03TruncateStaging"
+          TopLeft="292.083333333333,129.333333333333" />
         <NodeLayout
           Size="167,42"
-          Id="Package\ETL02LoadDWHSA"
-          TopLeft="571.416666666667,134.166666666667" />
-        <NodeLayout
-          Size="162,42"
-          Id="Package\ETL03ValidateFile"
-          TopLeft="306.416666666667,224" />
-        <NodeLayout
-          Size="172,42"
-          Id="Package\ETL04LoadDWHDW"
-          TopLeft="24.6666666666667,312" />
-        <NodeLayout
-          Size="177,42"
-          Id="Package\ETL05InsertDWHDW"
-          TopLeft="286.416666666667,396" />
+          Id="Package\ETL04LoadDWHSA"
+          TopLeft="582.416666666667,126.166666666667" />
         <NodeLayout
           Size="183,42"
-          Id="Package\ETL05UpdateDWHDW"
+          Id="Package\ETL05ValidateMaestro"
+          TopLeft="20.3333333333333,227" />
+        <NodeLayout
+          Size="162,42"
+          Id="Package\ETL06ValidateFile"
+          TopLeft="304.416666666667,221" />
+        <NodeLayout
+          Size="172,42"
+          Id="Package\ETL07LoadDWHDW"
+          TopLeft="24.6666666666667,312" />
+        <NodeLayout
+          Size="183,42"
+          Id="Package\ETL08UpdateDWHDW"
           TopLeft="17.7500000000001,398.666666666667" />
         <NodeLayout
+          Size="177,42"
+          Id="Package\ETL09InsertDWHDW"
+          TopLeft="286.416666666667,396" />
+        <NodeLayout
           Size="163,42"
-          Id="Package\ETL06RegisterFile"
+          Id="Package\ETL11RegisterFile"
           TopLeft="24,499.666666666667" />
         <NodeLayout
-          Size="156,42"
-          Id="Package\ETL07ReportFile"
-          TopLeft="19.7500000000001,681.666666666667" />
-        <NodeLayout
           Size="173,42"
-          Id="Package\ETL08ReevaluateQc"
+          Id="Package\ETL10ReevaluateQc"
           TopLeft="831.333333333333,494" />
+        <NodeLayout
+          Size="156,42"
+          Id="Package\ETL12ReportFile"
+          TopLeft="19.7500000000001,681.666666666667" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
-          TopLeft="468.416666666667,242.833333333333">
+          TopLeft="466.416666666667,242.333333333333">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="99.5833333333331,0"
+              EndConnector="115.583333333333,0"
               Start="0,0"
-              End="92.0833333333331,0">
+              End="108.083333333333,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="92.0833333333331,0" />
+                    End="108.083333333333,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -13321,30 +13321,30 @@ AAAAAAAAAAAAAAAAAA==</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 1]"
-          TopLeft="653,261.666666666667">
+          TopLeft="667,263.666666666667">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-542.333333333333,50.3333333333334"
+              EndConnector="-556.333333333333,48.333333333333"
               Start="0,0"
-              End="-542.333333333333,42.8333333333334">
+              End="-556.333333333333,40.833333333333">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,21.1666666666667" />
+                    End="0,20.1666666666665" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,21.1666666666667"
-                    Point2="0,25.1666666666667"
-                    Point3="-4,25.1666666666667" />
+                    Point1="0,20.1666666666665"
+                    Point2="0,24.1666666666665"
+                    Point3="-4,24.1666666666665" />
                   <mssgle:LineSegment
-                    End="-538.333333333333,25.1666666666667" />
+                    End="-552.333333333333,24.1666666666665" />
                   <mssgle:CubicBezierSegment
-                    Point1="-538.333333333333,25.1666666666667"
-                    Point2="-542.333333333333,25.1666666666667"
-                    Point3="-542.333333333333,29.1666666666667" />
+                    Point1="-552.333333333333,24.1666666666665"
+                    Point2="-556.333333333333,24.1666666666665"
+                    Point3="-556.333333333333,28.1666666666665" />
                   <mssgle:LineSegment
-                    End="-542.333333333333,42.8333333333334" />
+                    End="-556.333333333333,40.833333333333" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -13355,42 +13355,42 @@ AAAAAAAAAAAAAAAAAA==</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 10]"
-          TopLeft="918.083333333333,57.6666666666667">
+          TopLeft="920.583333333333,60.6666666666667">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,436.333333333333"
+              EndConnector="0,433.333333333333"
               Start="0,0"
-              End="0,428.833333333333">
+              End="0,425.833333333333">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,428.833333333333" />
+                    End="0,425.833333333333" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-8,206.416666666667,16,16"
+              BoundingBox="-8,204.916666666667,16,16"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 12 1]"
-          TopLeft="470.416666666667,327">
+          TopLeft="470.416666666667,327.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="85.6666666666668,0"
+              EndConnector="93.666666666666,0"
               Start="0,0"
-              End="78.1666666666668,0">
+              End="86.166666666666,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="78.1666666666668,0" />
+                    End="86.166666666666,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -13423,30 +13423,30 @@ AAAAAAAAAAAAAAAAAA==</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 15 1]"
-          TopLeft="646.583333333333,347.666666666667">
+          TopLeft="654.583333333333,348.666666666667">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-537.333333333333,50.9999999999999"
+              EndConnector="-545.333333333333,50"
               Start="0,0"
-              End="-537.333333333333,43.4999999999999">
+              End="-545.333333333333,42.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,21.5" />
+                    End="0,21" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,21.5"
-                    Point2="0,25.5"
-                    Point3="-4,25.5" />
+                    Point1="0,21"
+                    Point2="0,25"
+                    Point3="-4,25" />
                   <mssgle:LineSegment
-                    End="-533.333333333333,25.5" />
+                    End="-541.333333333333,25" />
                   <mssgle:CubicBezierSegment
-                    Point1="-533.333333333333,25.5"
-                    Point2="-537.333333333333,25.5"
-                    Point3="-537.333333333333,29.5" />
+                    Point1="-541.333333333333,25"
+                    Point2="-545.333333333333,25"
+                    Point3="-545.333333333333,29" />
                   <mssgle:LineSegment
-                    End="-537.333333333333,43.4999999999999" />
+                    End="-545.333333333333,42.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -13461,14 +13461,14 @@ AAAAAAAAAAAAAAAAAA==</BinaryItem>
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="94.6666666666666,0"
+              EndConnector="98.666666666666,0"
               Start="0,0"
-              End="87.1666666666666,0">
+              End="91.166666666666,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="87.1666666666666,0" />
+                    End="91.166666666666,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -13483,50 +13483,50 @@ AAAAAAAAAAAAAAAAAA==</BinaryItem>
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-815.25,61.8333333333333"
+              EndConnector="-815.25,61.8333333333339"
               Start="0,0"
-              End="-815.25,54.3333333333333">
+              End="-815.25,54.3333333333339">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,26.9166666666666" />
+                    End="0,26.916666666667" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,26.9166666666666"
-                    Point2="0,30.9166666666666"
-                    Point3="-4,30.9166666666666" />
+                    Point1="0,26.916666666667"
+                    Point2="0,30.916666666667"
+                    Point3="-4,30.916666666667" />
                   <mssgle:LineSegment
-                    End="-811.25,30.9166666666666" />
+                    End="-811.25,30.916666666667" />
                   <mssgle:CubicBezierSegment
-                    Point1="-811.25,30.9166666666666"
-                    Point2="-815.25,30.9166666666666"
-                    Point3="-815.25,34.9166666666666" />
+                    Point1="-811.25,30.916666666667"
+                    Point2="-815.25,30.916666666667"
+                    Point3="-815.25,34.916666666667" />
                   <mssgle:LineSegment
-                    End="-815.25,54.3333333333333" />
+                    End="-815.25,54.3333333333339" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-415.625,35.9166666666666,16,16"
+              BoundingBox="-415.625,35.916666666667,16,16"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 18]"
-          TopLeft="483.75,42.5">
+          TopLeft="476.75,42">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="88,0"
+              EndConnector="84,0"
               Start="0,0"
-              End="80.5,0">
+              End="76.5,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="80.5,0" />
+                    End="76.5,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -13537,18 +13537,18 @@ AAAAAAAAAAAAAAAAAA==</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 2]"
-          TopLeft="750.75,39.3333333333333">
+          TopLeft="739.75,40.3333333333333">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="63.5833333333333,0"
+              EndConnector="83.583333333333,0"
               Start="0,0"
-              End="56.0833333333333,0">
+              End="76.083333333333,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="56.0833333333333,0" />
+                    End="76.083333333333,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -13581,66 +13581,66 @@ AAAAAAAAAAAAAAAAAA==</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 3]"
-          TopLeft="868.333333333333,57.6666666666667">
+          TopLeft="875.333333333333,60.6666666666667">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-752.833333333333,81.8333333333333"
+              EndConnector="-765.833333333333,66.8333333333333"
               Start="0,0"
-              End="-752.833333333333,74.3333333333333">
+              End="-765.833333333333,59.3333333333333">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,29.2255639097744" />
+                    End="0,23.1510416666667" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,29.2255639097744"
-                    Point2="0,33.2255639097744"
-                    Point3="-4,33.2255639097744" />
+                    Point1="0,23.1510416666667"
+                    Point2="0,27.1510416666667"
+                    Point3="-4,27.1510416666667" />
                   <mssgle:LineSegment
-                    End="-748.833333333333,33.2255639097744" />
+                    End="-761.833333333333,27.1510416666667" />
                   <mssgle:CubicBezierSegment
-                    Point1="-748.833333333333,33.2255639097744"
-                    Point2="-752.833333333333,33.2255639097744"
-                    Point3="-752.833333333333,37.2255639097744" />
+                    Point1="-761.833333333333,27.1510416666667"
+                    Point2="-765.833333333333,27.1510416666667"
+                    Point3="-765.833333333333,31.1510416666667" />
                   <mssgle:LineSegment
-                    End="-752.833333333333,74.3333333333333" />
+                    End="-765.833333333333,59.3333333333333" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-384.416666666667,38.2255639097744,16,16"
+              BoundingBox="-390.916666666667,32.1510416666667,16,16"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 4]"
-          TopLeft="654.916666666667,176.166666666667">
+          TopLeft="665.916666666667,168.166666666667">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-538.083333333333,53.8333333333333"
+              EndConnector="-554.083333333334,58.833333333333"
               Start="0,0"
-              End="-538.083333333333,46.3333333333333">
+              End="-554.083333333334,51.333333333333">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,22.9166666666667" />
+                    End="0,25.4166666666665" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,22.9166666666667"
-                    Point2="0,26.9166666666667"
-                    Point3="-4,26.9166666666667" />
+                    Point1="0,25.4166666666665"
+                    Point2="0,29.4166666666665"
+                    Point3="-4,29.4166666666665" />
                   <mssgle:LineSegment
-                    End="-534.083333333333,26.9166666666667" />
+                    End="-550.083333333334,29.4166666666665" />
                   <mssgle:CubicBezierSegment
-                    Point1="-534.083333333333,26.9166666666667"
-                    Point2="-538.083333333333,26.9166666666667"
-                    Point3="-538.083333333333,30.9166666666667" />
+                    Point1="-550.083333333334,29.4166666666665"
+                    Point2="-554.083333333334,29.4166666666665"
+                    Point3="-554.083333333334,33.4166666666665" />
                   <mssgle:LineSegment
-                    End="-538.083333333333,46.3333333333333" />
+                    End="-554.083333333334,51.333333333333" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -13651,18 +13651,18 @@ AAAAAAAAAAAAAAAAAA==</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 5]"
-          TopLeft="211.333333333333,248">
+          TopLeft="203.333333333333,245">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="95.0833333333335,0"
+              EndConnector="101.083333333334,0"
               Start="0,0"
-              End="87.5833333333335,0">
+              End="93.5833333333337,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="87.5833333333335,0" />
+                    End="93.5833333333337,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -13699,14 +13699,14 @@ AAAAAAAAAAAAAAAAAA==</BinaryItem>
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="86.75,0"
+              EndConnector="86.7500000000003,0"
               Start="0,0"
-              End="79.25,0">
+              End="79.2500000000003,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="79.25,0" />
+                    End="79.2500000000003,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -13717,18 +13717,18 @@ AAAAAAAAAAAAAAAAAA==</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 6 1]"
-          TopLeft="208.75,44.5">
+          TopLeft="197.75,44">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="99,0"
+              EndConnector="103,0"
               Start="0,0"
-              End="91.5,0">
+              End="95.5,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="91.5,0" />
+                    End="95.5,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -13739,30 +13739,30 @@ AAAAAAAAAAAAAAAAAA==</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 7]"
-          TopLeft="643.083333333333,435.333333333333">
+          TopLeft="647.083333333333,435.333333333333">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-537.583333333333,64.3333333333334"
+              EndConnector="-541.583333333333,64.333333333334"
               Start="0,0"
-              End="-537.583333333333,56.8333333333334">
+              End="-541.583333333333,56.833333333334">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,28.1666666666667" />
+                    End="0,28.166666666667" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,28.1666666666667"
-                    Point2="0,32.1666666666667"
-                    Point3="-4,32.1666666666667" />
+                    Point1="0,28.166666666667"
+                    Point2="0,32.166666666667"
+                    Point3="-4,32.166666666667" />
                   <mssgle:LineSegment
-                    End="-533.583333333333,32.1666666666667" />
+                    End="-537.583333333333,32.166666666667" />
                   <mssgle:CubicBezierSegment
-                    Point1="-533.583333333333,32.1666666666667"
-                    Point2="-537.583333333333,32.1666666666667"
-                    Point3="-537.583333333333,36.1666666666667" />
+                    Point1="-537.583333333333,32.166666666667"
+                    Point2="-541.583333333333,32.166666666667"
+                    Point3="-541.583333333333,36.166666666667" />
                   <mssgle:LineSegment
-                    End="-537.583333333333,56.8333333333334" />
+                    End="-541.583333333333,56.833333333334" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -13773,18 +13773,18 @@ AAAAAAAAAAAAAAAAAA==</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 7 1]"
-          TopLeft="475.083333333333,154.75">
+          TopLeft="477.083333333333,148.75">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="96.3333333333334,0"
+              EndConnector="105.333333333334,0"
               Start="0,0"
-              End="88.8333333333334,0">
+              End="97.833333333334,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="88.8333333333334,0" />
+                    End="97.833333333334,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -13817,18 +13817,18 @@ AAAAAAAAAAAAAAAAAA==</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 8 1]"
-          TopLeft="196.5,157.416666666667">
+          TopLeft="190.5,149.416666666667">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="93.5833333333334,0"
+              EndConnector="101.583333333333,0"
               Start="0,0"
-              End="86.0833333333334,0">
+              End="94.083333333333,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="86.0833333333334,0" />
+                    End="94.083333333333,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -13865,14 +13865,14 @@ AAAAAAAAAAAAAAAAAA==</BinaryItem>
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="85.6666666666666,0"
+              EndConnector="85.6666666666669,0"
               Start="0,0"
-              End="78.1666666666666,0">
+              End="78.1666666666669,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="78.1666666666666,0" />
+                    End="78.1666666666669,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -13953,24 +13953,24 @@ AAAAAAAAAAAAAAAAAA==</BinaryItem>
     </LayoutInfo>
   </DtsEventHandler>
   <TaskHost
-    design-time-name="Package\ETL02LoadDWHSA">
+    design-time-name="Package\ETL04LoadDWHSA">
     <LayoutInfo>
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="159,42"
-          Id="Package\ETL02LoadDWHSA\ModeloGrupoxlsx"
+          Id="Package\ETL04LoadDWHSA\ModeloGrupoxlsx"
           TopLeft="270,16" />
         <NodeLayout
           Size="123,42"
-          Id="Package\ETL02LoadDWHSA\RowRead"
+          Id="Package\ETL04LoadDWHSA\RowRead"
           TopLeft="289,106" />
         <NodeLayout
           Size="179,42"
-          Id="Package\ETL02LoadDWHSA\V4WStgModeloGrupo"
+          Id="Package\ETL04LoadDWHSA\V4WStgModeloGrupo"
           TopLeft="264,199" />
         <EdgeLayout
-          Id="Package\ETL02LoadDWHSA.Paths[Output 0]"
+          Id="Package\ETL04LoadDWHSA.Paths[Output 0]"
           TopLeft="350,58">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -13992,7 +13992,7 @@ AAAAAAAAAAAAAAAAAA==</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\ETL02LoadDWHSA.Paths[Row Count Output 1]"
+          Id="Package\ETL04LoadDWHSA.Paths[Row Count Output 1]"
           TopLeft="352,148">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -14017,7 +14017,7 @@ AAAAAAAAAAAAAAAAAA==</BinaryItem>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\ETL02LoadDWHSA\V4WStgModeloGrupo">
+    design-time-name="Package\ETL04LoadDWHSA\V4WStgModeloGrupo">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
