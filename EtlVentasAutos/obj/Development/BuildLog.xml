@@ -2,7 +2,7 @@
 <BuildLog xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <ProjectInfo>
     <Name>EtlVentasAutos</Name>
-    <LastWriteTime>2026-11-11T15:48:42.7442487Z</LastWriteTime>
+    <LastWriteTime>2026-11-24T16:52:27.091665Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
@@ -43,7 +43,7 @@
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>StockHMDC.dtsx</Name>
-      <LastWriteTime>2026-11-19T14:27:01.6822522Z</LastWriteTime>
+      <LastWriteTime>2026-11-24T16:35:26.8121185Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
@@ -59,6 +59,11 @@
     <ProjectBuildItemInfo>
       <Name>LeadAutos.dtsx</Name>
       <LastWriteTime>2026-11-19T14:27:01.7203166Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>DealerAutos.dtsx</Name>
+      <LastWriteTime>2026-11-24T16:52:27.0134104Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>

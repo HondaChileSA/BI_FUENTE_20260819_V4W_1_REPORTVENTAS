@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">SACLCEVT001001</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAd3bFi2ir80GRC0yNTIZRJwAAAAACAAAAAAAQZgAAAAEAACAAAACOVSzW5wtrIyiRim6APEIaGLZ9zykPm8eOKZt+fZ+WagAAAAAOgAAAAAIAACAAAAC8vbFeGNheQqHFFPEdhvHHu9k5gaa5DDQ4uiKFDA3ez5AAAAAGWY0GmDDmCTH3V8qUfR5ZobCe9Kwm1As0m4RZmWZ8AClhWLFxK4hfR9MhsD3PQtPWW0jtCuW9UcStI0TS9S+TIMt0zhJPZfx4EhD9FJ/JQvMRYfprFmysgx0hate31dy9YkhwLmc4EBYRJgjr49hGEzbH6suL9Olo3Gl89kRxzmM5Uu4kkoCCB8ZTWKckRzlAAAAAeEKqKK4+T9ADED44xWqDdBM2nCP1puKVSYjgn4+mpy9lTKNGHun2d8HaSEV4RUAWz9EhTDF/tNqnWLBMiSAulQ==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAd3bFi2ir80GRC0yNTIZRJwAAAAACAAAAAAAQZgAAAAEAACAAAACKdsN2PvqINpVlt1NUFrxwqErezctaoNS70XK+CxHF0wAAAAAOgAAAAAIAACAAAABWt2JnVsho+/ORmsk2Cu6vdMKouoOYgukcLfA+KB5ndpAAAACu6IHLHtvMfJU5xE6ho+p0CN8CMHacKcl8DDrny7Yd4V86LdB0yV2SNsxnniFWBcDUwagv3fq+f6rjyevbwwy15bwTN/BxPrhY0XNu57MNjYRcsumgtydwK4xsnBDpGCNfy6kwTWoBKzZCdtnuAhw4AAjcN2uGY5IdRZDJV25pNGJGkfH6i9e1maToUlmUt31AAAAAxNGP+68wDQLKoPM28aYG4U57TnzO+HmmIZV3mTfIz9LGuDwiGoBauuSxefFtQL9EOmeyS7iRnwmgWR7oWnY3jw==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -41,6 +41,7 @@
           <SSIS:Package SSIS:Name="QuickReport.dtsx" SSIS:EntryPoint="1" />
           <SSIS:Package SSIS:Name="MetaLeadAutos.dtsx" SSIS:EntryPoint="1" />
           <SSIS:Package SSIS:Name="LeadAutos.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="DealerAutos.dtsx" SSIS:EntryPoint="1" />
         </SSIS:Packages>
         <SSIS:ConnectionManagers>
           <SSIS:ConnectionManager SSIS:Name="10.144.5.223.HMDCBIDW.conmgr" />
@@ -563,8 +564,6 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">
-                    </SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -666,8 +665,6 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">
-                    </SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -769,8 +766,6 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">
-                    </SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -1074,8 +1069,6 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">
-                    </SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -1177,8 +1170,6 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">
-                    </SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -1218,10 +1209,10 @@
                 <SSIS:Property SSIS:Name="Name">StockHMDC</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">739</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">740</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{9550FE85-83E9-4F8C-9966-05D788F6822D}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{B0CAB8D6-C0AD-4B2B-B6DE-49344791DE00}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -1603,6 +1594,109 @@
                 <SSIS:Parameter SSIS:Name="vMailTO">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">{B8BBFFD9-815E-4B20-9D0D-F90228FF10E6}</SSIS:Property>
+                    <SSIS:Property SSIS:Name="CreationName">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="Description">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">franco_veliz@honda.cl</SSIS:Property>
+                    <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
+                  </SSIS:Properties>
+                </SSIS:Parameter>
+              </SSIS:Parameters>
+            </SSIS:PackageMetaData>
+            <SSIS:PackageMetaData SSIS:Name="DealerAutos.dtsx">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">{0BF50734-211D-4E61-96DD-612E0603F216}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">DealerAutos</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">718</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionComments">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{4C80EB83-D8CB-4EDB-B379-9EAD06988DC8}</SSIS:Property>
+                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+              </SSIS:Properties>
+              <SSIS:Parameters>
+                <SSIS:Parameter SSIS:Name="CtlProcessID">
+                  <SSIS:Properties>
+                    <SSIS:Property SSIS:Name="ID">{CA790A39-64F3-4144-99BD-BBE25156BAED}</SSIS:Property>
+                    <SSIS:Property SSIS:Name="CreationName">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="Description">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">47</SSIS:Property>
+                    <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
+                  </SSIS:Properties>
+                </SSIS:Parameter>
+                <SSIS:Parameter SSIS:Name="EtlFilePath">
+                  <SSIS:Properties>
+                    <SSIS:Property SSIS:Name="ID">{ACE579BF-2592-4178-A124-1F861D418236}</SSIS:Property>
+                    <SSIS:Property SSIS:Name="CreationName">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="Description">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">\\10.144.5.248\Autos\Area Ventas Autos\01 Avance ventas Quick\DealerAlias\MaestroDealerAutos.xlsx</SSIS:Property>
+                    <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
+                  </SSIS:Properties>
+                </SSIS:Parameter>
+                <SSIS:Parameter SSIS:Name="EtlFileSheet">
+                  <SSIS:Properties>
+                    <SSIS:Property SSIS:Name="ID">{C0028496-3961-429C-BC57-0BE8810A8CCA}</SSIS:Property>
+                    <SSIS:Property SSIS:Name="CreationName">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="Description">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Dealer;Sala;CuentaSalesforce;Alias</SSIS:Property>
+                    <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
+                  </SSIS:Properties>
+                </SSIS:Parameter>
+                <SSIS:Parameter SSIS:Name="vMailCC">
+                  <SSIS:Properties>
+                    <SSIS:Property SSIS:Name="ID">{278024C5-6B4C-4656-929B-801176948A66}</SSIS:Property>
+                    <SSIS:Property SSIS:Name="CreationName">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="Description">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
+                  </SSIS:Properties>
+                </SSIS:Parameter>
+                <SSIS:Parameter SSIS:Name="vMailFrom">
+                  <SSIS:Properties>
+                    <SSIS:Property SSIS:Name="ID">{5A9798E2-E8F2-4546-A623-ECD7EB6DC4D1}</SSIS:Property>
+                    <SSIS:Property SSIS:Name="CreationName">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="Description">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">noreplay@crm.honda.cl</SSIS:Property>
+                    <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
+                  </SSIS:Properties>
+                </SSIS:Parameter>
+                <SSIS:Parameter SSIS:Name="vMailTO">
+                  <SSIS:Properties>
+                    <SSIS:Property SSIS:Name="ID">{A1A4CF78-68B0-4A7A-8532-354E12877F67}</SSIS:Property>
                     <SSIS:Property SSIS:Name="CreationName">
                     </SSIS:Property>
                     <SSIS:Property SSIS:Name="Description">
