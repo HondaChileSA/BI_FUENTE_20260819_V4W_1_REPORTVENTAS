@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\sc000251\\Fuentes_GITHUB\\BI_FUENTE_20260819_V4W_1_REPORTVENTAS\\BI_FUENTE_20260819_V4W_1_REPORTVENTAS\\EtlVentasAutos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D24ECE52-B47B-4DA8-A56D-D7A84C44B527}|EtlVentasAutos.dtproj|C:\\Users\\sc000251\\Fuentes_GITHUB\\BI_FUENTE_20260819_V4W_1_REPORTVENTAS\\BI_FUENTE_20260819_V4W_1_REPORTVENTAS\\EtlVentasAutos\\DealerAutos.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design",
-      "RelativeMoniker": "D:0:0:{D24ECE52-B47B-4DA8-A56D-D7A84C44B527}|EtlVentasAutos.dtproj|solutionrelative:DealerAutos.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design"
+      "AbsoluteMoniker": "D:0:0:{D24ECE52-B47B-4DA8-A56D-D7A84C44B527}|EtlVentasAutos.dtproj|C:\\Users\\sc000251\\Fuentes_GITHUB\\BI_FUENTE_20260819_V4W_1_REPORTVENTAS\\BI_FUENTE_20260819_V4W_1_REPORTVENTAS\\EtlVentasAutos\\VentaRetail.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design",
+      "RelativeMoniker": "D:0:0:{D24ECE52-B47B-4DA8-A56D-D7A84C44B527}|EtlVentasAutos.dtproj|solutionrelative:VentaRetail.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D24ECE52-B47B-4DA8-A56D-D7A84C44B527}|EtlVentasAutos.dtproj|C:\\Users\\sc000251\\Fuentes_GITHUB\\BI_FUENTE_20260819_V4W_1_REPORTVENTAS\\BI_FUENTE_20260819_V4W_1_REPORTVENTAS\\EtlVentasAutos\\QuickReport.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design",
@@ -39,8 +39,8 @@
       "RelativeMoniker": "D:0:0:{D24ECE52-B47B-4DA8-A56D-D7A84C44B527}|EtlVentasAutos.dtproj|solutionrelative:FacturaWholesale.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D24ECE52-B47B-4DA8-A56D-D7A84C44B527}|EtlVentasAutos.dtproj|C:\\Users\\sc000251\\Fuentes_GITHUB\\BI_FUENTE_20260819_V4W_1_REPORTVENTAS\\BI_FUENTE_20260819_V4W_1_REPORTVENTAS\\EtlVentasAutos\\VentaRetail.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design",
-      "RelativeMoniker": "D:0:0:{D24ECE52-B47B-4DA8-A56D-D7A84C44B527}|EtlVentasAutos.dtproj|solutionrelative:VentaRetail.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design"
+      "AbsoluteMoniker": "D:0:0:{D24ECE52-B47B-4DA8-A56D-D7A84C44B527}|EtlVentasAutos.dtproj|C:\\Users\\sc000251\\Fuentes_GITHUB\\BI_FUENTE_20260819_V4W_1_REPORTVENTAS\\BI_FUENTE_20260819_V4W_1_REPORTVENTAS\\EtlVentasAutos\\DealerAutos.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design",
+      "RelativeMoniker": "D:0:0:{D24ECE52-B47B-4DA8-A56D-D7A84C44B527}|EtlVentasAutos.dtproj|solutionrelative:DealerAutos.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D24ECE52-B47B-4DA8-A56D-D7A84C44B527}|EtlVentasAutos.dtproj|C:\\Users\\sc000251\\Fuentes_GITHUB\\BI_FUENTE_20260819_V4W_1_REPORTVENTAS\\BI_FUENTE_20260819_V4W_1_REPORTVENTAS\\EtlVentasAutos\\MetaLeadAutos.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design",
@@ -127,13 +127,13 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DealerAutos.dtsx [Design]",
-              "DocumentMoniker": "C:\\Users\\sc000251\\Fuentes_GITHUB\\BI_FUENTE_20260819_V4W_1_REPORTVENTAS\\BI_FUENTE_20260819_V4W_1_REPORTVENTAS\\EtlVentasAutos\\DealerAutos.dtsx",
-              "RelativeDocumentMoniker": "DealerAutos.dtsx",
-              "ToolTip": "C:\\Users\\sc000251\\Fuentes_GITHUB\\BI_FUENTE_20260819_V4W_1_REPORTVENTAS\\BI_FUENTE_20260819_V4W_1_REPORTVENTAS\\EtlVentasAutos\\DealerAutos.dtsx [Design]",
-              "RelativeToolTip": "DealerAutos.dtsx [Design]",
+              "Title": "VentaRetail.dtsx [Design]",
+              "DocumentMoniker": "C:\\Users\\sc000251\\Fuentes_GITHUB\\BI_FUENTE_20260819_V4W_1_REPORTVENTAS\\BI_FUENTE_20260819_V4W_1_REPORTVENTAS\\EtlVentasAutos\\VentaRetail.dtsx",
+              "RelativeDocumentMoniker": "VentaRetail.dtsx",
+              "ToolTip": "C:\\Users\\sc000251\\Fuentes_GITHUB\\BI_FUENTE_20260819_V4W_1_REPORTVENTAS\\BI_FUENTE_20260819_V4W_1_REPORTVENTAS\\EtlVentasAutos\\VentaRetail.dtsx [Design]",
+              "RelativeToolTip": "VentaRetail.dtsx [Design]",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFkSURBVDhPjVO/S8NAGH2RtvSPaPeSwUVchS6CexYRJCBYUJC6SEFBBIXiIigKEYRSCC4unQTXDsVipkpbUJHSRTQ2/oimNCTnkOTMXdrqg4Pv\u002B\u002B69ly933wkAoFaqBGPQezdx9/CYO9xZOWU2CPF0aqVKXMcZuY7Kl2R6bomsbZ8sMwYAJvjCKOxtraNW1xTe5N8Gm7sHAIBaXVPC9Vg4KZSaNC7KIs0/jQQW5yUAQPn8gnIwrAM7nYGdzjB5cnIGqwuzDC9AxCDebSPebUdyc8DQWPx1Cx\u002BWQzrG722EtZEOeJgDwOgDukUQSyT5bdagUGrSBU6sW4A7ZNwiHQSHGBa/fANvFuDafZ4eNQgOLSx\u002B/gK06xa6dgpZKY\u002BNswbBlELAz0FRFumXjT7Bq\u002BXFpu31XpRFdJ5M3N73sO9rqMGxehWEI5Ci4puWTqsx\u002BK\u002BNnzAeWSlPxWEDgWGNg//PDLSc8AOMxO8cPcnGpQAAAABJRU5ErkJggg==",
-              "WhenOpened": "2026-11-24T15:51:27.852Z",
+              "WhenOpened": "2026-11-09T06:36:11.623Z",
               "EditorCaption": " [Design]"
             },
             {
@@ -186,6 +186,18 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DealerAutos.dtsx [Design]",
+              "DocumentMoniker": "C:\\Users\\sc000251\\Fuentes_GITHUB\\BI_FUENTE_20260819_V4W_1_REPORTVENTAS\\BI_FUENTE_20260819_V4W_1_REPORTVENTAS\\EtlVentasAutos\\DealerAutos.dtsx",
+              "RelativeDocumentMoniker": "DealerAutos.dtsx",
+              "ToolTip": "C:\\Users\\sc000251\\Fuentes_GITHUB\\BI_FUENTE_20260819_V4W_1_REPORTVENTAS\\BI_FUENTE_20260819_V4W_1_REPORTVENTAS\\EtlVentasAutos\\DealerAutos.dtsx [Design]",
+              "RelativeToolTip": "DealerAutos.dtsx [Design]",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFkSURBVDhPjVO/S8NAGH2RtvSPaPeSwUVchS6CexYRJCBYUJC6SEFBBIXiIigKEYRSCC4unQTXDsVipkpbUJHSRTQ2/oimNCTnkOTMXdrqg4Pv\u002B\u002B69ly933wkAoFaqBGPQezdx9/CYO9xZOWU2CPF0aqVKXMcZuY7Kl2R6bomsbZ8sMwYAJvjCKOxtraNW1xTe5N8Gm7sHAIBaXVPC9Vg4KZSaNC7KIs0/jQQW5yUAQPn8gnIwrAM7nYGdzjB5cnIGqwuzDC9AxCDebSPebUdyc8DQWPx1Cx\u002BWQzrG722EtZEOeJgDwOgDukUQSyT5bdagUGrSBU6sW4A7ZNwiHQSHGBa/fANvFuDafZ4eNQgOLSx\u002B/gK06xa6dgpZKY\u002BNswbBlELAz0FRFumXjT7Bq\u002BXFpu31XpRFdJ5M3N73sO9rqMGxehWEI5Ci4puWTqsx\u002BK\u002BNnzAeWSlPxWEDgWGNg//PDLSc8AOMxO8cPcnGpQAAAABJRU5ErkJggg==",
+              "WhenOpened": "2026-11-24T15:51:27.852Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 10,
               "Title": "MetaLeadAutos.dtsx [Design]",
               "DocumentMoniker": "C:\\Users\\sc000251\\Fuentes_GITHUB\\BI_FUENTE_20260819_V4W_1_REPORTVENTAS\\BI_FUENTE_20260819_V4W_1_REPORTVENTAS\\EtlVentasAutos\\MetaLeadAutos.dtsx",
@@ -206,18 +218,6 @@
               "RelativeToolTip": "StockHMDC.dtsx [Design]",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFkSURBVDhPjVO/S8NAGH2RtvSPaPeSwUVchS6CexYRJCBYUJC6SEFBBIXiIigKEYRSCC4unQTXDsVipkpbUJHSRTQ2/oimNCTnkOTMXdrqg4Pv\u002B\u002B69ly933wkAoFaqBGPQezdx9/CYO9xZOWU2CPF0aqVKXMcZuY7Kl2R6bomsbZ8sMwYAJvjCKOxtraNW1xTe5N8Gm7sHAIBaXVPC9Vg4KZSaNC7KIs0/jQQW5yUAQPn8gnIwrAM7nYGdzjB5cnIGqwuzDC9AxCDebSPebUdyc8DQWPx1Cx\u002BWQzrG722EtZEOeJgDwOgDukUQSyT5bdagUGrSBU6sW4A7ZNwiHQSHGBa/fANvFuDafZ4eNQgOLSx\u002B/gK06xa6dgpZKY\u002BNswbBlELAz0FRFumXjT7Bq\u002BXFpu31XpRFdJ5M3N73sO9rqMGxehWEI5Ci4puWTqsx\u002BK\u002BNnzAeWSlPxWEDgWGNg//PDLSc8AOMxO8cPcnGpQAAAABJRU5ErkJggg==",
               "WhenOpened": "2026-11-09T08:17:55.416Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "VentaRetail.dtsx [Design]",
-              "DocumentMoniker": "C:\\Users\\sc000251\\Fuentes_GITHUB\\BI_FUENTE_20260819_V4W_1_REPORTVENTAS\\BI_FUENTE_20260819_V4W_1_REPORTVENTAS\\EtlVentasAutos\\VentaRetail.dtsx",
-              "RelativeDocumentMoniker": "VentaRetail.dtsx",
-              "ToolTip": "C:\\Users\\sc000251\\Fuentes_GITHUB\\BI_FUENTE_20260819_V4W_1_REPORTVENTAS\\BI_FUENTE_20260819_V4W_1_REPORTVENTAS\\EtlVentasAutos\\VentaRetail.dtsx [Design]",
-              "RelativeToolTip": "VentaRetail.dtsx [Design]",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFkSURBVDhPjVO/S8NAGH2RtvSPaPeSwUVchS6CexYRJCBYUJC6SEFBBIXiIigKEYRSCC4unQTXDsVipkpbUJHSRTQ2/oimNCTnkOTMXdrqg4Pv\u002B\u002B69ly933wkAoFaqBGPQezdx9/CYO9xZOWU2CPF0aqVKXMcZuY7Kl2R6bomsbZ8sMwYAJvjCKOxtraNW1xTe5N8Gm7sHAIBaXVPC9Vg4KZSaNC7KIs0/jQQW5yUAQPn8gnIwrAM7nYGdzjB5cnIGqwuzDC9AxCDebSPebUdyc8DQWPx1Cx\u002BWQzrG722EtZEOeJgDwOgDukUQSyT5bdagUGrSBU6sW4A7ZNwiHQSHGBa/fANvFuDafZ4eNQgOLSx\u002B/gK06xa6dgpZKY\u002BNswbBlELAz0FRFumXjT7Bq\u002BXFpu31XpRFdJ5M3N73sO9rqMGxehWEI5Ci4puWTqsx\u002BK\u002BNnzAeWSlPxWEDgWGNg//PDLSc8AOMxO8cPcnGpQAAAABJRU5ErkJggg==",
-              "WhenOpened": "2026-11-09T06:36:11.623Z",
               "EditorCaption": " [Design]"
             },
             {

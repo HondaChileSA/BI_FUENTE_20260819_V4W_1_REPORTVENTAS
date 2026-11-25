@@ -11,8 +11,8 @@
   DTS:LocaleID="13322"
   DTS:ObjectName="MetaLeadAutos"
   DTS:PackageType="5"
-  DTS:VersionBuild="735"
-  DTS:VersionGUID="{A2402C30-552D-4D15-B956-628583DD07C1}">
+  DTS:VersionBuild="738"
+  DTS:VersionGUID="{14D9B83A-18FD-416A-8F11-00A725BA3ECD}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:PackageParameters>
@@ -355,35 +355,14 @@
           ReadOnlyVariables="System::MachineName,System::PackageName,System::ServerExecutionID,$Package::EtlFilePath,$Package::EtlFileSheet"
           ReadWriteVariables="User::CtlBatchId,User::CtlComputerName,User::CtlDurationMs,User::CtlIpExecution,User::CtlPackageName,User::CtlRowsFailed,User::CtlRowsInserted,User::CtlRowsRead,User::CtlRowsUpdated,User::CtlServerExecutionID,User::CtlStartTime,User::CtlUserName,User::EtlFileModifiedDate,User::EtlOperatorUser">
           <ProjectItem
-            Name="Properties\AssemblyInfo.cs"
-            Encoding="UTF8"><![CDATA[using System.Reflection;
-using System.Runtime.CompilerServices;
-
-//
-// General Information about an assembly is controlled through the following 
-// set of attributes. Change these attribute values to modify the information
-// associated with an assembly.
-//
-[assembly: AssemblyTitle("ST_11bef39853c2463fb43443456932be2f")]
-[assembly: AssemblyDescription("")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ST_11bef39853c2463fb43443456932be2f")]
-[assembly: AssemblyCopyright("Copyright @  2025")]
-[assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]
-//
-// Version information for an assembly consists of the following four values:
-//
-//      Major Version
-//      Minor Version 
-//      Build Number
-//      Revision
-//
-// You can specify all the values or you can default the Revision and Build Numbers 
-// by using the '*' as shown below:
-
-[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
+            Name="Properties\Settings.settings"
+            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
+<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
+  <Settings />
+</SettingsFile>]]></ProjectItem>
           <ProjectItem
             Name="Properties\Resources.resx"
             Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
@@ -732,14 +711,35 @@ namespace ST_11bef39853c2463fb43443456932be2f.Properties {
             Name="ST_586e858fc3f248389df4e27368b36bff.csproj"
             Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?><Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003"><PropertyGroup><ProjectTypeGuids>{30D016F9-3734-4E33-A861-5E7D899E18F3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids><Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration><Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform><ProductVersion>8.0.30703</ProductVersion><SchemaVersion>2.0</SchemaVersion><ProjectGuid>{49E47119-7D5C-4D4F-9973-09EE56487FE6}</ProjectGuid><OutputType>Library</OutputType><AppDesignerFolder>Properties</AppDesignerFolder><RootNamespace>ST_11bef39853c2463fb43443456932be2f</RootNamespace><AssemblyName>ST_586e858fc3f248389df4e27368b36bff</AssemblyName><TargetFrameworkVersion>v4.7</TargetFrameworkVersion><FileAlignment>512</FileAlignment><ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>true</ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch><TargetFrameworkProfile></TargetFrameworkProfile></PropertyGroup><PropertyGroup Condition=" '$(Configuration)' == 'Debug' "><DebugSymbols>true</DebugSymbols><DebugType>full</DebugType><Optimize>false</Optimize><OutputPath>.\bin\Debug\</OutputPath><EnableUnmanagedDebugging>false</EnableUnmanagedDebugging><DefineConstants>DEBUG;TRACE</DefineConstants><ErrorReport>prompt</ErrorReport><WarningLevel>4</WarningLevel></PropertyGroup><PropertyGroup Condition=" '$(Configuration)' == 'Release' "><DebugSymbols>false</DebugSymbols><Optimize>true</Optimize><OutputPath>.\bin\Release\</OutputPath><EnableUnmanagedDebugging>false</EnableUnmanagedDebugging><DefineConstants>TRACE</DefineConstants><ErrorReport>prompt</ErrorReport><WarningLevel>4</WarningLevel></PropertyGroup><ItemGroup><Reference Include="System" /><Reference Include="System.Data" /><Reference Include="System.IO.Compression" /><Reference Include="System.IO.Compression.FileSystem" /><Reference Include="System.Windows.Forms" /><Reference Include="System.Xml" /><Reference Include="Microsoft.SqlServer.ManagedDTS, Version=15.0.0.0, Culture=Neutral, PublicKeyToken=89845dcd8080cc91" /><Reference Include="Microsoft.SqlServer.ScriptTask, Version=15.0.0.0, Culture=Neutral, PublicKeyToken=89845dcd8080cc91" /></ItemGroup><ItemGroup><AppDesigner Include="Properties\" /><Compile Include="Properties\AssemblyInfo.cs"><SubType>Code</SubType></Compile><EmbeddedResource Include="Properties\Resources.resx"><Generator>ResXFileCodeGenerator</Generator><LastGenOutput>Resources.Designer.cs</LastGenOutput></EmbeddedResource><Compile Include="Properties\Resources.Designer.cs"><AutoGen>True</AutoGen><DependentUpon>Resources.resx</DependentUpon></Compile><None Include="Properties\Settings.settings"><Generator>SettingsSingleFileGenerator</Generator><LastGenOutput>Settings.Designer.cs</LastGenOutput></None><Compile Include="Properties\Settings.Designer.cs"><AutoGen>True</AutoGen><DependentUpon>Settings.settings</DependentUpon></Compile><Compile Include="ScriptMain.cs"><SubType>Code</SubType></Compile></ItemGroup><!-- Include the build rules for a C# project.--><Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" /><ProjectExtensions><VisualStudio><FlavorProperties GUID="{30D016F9-3734-4E33-A861-5E7D899E18F3}"><ProjectProperties HostName="VSTAHostName" HostPackage="{B3A685AA-7EAF-4BC6-9940-57959FA5AC07}" ApplicationType="usd" Language="cs" TemplatesPath="" /><Host Name="ScriptTask" /><ProjectClient><HostIdentifier>SSIS_ST150</HostIdentifier></ProjectClient></FlavorProperties></VisualStudio></ProjectExtensions></Project>]]></ProjectItem>
           <ProjectItem
-            Name="Properties\Settings.settings"
-            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
-<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
-</SettingsFile>]]></ProjectItem>
+            Name="Properties\AssemblyInfo.cs"
+            Encoding="UTF8"><![CDATA[using System.Reflection;
+using System.Runtime.CompilerServices;
+
+//
+// General Information about an assembly is controlled through the following 
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
+//
+[assembly: AssemblyTitle("ST_11bef39853c2463fb43443456932be2f")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("ST_11bef39853c2463fb43443456932be2f")]
+[assembly: AssemblyCopyright("Copyright @  2025")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+//
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version 
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Revision and Build Numbers 
+// by using the '*' as shown below:
+
+[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
           <ProjectItem
             Name="Properties\Resources.Designer.cs"
             Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
@@ -1088,15 +1088,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
           ReadOnlyVariables="User::CtlBatchId,User::CtlComputerName,User::CtlExecutionID,User::CtlPackageName,User::CtlRowsRead,User::EtlOperatorUser,$Project::vSQLConnPa"
           ReadWriteVariables="User::CtlAuditBatchID">
           <ProjectItem
-            Name="Properties\Settings.settings"
-            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
-<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
-</SettingsFile>]]></ProjectItem>
-          <ProjectItem
             Name="Properties\Resources.resx"
             Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
 <root>
@@ -1215,6 +1206,35 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
 </root>]]></ProjectItem>
+          <ProjectItem
+            Name="Properties\Settings.Designer.cs"
+            Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
+// <auto-generated>
+//     This code was generated by a tool.
+//
+//     Changes to this file may cause incorrect behavior and will be lost if
+//     the code is regenerated.
+// </auto-generated>
+//------------------------------------------------------------------------------
+
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_d28da747962e4fbcac900e275910a346.Properties.Settings.get_Default():ST_d28da747962e4fbcac900e275910a346.Properties.Sett" +
+    "ings")]
+
+namespace ST_d28da747962e4fbcac900e275910a346.Properties {
+    
+    
+    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
+        
+        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
+        private static Settings defaultInstance = new Settings();
+        
+        public static Settings Default {
+            get {
+                return defaultInstance;
+            }
+        }
+    }
+}]]></ProjectItem>
           <ProjectItem
             Name="ScriptMain.cs"
             Encoding="UTF8"><![CDATA[#region Help:  Introduction to the script task
@@ -1414,35 +1434,6 @@ namespace ST_d28da747962e4fbcac900e275910a346
   </msb:ItemGroup>
 </c:Project>]]></ProjectItem>
           <ProjectItem
-            Name="Properties\Settings.Designer.cs"
-            Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
-// <auto-generated>
-//     This code was generated by a tool.
-//
-//     Changes to this file may cause incorrect behavior and will be lost if
-//     the code is regenerated.
-// </auto-generated>
-//------------------------------------------------------------------------------
-
-[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_d28da747962e4fbcac900e275910a346.Properties.Settings.get_Default():ST_d28da747962e4fbcac900e275910a346.Properties.Sett" +
-    "ings")]
-
-namespace ST_d28da747962e4fbcac900e275910a346.Properties {
-    
-    
-    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
-        
-        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-        private static Settings defaultInstance = new Settings();
-        
-        public static Settings Default {
-            get {
-                return defaultInstance;
-            }
-        }
-    }
-}]]></ProjectItem>
-          <ProjectItem
             Name="Properties\AssemblyInfo.cs"
             Encoding="UTF8"><![CDATA[using System.Reflection;
 using System.Runtime.CompilerServices;
@@ -1472,6 +1463,15 @@ using System.Runtime.CompilerServices;
 // by using the '*' as shown below:
 
 [assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
+          <ProjectItem
+            Name="Properties\Settings.settings"
+            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
+<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
+  <Settings />
+</SettingsFile>]]></ProjectItem>
           <ProjectItem
             Name="Properties\Resources.Designer.cs"
             Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
@@ -1868,6 +1868,36 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
           Language="CSharp"
           ReadWriteVariables="User::CtlDurationMs,User::CtlStartTime">
           <ProjectItem
+            Name="Properties\AssemblyInfo.cs"
+            Encoding="UTF8"><![CDATA[using System.Reflection;
+using System.Runtime.CompilerServices;
+
+//
+// General Information about an assembly is controlled through the following 
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
+//
+[assembly: AssemblyTitle("ST_9971acfbc5fc4b56a79c37373fee75d8")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("ST_9971acfbc5fc4b56a79c37373fee75d8")]
+[assembly: AssemblyCopyright("Copyright @  2025")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+//
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version 
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Revision and Build Numbers 
+// by using the '*' as shown below:
+
+[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
+          <ProjectItem
             Name="Properties\Resources.resx"
             Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
 <root>
@@ -1986,35 +2016,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
 </root>]]></ProjectItem>
-          <ProjectItem
-            Name="Properties\Settings.Designer.cs"
-            Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
-// <auto-generated>
-//     This code was generated by a tool.
-//
-//     Changes to this file may cause incorrect behavior and will be lost if
-//     the code is regenerated.
-// </auto-generated>
-//------------------------------------------------------------------------------
-
-[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_9971acfbc5fc4b56a79c37373fee75d8.Properties.Settings.get_Default():ST_9971acfbc5fc4b56a79c37373fee75d8.Properties.Sett" +
-    "ings")]
-
-namespace ST_9971acfbc5fc4b56a79c37373fee75d8.Properties {
-    
-    
-    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
-        
-        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-        private static Settings defaultInstance = new Settings();
-        
-        public static Settings Default {
-            get {
-                return defaultInstance;
-            }
-        }
-    }
-}]]></ProjectItem>
           <ProjectItem
             Name="ScriptMain.cs"
             Encoding="UTF8"><![CDATA[#region Help:  Introduction to the script task
@@ -2221,35 +2222,34 @@ namespace ST_9971acfbc5fc4b56a79c37373fee75d8.Properties {
   </msb:ItemGroup>
 </c:Project>]]></ProjectItem>
           <ProjectItem
-            Name="Properties\AssemblyInfo.cs"
-            Encoding="UTF8"><![CDATA[using System.Reflection;
-using System.Runtime.CompilerServices;
+            Name="Properties\Settings.Designer.cs"
+            Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
+// <auto-generated>
+//     This code was generated by a tool.
+//
+//     Changes to this file may cause incorrect behavior and will be lost if
+//     the code is regenerated.
+// </auto-generated>
+//------------------------------------------------------------------------------
 
-//
-// General Information about an assembly is controlled through the following 
-// set of attributes. Change these attribute values to modify the information
-// associated with an assembly.
-//
-[assembly: AssemblyTitle("ST_9971acfbc5fc4b56a79c37373fee75d8")]
-[assembly: AssemblyDescription("")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ST_9971acfbc5fc4b56a79c37373fee75d8")]
-[assembly: AssemblyCopyright("Copyright @  2025")]
-[assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]
-//
-// Version information for an assembly consists of the following four values:
-//
-//      Major Version
-//      Minor Version 
-//      Build Number
-//      Revision
-//
-// You can specify all the values or you can default the Revision and Build Numbers 
-// by using the '*' as shown below:
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_9971acfbc5fc4b56a79c37373fee75d8.Properties.Settings.get_Default():ST_9971acfbc5fc4b56a79c37373fee75d8.Properties.Sett" +
+    "ings")]
 
-[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
+namespace ST_9971acfbc5fc4b56a79c37373fee75d8.Properties {
+    
+    
+    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
+        
+        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
+        private static Settings defaultInstance = new Settings();
+        
+        public static Settings Default {
+            get {
+                return defaultInstance;
+            }
+        }
+    }
+}]]></ProjectItem>
           <ProjectItem
             Name="Properties\Settings.settings"
             Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
@@ -2575,35 +2575,14 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           ReadOnlyVariables="User::WmCurrentLoadDate,$Package::CtlProcessID,$Package::EtlFilePath,$Project::vSQLConnDw"
           ReadWriteVariables="User::EtlArchivoCambiado,User::EtlArchivosLista,User::EtlEstadoArchivo,User::EtlOperatorUser">
           <ProjectItem
-            Name="Properties\AssemblyInfo.cs"
-            Encoding="UTF8"><![CDATA[using System.Reflection;
-using System.Runtime.CompilerServices;
-
-//
-// General Information about an assembly is controlled through the following 
-// set of attributes. Change these attribute values to modify the information
-// associated with an assembly.
-//
-[assembly: AssemblyTitle("ST_1eea5bfed806408f9ed3b445df6d54b9")]
-[assembly: AssemblyDescription("")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ST_1eea5bfed806408f9ed3b445df6d54b9")]
-[assembly: AssemblyCopyright("Copyright @  2026")]
-[assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]
-//
-// Version information for an assembly consists of the following four values:
-//
-//      Major Version
-//      Minor Version 
-//      Build Number
-//      Revision
-//
-// You can specify all the values or you can default the Revision and Build Numbers 
-// by using the '*' as shown below:
-
-[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
+            Name="Properties\Settings.settings"
+            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
+<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
+  <Settings />
+</SettingsFile>]]></ProjectItem>
           <ProjectItem
             Name="Properties\Resources.resx"
             Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
@@ -3047,14 +3026,35 @@ namespace ST_1eea5bfed806408f9ed3b445df6d54b9.Properties {
     }
 }]]></ProjectItem>
           <ProjectItem
-            Name="Properties\Settings.settings"
-            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
-<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
-</SettingsFile>]]></ProjectItem>
+            Name="Properties\AssemblyInfo.cs"
+            Encoding="UTF8"><![CDATA[using System.Reflection;
+using System.Runtime.CompilerServices;
+
+//
+// General Information about an assembly is controlled through the following 
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
+//
+[assembly: AssemblyTitle("ST_1eea5bfed806408f9ed3b445df6d54b9")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("ST_1eea5bfed806408f9ed3b445df6d54b9")]
+[assembly: AssemblyCopyright("Copyright @  2026")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+//
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version 
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Revision and Build Numbers 
+// by using the '*' as shown below:
+
+[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
           <ProjectItem
             Name="Properties\Resources.Designer.cs"
             Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
@@ -3396,35 +3396,14 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
           ReadOnlyVariables="User::CtlExecutionID,$Project::vSQLConnStr"
           ReadWriteVariables="User::EtlArchivosLista">
           <ProjectItem
-            Name="Properties\AssemblyInfo.cs"
-            Encoding="UTF8"><![CDATA[using System.Reflection;
-using System.Runtime.CompilerServices;
-
-//
-// General Information about an assembly is controlled through the following 
-// set of attributes. Change these attribute values to modify the information
-// associated with an assembly.
-//
-[assembly: AssemblyTitle("ST_ece9a6b9ab81467a994c3c863fb40de6")]
-[assembly: AssemblyDescription("")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ST_ece9a6b9ab81467a994c3c863fb40de6")]
-[assembly: AssemblyCopyright("Copyright @  2026")]
-[assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]
-//
-// Version information for an assembly consists of the following four values:
-//
-//      Major Version
-//      Minor Version 
-//      Build Number
-//      Revision
-//
-// You can specify all the values or you can default the Revision and Build Numbers 
-// by using the '*' as shown below:
-
-[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
+            Name="Properties\Settings.settings"
+            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
+<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
+  <Settings />
+</SettingsFile>]]></ProjectItem>
           <ProjectItem
             Name="Properties\Resources.resx"
             Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
@@ -3544,6 +3523,92 @@ using System.Runtime.CompilerServices;
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
 </root>]]></ProjectItem>
+          <ProjectItem
+            Name="ST_ece9a6b9ab81467a994c3c863fb40de6.csproj"
+            Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectTypeGuids>{30D016F9-3734-4E33-A861-5E7D899E18F3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F241200B-8A5A-454F-AB5A-E2D0152643AB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ST_ece9a6b9ab81467a994c3c863fb40de6</RootNamespace>
+    <AssemblyName>ST_ece9a6b9ab81467a994c3c863fb40de6</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>true</ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>
+    <TargetFrameworkProfile></TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>.\bin\Debug\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <OutputPath>.\bin\Release\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.SqlServer.ManagedDTS, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.SqlServer.ScriptTask, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="ScriptMain.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <!-- Include the build rules for a C# project.-->
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{30D016F9-3734-4E33-A861-5E7D899E18F3}">
+        <ProjectProperties HostName="VSTAHostName" HostPackage="{B3A685AA-7EAF-4BC6-9940-57959FA5AC07}" ApplicationType="usd" Language="cs" TemplatesPath="" />
+        <Host Name="ScriptTask" />
+        <ProjectClient>
+          <HostIdentifier>SSIS_ST150</HostIdentifier>
+        </ProjectClient>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>]]></ProjectItem>
           <ProjectItem
             Name="ScriptMain.cs"
             Encoding="UTF8"><![CDATA[#region Help:  Introduction to the script task
@@ -3853,92 +3918,6 @@ namespace ST_ece9a6b9ab81467a994c3c863fb40de6
   </msb:ItemGroup>
 </c:Project>]]></ProjectItem>
           <ProjectItem
-            Name="ST_ece9a6b9ab81467a994c3c863fb40de6.csproj"
-            Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <PropertyGroup>
-    <ProjectTypeGuids>{30D016F9-3734-4E33-A861-5E7D899E18F3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>8.0.30703</ProductVersion>
-    <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{F241200B-8A5A-454F-AB5A-E2D0152643AB}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ST_ece9a6b9ab81467a994c3c863fb40de6</RootNamespace>
-    <AssemblyName>ST_ece9a6b9ab81467a994c3c863fb40de6</AssemblyName>
-    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
-    <FileAlignment>512</FileAlignment>
-    <ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>true</ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>
-    <TargetFrameworkProfile></TargetFrameworkProfile>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
-    <DebugSymbols>true</DebugSymbols>
-    <DebugType>full</DebugType>
-    <Optimize>false</Optimize>
-    <OutputPath>.\bin\Debug\</OutputPath>
-    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
-    <DebugSymbols>false</DebugSymbols>
-    <Optimize>true</Optimize>
-    <OutputPath>.\bin\Release\</OutputPath>
-    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
-    <DefineConstants>TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <ItemGroup>
-    <Reference Include="System" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Windows.Forms" />
-    <Reference Include="System.Xml" />
-    <Reference Include="Microsoft.SqlServer.ManagedDTS, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
-    <Reference Include="Microsoft.SqlServer.ScriptTask, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
-  </ItemGroup>
-  <ItemGroup>
-    <AppDesigner Include="Properties\" />
-    <Compile Include="Properties\AssemblyInfo.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
-    <None Include="Properties\Settings.settings">
-      <Generator>SettingsSingleFileGenerator</Generator>
-      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
-    </None>
-    <Compile Include="Properties\Settings.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Settings.settings</DependentUpon>
-    </Compile>
-    <Compile Include="ScriptMain.cs">
-      <SubType>Code</SubType>
-    </Compile>
-  </ItemGroup>
-  <!-- Include the build rules for a C# project.-->
-  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
-  <ProjectExtensions>
-    <VisualStudio>
-      <FlavorProperties GUID="{30D016F9-3734-4E33-A861-5E7D899E18F3}">
-        <ProjectProperties HostName="VSTAHostName" HostPackage="{B3A685AA-7EAF-4BC6-9940-57959FA5AC07}" ApplicationType="usd" Language="cs" TemplatesPath="" />
-        <Host Name="ScriptTask" />
-        <ProjectClient>
-          <HostIdentifier>SSIS_ST150</HostIdentifier>
-        </ProjectClient>
-      </FlavorProperties>
-    </VisualStudio>
-  </ProjectExtensions>
-</Project>]]></ProjectItem>
-          <ProjectItem
             Name="Properties\Settings.Designer.cs"
             Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
 // <auto-generated>
@@ -3968,14 +3947,35 @@ namespace ST_ece9a6b9ab81467a994c3c863fb40de6.Properties {
     }
 }]]></ProjectItem>
           <ProjectItem
-            Name="Properties\Settings.settings"
-            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
-<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
-</SettingsFile>]]></ProjectItem>
+            Name="Properties\AssemblyInfo.cs"
+            Encoding="UTF8"><![CDATA[using System.Reflection;
+using System.Runtime.CompilerServices;
+
+//
+// General Information about an assembly is controlled through the following 
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
+//
+[assembly: AssemblyTitle("ST_ece9a6b9ab81467a994c3c863fb40de6")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("ST_ece9a6b9ab81467a994c3c863fb40de6")]
+[assembly: AssemblyCopyright("Copyright @  2026")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+//
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version 
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Revision and Build Numbers 
+// by using the '*' as shown below:
+
+[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
           <ProjectItem
             Name="Properties\Resources.Designer.cs"
             Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
@@ -4385,7 +4385,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{0F0ACF89-D7FD-4BB3-B898-1223E842050F}"
-          SQLTask:SqlStatementSource="/* MetaLeadAutos__ETL02bValidateMaestro_v1.0.sql&#xA;   Paquete : MetaLeadAutos (EtlVentasAutos, ProcessID 44) · Tarea: ETL02bValidateMaestro&#xA;   Autor   : Franco Véliz (Agente V4W) · 2026-11-11 · plan V1 v8.3 · SOL-016 · D-22, D-34, D-67, D-69, D-78, D-80, D-ARQ-40, P-7&#xA;   Generado: etapas/V1/herramientas/generar_sql_metaleadautos.py (no editar a mano: regenerar)&#xA;   Conexión: HMDCBISA&#xA;   Qué hace: Resuelve la sala (SUCURSALID del archivo contra DICBaseDealerBranch) y el modelo (alias → grupo) de las metas cargadas; actualiza la Qc persistente (lo pendiente de esos archivos que ya no falla queda Resuelto) y saca de Stg lo que no cruza (D-22). Devuelve RowsQc.&#xA;   Parámetros (OLE DB, en orden): 1) User::CtlExecutionID&#xA;*/&#xA;SET NOCOUNT ON;&#xA;SET XACT_ABORT ON;&#xA;DECLARE @ExecutionID bigint = ?;&#xA;DECLARE @Ahora datetime2(0) = SYSDATETIME();&#xA;&#xA;-- ── Maestros (DIC por SUCURSALID; modelos V4W) ─────────────────────────────────────────&#xA;IF OBJECT_ID(N'tempdb..#Sala')     IS NOT NULL DROP TABLE #Sala;&#xA;IF OBJECT_ID(N'tempdb..#ModAlias') IS NOT NULL DROP TABLE #ModAlias;&#xA;&#xA;-- Sala: el archivo trae el SUCURSALID de DIC en la columna J de cada bloque (D-66). Solo salas activas.&#xA;SELECT b.SUCURSALID, LTRIM(RTRIM(b.RUTID)) AS RUTID&#xA;INTO   #Sala&#xA;FROM   HMDCBIDW.dbo.DICBaseDealerBranch AS b&#xA;WHERE  b.ACTIVO = 1;&#xA;&#xA;-- Texto de modelo del archivo → grupo existente en V4WBaseModeloGrupo (mismo alias que la tabla de colores, D-67)&#xA;SELECT UPPER(LTRIM(RTRIM(ma.AliasArea))) AS Alias, ma.NivelGrupo, ma.Grupo,&#xA;       CASE WHEN ma.NivelGrupo = N'Modelo' THEN ma.Grupo END AS Modelo,&#xA;       CASE WHEN ma.NivelGrupo = N'Familia' THEN ma.Grupo&#xA;            ELSE (SELECT TOP (1) g.Familia FROM HMDCBIDW.dbo.V4WBaseModeloGrupo g WHERE g.Activo = 1 AND g.Modelo = ma.Grupo) END AS Familia,&#xA;       CASE WHEN EXISTS (SELECT 1 FROM HMDCBIDW.dbo.V4WBaseModeloGrupo g WHERE g.Activo = 1&#xA;                         AND ((ma.NivelGrupo = N'Modelo' AND g.Modelo = ma.Grupo) OR (ma.NivelGrupo = N'Familia' AND g.Familia = ma.Grupo)))&#xA;            THEN 1 ELSE 0 END AS EnMaestro&#xA;INTO   #ModAlias&#xA;FROM   HMDCBIDW.dbo.V4WBaseModeloAlias AS ma&#xA;WHERE  ma.Activo = 1;&#xA;&#xA;IF OBJECT_ID(N'tempdb..#SrcMetaLead') IS NOT NULL DROP TABLE #SrcMetaLead;&#xA;SELECT * INTO #SrcMetaLead FROM HMDCBISA.dbo.V4WStgMetaLead WHERE ExecutionID = @ExecutionID;&#xA;-- ── Resolución MetaLead sobre #SrcMetaLead → #ResMetaLead y #FallaMetaLead ──&#xA;-- Nivel TTL: sin sala. Nivel Sala: SucursalArea (columna J) → DICBaseDealerBranch (activa) → SUCURSALID y su dealer.&#xA;-- Modelo: texto del archivo → V4WBaseModeloAlias → grupo en V4WBaseModeloGrupo. Lo que no cruza → Qc (D-22).&#xA;-- Una misma meta (nivel × sala × modelo × origen) dos veces en el archivo → Qc DUPLICADO (protege el índice único).&#xA;IF OBJECT_ID(N'tempdb..#ResMetaLead')   IS NOT NULL DROP TABLE #ResMetaLead;&#xA;IF OBJECT_ID(N'tempdb..#FallaMetaLead') IS NOT NULL DROP TABLE #FallaMetaLead;&#xA;SELECT s.[Archivo], s.[Hoja], s.[FilaOrigen], s.[GrupoOrigen], s.RowNumber, sa.RUTID, sa.SUCURSALID,&#xA;       m.Modelo, m.Familia,&#xA;       s.Nivel, s.SalaArea, s.SucursalArea, s.ModeloArea,&#xA;       CASE WHEN m.Alias IS NULL THEN 0 ELSE 1 END AS TieneAliasModelo, ISNULL(m.EnMaestro, 0) AS EnMaestro,&#xA;       COUNT(*) OVER (PARTITION BY s.Archivo, s.Nivel, ISNULL(sa.SUCURSALID, 0), m.Modelo, s.GrupoOrigen) AS Veces&#xA;INTO   #ResMetaLead&#xA;FROM   #SrcMetaLead AS s&#xA;LEFT JOIN #Sala     AS sa ON s.Nivel = N'Sala' AND sa.SUCURSALID = s.SucursalArea&#xA;LEFT JOIN #ModAlias AS m  ON m.Alias = UPPER(LTRIM(RTRIM(s.ModeloArea)));&#xA;&#xA;SELECT r.[Archivo], r.[Hoja], r.[FilaOrigen], r.[GrupoOrigen], r.RowNumber, f.MotivoFalla, f.DetalleError&#xA;INTO   #FallaMetaLead&#xA;FROM   #ResMetaLead AS r&#xA;CROSS APPLY (&#xA;    SELECT N'SUCURSALID_NO_EXISTE',&#xA;           N'Bloque &quot;' + ISNULL(r.SalaArea, N'(sin título)') + N'&quot;: SUCURSALID ' + ISNULL(CONVERT(nvarchar(20), r.SucursalArea), N'(vacío)')&#xA;           + N' no existe o está inactivo en DICBaseDealerBranch'&#xA;    WHERE r.Nivel = N'Sala' AND r.SUCURSALID IS NULL&#xA;    UNION ALL&#xA;    SELECT N'GRUPO_FUERA_MAESTRO',&#xA;           CASE WHEN r.TieneAliasModelo = 0 THEN N'Modelo &quot;' + ISNULL(r.ModeloArea, N'(vacío)') + N'&quot; sin alias en V4WBaseModeloAlias'&#xA;                ELSE N'Modelo &quot;' + r.ModeloArea + N'&quot; apunta a un grupo que no existe en V4WBaseModeloGrupo' END&#xA;    WHERE r.TieneAliasModelo = 0 OR r.EnMaestro = 0&#xA;    UNION ALL&#xA;    SELECT N'DUPLICADO', N'Meta repetida en el archivo: ' + r.Nivel + N' · sala ' + ISNULL(CONVERT(nvarchar(20), r.SUCURSALID), N'TTL')&#xA;           + N' · modelo ' + ISNULL(r.Modelo, N'?') + N' aparece ' + CONVERT(nvarchar(10), r.Veces) + N' veces (bloque copiado)'&#xA;    WHERE r.Veces &gt; 1 AND r.Modelo IS NOT NULL&#xA;) AS f (MotivoFalla, DetalleError);&#xA;&#xA;BEGIN TRANSACTION;&#xA;&#xA;-- MetaLead: Qc persistente&#xA;;WITH x AS (SELECT f.*, ROW_NUMBER() OVER (PARTITION BY f.[Archivo], f.[Hoja], f.[FilaOrigen], f.[GrupoOrigen], f.MotivoFalla ORDER BY f.RowNumber) AS Rn FROM #FallaMetaLead f)&#xA;SELECT * INTO #FallaUMetaLead FROM x WHERE Rn = 1;&#xA;&#xA;UPDATE q&#xA;SET    q.ExecutionIDUltima = @ExecutionID, q.FechaUltimaVez = @Ahora, q.RowNumber = f.RowNumber, q.DetalleError = LEFT(f.DetalleError, 500)&#xA;FROM   HMDCBISA.dbo.V4WQcMetaLead AS q&#xA;JOIN   #FallaUMetaLead AS f ON f.[Archivo] = q.[Archivo] AND f.[Hoja] = q.[Hoja] AND f.[FilaOrigen] = q.[FilaOrigen] AND f.[GrupoOrigen] = q.[GrupoOrigen] AND f.MotivoFalla = q.MotivoFalla&#xA;WHERE  q.EstadoQc = N'Pendiente';&#xA;&#xA;INSERT INTO HMDCBISA.dbo.V4WQcMetaLead&#xA;       (ExecutionID, ExecutionIDUltima, RowNumber, MotivoFalla, DetalleError, EstadoQc, FechaPrimeraVez, FechaUltimaVez, [Archivo], [MesMeta], [FechaCorte], [Hoja], [FilaOrigen], [Nivel], [SalaArea], [SucursalArea], [FamiliaArea], [ModeloArea], [GrupoOrigen], [Meta])&#xA;SELECT @ExecutionID, @ExecutionID, f.RowNumber, f.MotivoFalla, LEFT(f.DetalleError, 500), N'Pendiente', @Ahora, @Ahora, s.[Archivo], s.[MesMeta], s.[FechaCorte], s.[Hoja], s.[FilaOrigen], s.[Nivel], s.[SalaArea], s.[SucursalArea], s.[FamiliaArea], s.[ModeloArea], s.[GrupoOrigen], s.[Meta]&#xA;FROM   #FallaUMetaLead AS f&#xA;JOIN   #SrcMetaLead AS s ON s.[Archivo] = f.[Archivo] AND s.[Hoja] = f.[Hoja] AND s.[FilaOrigen] = f.[FilaOrigen] AND s.[GrupoOrigen] = f.[GrupoOrigen]&#xA;WHERE  NOT EXISTS (SELECT 1 FROM HMDCBISA.dbo.V4WQcMetaLead q WHERE q.[Archivo] = f.[Archivo] AND q.[Hoja] = f.[Hoja] AND q.[FilaOrigen] = f.[FilaOrigen] AND q.[GrupoOrigen] = f.[GrupoOrigen] AND q.MotivoFalla = f.MotivoFalla AND q.EstadoQc = N'Pendiente');&#xA;&#xA;-- Re-evaluación de los archivos recargados: lo pendiente de esos archivos que ya no falla queda Resuelto&#xA;UPDATE q&#xA;SET    q.EstadoQc = N'Resuelta', q.FechaResuelta = @Ahora, q.ExecutionIDResuelta = @ExecutionID&#xA;FROM   HMDCBISA.dbo.V4WQcMetaLead AS q&#xA;WHERE  q.EstadoQc = N'Pendiente'&#xA;  AND  q.Archivo IN (SELECT DISTINCT Archivo FROM #SrcMetaLead)&#xA;  AND  NOT EXISTS (SELECT 1 FROM #FallaMetaLead f WHERE f.[Archivo] = q.[Archivo] AND f.[Hoja] = q.[Hoja] AND f.[FilaOrigen] = q.[FilaOrigen] AND f.[GrupoOrigen] = q.[GrupoOrigen] AND f.MotivoFalla = q.MotivoFalla);&#xA;&#xA;DELETE s FROM HMDCBISA.dbo.V4WStgMetaLead AS s&#xA;WHERE  s.ExecutionID = @ExecutionID AND EXISTS (SELECT 1 FROM #FallaMetaLead f WHERE f.[Archivo] = s.[Archivo] AND f.[Hoja] = s.[Hoja] AND f.[FilaOrigen] = s.[FilaOrigen] AND f.[GrupoOrigen] = s.[GrupoOrigen]);&#xA;&#xA;COMMIT TRANSACTION;&#xA;&#xA;SELECT COUNT(*) AS RowsQc FROM (SELECT DISTINCT Archivo, Hoja, FilaOrigen, GrupoOrigen FROM #FallaMetaLead) a;&#xA;"
+          SQLTask:SqlStatementSource="/* MetaLeadAutos__ETL04ValidateMaestro_v1.2.sql&#xA;   Paquete : MetaLeadAutos (EtlVentasAutos, ProcessID 44) · Tarea: ETL04ValidateMaestro&#xA;   Autor   : Franco Véliz (Agente V4W) · 2026-11-11 · plan V1 v8.3 · SOL-016 · D-22, D-34, D-67, D-69, D-78, D-80, D-ARQ-40, P-7&#xA;   Generado: etapas/ARQ7/herramientas/generar_sql_metaleadautos_v2.py (no editar a mano: regenerar)&#xA;   v1.1    : 2026-11-24 · Franco Véliz (Agente V4W) · ARQ7 E2 (plan_E2 v2): sala por SUCURSALID de Autos 1001+ contra V4WBaseSalaAutos (D-92, plantilla v3); sin DIC&#xA;   v1.2    : 2026-11-25 · Franco Véliz (Agente V4W) · ARQ7 E2 (pruebas T-9): DUPLICADO se cuenta por el número de sala del archivo (columna J); antes, todos los bloques sin sala resuelta caían en el mismo grupo y se marcaban duplicados&#xA;   Conexión: HMDCBISA&#xA;   Qué hace: Resuelve la sala (SUCURSALID del archivo contra V4WBaseSalaAutos) y el modelo (alias → grupo) de las metas cargadas; actualiza la Qc persistente (lo pendiente de esos archivos que ya no falla queda Resuelto) y saca de Stg lo que no cruza (D-22). Devuelve RowsQc.&#xA;   Parámetros (OLE DB, en orden): 1) User::CtlExecutionID&#xA;*/&#xA;SET NOCOUNT ON;&#xA;SET XACT_ABORT ON;&#xA;DECLARE @ExecutionID bigint = ?;&#xA;DECLARE @Ahora datetime2(0) = SYSDATETIME();&#xA;&#xA;-- ── Maestros (maestro de Autos por SUCURSALID 1001+; modelos V4W) ──────────────────────&#xA;IF OBJECT_ID(N'tempdb..#Sala')     IS NOT NULL DROP TABLE #Sala;&#xA;IF OBJECT_ID(N'tempdb..#ModAlias') IS NOT NULL DROP TABLE #ModAlias;&#xA;&#xA;-- Sala: el archivo (plantilla v3) trae el SUCURSALID de Autos (1001+) en la columna J de cada bloque (D-92). Solo salas activas.&#xA;SELECT s.SUCURSALID, s.RUTID&#xA;INTO   #Sala&#xA;FROM   HMDCBIDW.dbo.V4WBaseSalaAutos AS s&#xA;WHERE  s.ACTIVO = 1;&#xA;&#xA;-- Texto de modelo del archivo → grupo existente en V4WBaseModeloGrupo (mismo alias que la tabla de colores, D-67)&#xA;SELECT UPPER(LTRIM(RTRIM(ma.AliasArea))) AS Alias, ma.NivelGrupo, ma.Grupo,&#xA;       CASE WHEN ma.NivelGrupo = N'Modelo' THEN ma.Grupo END AS Modelo,&#xA;       CASE WHEN ma.NivelGrupo = N'Familia' THEN ma.Grupo&#xA;            ELSE (SELECT TOP (1) g.Familia FROM HMDCBIDW.dbo.V4WBaseModeloGrupo g WHERE g.Activo = 1 AND g.Modelo = ma.Grupo) END AS Familia,&#xA;       CASE WHEN EXISTS (SELECT 1 FROM HMDCBIDW.dbo.V4WBaseModeloGrupo g WHERE g.Activo = 1&#xA;                         AND ((ma.NivelGrupo = N'Modelo' AND g.Modelo = ma.Grupo) OR (ma.NivelGrupo = N'Familia' AND g.Familia = ma.Grupo)))&#xA;            THEN 1 ELSE 0 END AS EnMaestro&#xA;INTO   #ModAlias&#xA;FROM   HMDCBIDW.dbo.V4WBaseModeloAlias AS ma&#xA;WHERE  ma.Activo = 1;&#xA;&#xA;IF OBJECT_ID(N'tempdb..#SrcMetaLead') IS NOT NULL DROP TABLE #SrcMetaLead;&#xA;SELECT * INTO #SrcMetaLead FROM HMDCBISA.dbo.V4WStgMetaLead WHERE ExecutionID = @ExecutionID;&#xA;-- ── Resolución MetaLead sobre #SrcMetaLead → #ResMetaLead y #FallaMetaLead ──&#xA;-- Nivel TTL: sin sala. Nivel Sala: SucursalArea (columna J) → V4WBaseSalaAutos (activa) → SUCURSALID y su dealer.&#xA;-- Modelo: texto del archivo → V4WBaseModeloAlias → grupo en V4WBaseModeloGrupo. Lo que no cruza → Qc (D-22).&#xA;-- Una misma meta (nivel × sala × modelo × origen) dos veces en el archivo → Qc DUPLICADO (protege el índice único).&#xA;IF OBJECT_ID(N'tempdb..#ResMetaLead')   IS NOT NULL DROP TABLE #ResMetaLead;&#xA;IF OBJECT_ID(N'tempdb..#FallaMetaLead') IS NOT NULL DROP TABLE #FallaMetaLead;&#xA;SELECT s.[Archivo], s.[Hoja], s.[FilaOrigen], s.[GrupoOrigen], s.RowNumber, sa.RUTID, sa.SUCURSALID,&#xA;       m.Modelo, m.Familia,&#xA;       s.Nivel, s.SalaArea, s.SucursalArea, s.ModeloArea,&#xA;       CASE WHEN m.Alias IS NULL THEN 0 ELSE 1 END AS TieneAliasModelo, ISNULL(m.EnMaestro, 0) AS EnMaestro,&#xA;       COUNT(*) OVER (PARTITION BY s.Archivo, s.Nivel, ISNULL(s.SucursalArea, 0), m.Modelo, s.GrupoOrigen) AS Veces&#xA;INTO   #ResMetaLead&#xA;FROM   #SrcMetaLead AS s&#xA;LEFT JOIN #Sala     AS sa ON s.Nivel = N'Sala' AND sa.SUCURSALID = s.SucursalArea&#xA;LEFT JOIN #ModAlias AS m  ON m.Alias = UPPER(LTRIM(RTRIM(s.ModeloArea)));&#xA;&#xA;SELECT r.[Archivo], r.[Hoja], r.[FilaOrigen], r.[GrupoOrigen], r.RowNumber, f.MotivoFalla, f.DetalleError&#xA;INTO   #FallaMetaLead&#xA;FROM   #ResMetaLead AS r&#xA;CROSS APPLY (&#xA;    SELECT N'SUCURSALID_NO_EXISTE',&#xA;           N'Bloque &quot;' + ISNULL(r.SalaArea, N'(sin título)') + N'&quot;: SUCURSALID ' + ISNULL(CONVERT(nvarchar(20), r.SucursalArea), N'(vacío)')&#xA;           + N' no existe o está inactivo en el maestro de Autos (V4WBaseSalaAutos)'&#xA;    WHERE r.Nivel = N'Sala' AND r.SUCURSALID IS NULL&#xA;    UNION ALL&#xA;    SELECT N'GRUPO_FUERA_MAESTRO',&#xA;           CASE WHEN r.TieneAliasModelo = 0 THEN N'Modelo &quot;' + ISNULL(r.ModeloArea, N'(vacío)') + N'&quot; sin alias en V4WBaseModeloAlias'&#xA;                ELSE N'Modelo &quot;' + r.ModeloArea + N'&quot; apunta a un grupo que no existe en V4WBaseModeloGrupo' END&#xA;    WHERE r.TieneAliasModelo = 0 OR r.EnMaestro = 0&#xA;    UNION ALL&#xA;    SELECT N'DUPLICADO', N'Meta repetida en el archivo: ' + r.Nivel + N' · sala ' + ISNULL(CONVERT(nvarchar(20), r.SUCURSALID), N'TTL')&#xA;           + N' · modelo ' + ISNULL(r.Modelo, N'?') + N' aparece ' + CONVERT(nvarchar(10), r.Veces) + N' veces (bloque copiado)'&#xA;    WHERE r.Veces &gt; 1 AND r.Modelo IS NOT NULL&#xA;) AS f (MotivoFalla, DetalleError);&#xA;&#xA;BEGIN TRANSACTION;&#xA;&#xA;-- MetaLead: Qc persistente&#xA;;WITH x AS (SELECT f.*, ROW_NUMBER() OVER (PARTITION BY f.[Archivo], f.[Hoja], f.[FilaOrigen], f.[GrupoOrigen], f.MotivoFalla ORDER BY f.RowNumber) AS Rn FROM #FallaMetaLead f)&#xA;SELECT * INTO #FallaUMetaLead FROM x WHERE Rn = 1;&#xA;&#xA;UPDATE q&#xA;SET    q.ExecutionIDUltima = @ExecutionID, q.FechaUltimaVez = @Ahora, q.RowNumber = f.RowNumber, q.DetalleError = LEFT(f.DetalleError, 500)&#xA;FROM   HMDCBISA.dbo.V4WQcMetaLead AS q&#xA;JOIN   #FallaUMetaLead AS f ON f.[Archivo] = q.[Archivo] AND f.[Hoja] = q.[Hoja] AND f.[FilaOrigen] = q.[FilaOrigen] AND f.[GrupoOrigen] = q.[GrupoOrigen] AND f.MotivoFalla = q.MotivoFalla&#xA;WHERE  q.EstadoQc = N'Pendiente';&#xA;&#xA;INSERT INTO HMDCBISA.dbo.V4WQcMetaLead&#xA;       (ExecutionID, ExecutionIDUltima, RowNumber, MotivoFalla, DetalleError, EstadoQc, FechaPrimeraVez, FechaUltimaVez, [Archivo], [MesMeta], [FechaCorte], [Hoja], [FilaOrigen], [Nivel], [SalaArea], [SucursalArea], [FamiliaArea], [ModeloArea], [GrupoOrigen], [Meta])&#xA;SELECT @ExecutionID, @ExecutionID, f.RowNumber, f.MotivoFalla, LEFT(f.DetalleError, 500), N'Pendiente', @Ahora, @Ahora, s.[Archivo], s.[MesMeta], s.[FechaCorte], s.[Hoja], s.[FilaOrigen], s.[Nivel], s.[SalaArea], s.[SucursalArea], s.[FamiliaArea], s.[ModeloArea], s.[GrupoOrigen], s.[Meta]&#xA;FROM   #FallaUMetaLead AS f&#xA;JOIN   #SrcMetaLead AS s ON s.[Archivo] = f.[Archivo] AND s.[Hoja] = f.[Hoja] AND s.[FilaOrigen] = f.[FilaOrigen] AND s.[GrupoOrigen] = f.[GrupoOrigen]&#xA;WHERE  NOT EXISTS (SELECT 1 FROM HMDCBISA.dbo.V4WQcMetaLead q WHERE q.[Archivo] = f.[Archivo] AND q.[Hoja] = f.[Hoja] AND q.[FilaOrigen] = f.[FilaOrigen] AND q.[GrupoOrigen] = f.[GrupoOrigen] AND q.MotivoFalla = f.MotivoFalla AND q.EstadoQc = N'Pendiente');&#xA;&#xA;-- Re-evaluación de los archivos recargados: lo pendiente de esos archivos que ya no falla queda Resuelto&#xA;UPDATE q&#xA;SET    q.EstadoQc = N'Resuelta', q.FechaResuelta = @Ahora, q.ExecutionIDResuelta = @ExecutionID&#xA;FROM   HMDCBISA.dbo.V4WQcMetaLead AS q&#xA;WHERE  q.EstadoQc = N'Pendiente'&#xA;  AND  q.Archivo IN (SELECT DISTINCT Archivo FROM #SrcMetaLead)&#xA;  AND  NOT EXISTS (SELECT 1 FROM #FallaMetaLead f WHERE f.[Archivo] = q.[Archivo] AND f.[Hoja] = q.[Hoja] AND f.[FilaOrigen] = q.[FilaOrigen] AND f.[GrupoOrigen] = q.[GrupoOrigen] AND f.MotivoFalla = q.MotivoFalla);&#xA;&#xA;DELETE s FROM HMDCBISA.dbo.V4WStgMetaLead AS s&#xA;WHERE  s.ExecutionID = @ExecutionID AND EXISTS (SELECT 1 FROM #FallaMetaLead f WHERE f.[Archivo] = s.[Archivo] AND f.[Hoja] = s.[Hoja] AND f.[FilaOrigen] = s.[FilaOrigen] AND f.[GrupoOrigen] = s.[GrupoOrigen]);&#xA;&#xA;COMMIT TRANSACTION;&#xA;&#xA;SELECT COUNT(*) AS RowsQc FROM (SELECT DISTINCT Archivo, Hoja, FilaOrigen, GrupoOrigen FROM #FallaMetaLead) a;&#xA;"
           SQLTask:ResultType="ResultSetType_SingleRow" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
           <SQLTask:ResultBinding
             SQLTask:ResultName="RowsQc"
@@ -4418,35 +4418,14 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           Language="CSharp"
           ReadOnlyVariables="User::CtlComputerName,User::CtlExecutionID,User::CtlPackageName,User::CtlUserName,User::EtlArchivosLista,User::EtlFileModifiedDate,User::EtlFileName,User::EtlOperatorUser,$Package::CtlProcessID,$Package::EtlFilePath,$Package::EtlFileSheet,$Package::vMailCC,$Package::vMailFrom,$Package::vMailTO,$Project::vSMTPHost,$Project::vSQLConnStr,$Project::vSMTPPort,$Project::vLogoMain,$Project::vLogoWhite">
           <ProjectItem
-            Name="Properties\AssemblyInfo.cs"
-            Encoding="UTF8"><![CDATA[using System.Reflection;
-using System.Runtime.CompilerServices;
-
-//
-// General Information about an assembly is controlled through the following 
-// set of attributes. Change these attribute values to modify the information
-// associated with an assembly.
-//
-[assembly: AssemblyTitle("ST_3b5335120ee1469aaa904846d3479804")]
-[assembly: AssemblyDescription("")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ST_3b5335120ee1469aaa904846d3479804")]
-[assembly: AssemblyCopyright("Copyright @  2026")]
-[assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]
-//
-// Version information for an assembly consists of the following four values:
-//
-//      Major Version
-//      Minor Version 
-//      Build Number
-//      Revision
-//
-// You can specify all the values or you can default the Revision and Build Numbers 
-// by using the '*' as shown below:
-
-[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
+            Name="Properties\Settings.settings"
+            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
+<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
+  <Settings />
+</SettingsFile>]]></ProjectItem>
           <ProjectItem
             Name="ST_ff694be232ea4a2a8a51957507785fb0.csproj"
             Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
@@ -5541,14 +5520,35 @@ namespace ST_3b5335120ee1469aaa904846d3479804.Properties {
     }
 }]]></ProjectItem>
           <ProjectItem
-            Name="Properties\Settings.settings"
-            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
-<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
-</SettingsFile>]]></ProjectItem>
+            Name="Properties\AssemblyInfo.cs"
+            Encoding="UTF8"><![CDATA[using System.Reflection;
+using System.Runtime.CompilerServices;
+
+//
+// General Information about an assembly is controlled through the following 
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
+//
+[assembly: AssemblyTitle("ST_3b5335120ee1469aaa904846d3479804")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("ST_3b5335120ee1469aaa904846d3479804")]
+[assembly: AssemblyCopyright("Copyright @  2026")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+//
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version 
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Revision and Build Numbers 
+// by using the '*' as shown below:
+
+[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
           <ProjectItem
             Name="Properties\Resources.Designer.cs"
             Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
@@ -6407,7 +6407,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</BinaryItem>
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{0F0ACF89-D7FD-4BB3-B898-1223E842050F}"
-          SQLTask:SqlStatementSource="/* MetaLeadAutos__ETL04LoadDWHDW_v1.0.sql&#xA;   Paquete : MetaLeadAutos (EtlVentasAutos, ProcessID 44) · Tarea: ETL04LoadDWHDW&#xA;   Autor   : Franco Véliz (Agente V4W) · 2026-11-11 · plan V1 v8.3 · SOL-016 · D-22, D-34, D-67, D-69, D-78, D-80, D-ARQ-40, P-7&#xA;   Generado: etapas/V1/herramientas/generar_sql_metaleadautos.py (no editar a mano: regenerar)&#xA;   Conexión: HMDCBISA&#xA;   Qué hace: Arma la Load: I / U por hash y D (versión reemplazada: filas en Base de un archivo recargado que ya no vienen o pasaron a Qc). Devuelve RowsRead.&#xA;   Parámetros (OLE DB, en orden): 1) User::CtlExecutionID&#xA;*/&#xA;SET NOCOUNT ON;&#xA;DECLARE @ExecutionID bigint = ?;&#xA;DECLARE @BatchId uniqueidentifier =&#xA;    (SELECT TOP (1) BatchId FROM HMDCBIPA.dbo.CTLAuditBatch WHERE ExecutionID = @ExecutionID ORDER BY AuditBatchID DESC);&#xA;IF @BatchId IS NULL THROW 50010, N'No hay CTLAuditBatch para esta ejecución (CTL04OpenBatchId debe correr antes).', 1;&#xA;&#xA;-- ── Maestros (DIC por SUCURSALID; modelos V4W) ─────────────────────────────────────────&#xA;IF OBJECT_ID(N'tempdb..#Sala')     IS NOT NULL DROP TABLE #Sala;&#xA;IF OBJECT_ID(N'tempdb..#ModAlias') IS NOT NULL DROP TABLE #ModAlias;&#xA;&#xA;-- Sala: el archivo trae el SUCURSALID de DIC en la columna J de cada bloque (D-66). Solo salas activas.&#xA;SELECT b.SUCURSALID, LTRIM(RTRIM(b.RUTID)) AS RUTID&#xA;INTO   #Sala&#xA;FROM   HMDCBIDW.dbo.DICBaseDealerBranch AS b&#xA;WHERE  b.ACTIVO = 1;&#xA;&#xA;-- Texto de modelo del archivo → grupo existente en V4WBaseModeloGrupo (mismo alias que la tabla de colores, D-67)&#xA;SELECT UPPER(LTRIM(RTRIM(ma.AliasArea))) AS Alias, ma.NivelGrupo, ma.Grupo,&#xA;       CASE WHEN ma.NivelGrupo = N'Modelo' THEN ma.Grupo END AS Modelo,&#xA;       CASE WHEN ma.NivelGrupo = N'Familia' THEN ma.Grupo&#xA;            ELSE (SELECT TOP (1) g.Familia FROM HMDCBIDW.dbo.V4WBaseModeloGrupo g WHERE g.Activo = 1 AND g.Modelo = ma.Grupo) END AS Familia,&#xA;       CASE WHEN EXISTS (SELECT 1 FROM HMDCBIDW.dbo.V4WBaseModeloGrupo g WHERE g.Activo = 1&#xA;                         AND ((ma.NivelGrupo = N'Modelo' AND g.Modelo = ma.Grupo) OR (ma.NivelGrupo = N'Familia' AND g.Familia = ma.Grupo)))&#xA;            THEN 1 ELSE 0 END AS EnMaestro&#xA;INTO   #ModAlias&#xA;FROM   HMDCBIDW.dbo.V4WBaseModeloAlias AS ma&#xA;WHERE  ma.Activo = 1;&#xA;&#xA;-- Archivos recargados en esta corrida (incluye los que quedaron enteros en Qc)&#xA;IF OBJECT_ID(N'tempdb..#Archivos') IS NOT NULL DROP TABLE #Archivos;&#xA;SELECT Archivo INTO #Archivos FROM HMDCBISA.dbo.V4WStgMetaLead WHERE ExecutionID = @ExecutionID&#xA;UNION SELECT Archivo FROM HMDCBISA.dbo.V4WQcMetaLead WHERE ExecutionIDUltima = @ExecutionID;&#xA;&#xA;IF OBJECT_ID(N'tempdb..#SrcMetaLead') IS NOT NULL DROP TABLE #SrcMetaLead;&#xA;SELECT * INTO #SrcMetaLead FROM HMDCBISA.dbo.V4WStgMetaLead WHERE ExecutionID = @ExecutionID;&#xA;-- ── Resolución MetaLead sobre #SrcMetaLead → #ResMetaLead y #FallaMetaLead ──&#xA;-- Nivel TTL: sin sala. Nivel Sala: SucursalArea (columna J) → DICBaseDealerBranch (activa) → SUCURSALID y su dealer.&#xA;-- Modelo: texto del archivo → V4WBaseModeloAlias → grupo en V4WBaseModeloGrupo. Lo que no cruza → Qc (D-22).&#xA;-- Una misma meta (nivel × sala × modelo × origen) dos veces en el archivo → Qc DUPLICADO (protege el índice único).&#xA;IF OBJECT_ID(N'tempdb..#ResMetaLead')   IS NOT NULL DROP TABLE #ResMetaLead;&#xA;IF OBJECT_ID(N'tempdb..#FallaMetaLead') IS NOT NULL DROP TABLE #FallaMetaLead;&#xA;SELECT s.[Archivo], s.[Hoja], s.[FilaOrigen], s.[GrupoOrigen], s.RowNumber, sa.RUTID, sa.SUCURSALID,&#xA;       m.Modelo, m.Familia,&#xA;       s.Nivel, s.SalaArea, s.SucursalArea, s.ModeloArea,&#xA;       CASE WHEN m.Alias IS NULL THEN 0 ELSE 1 END AS TieneAliasModelo, ISNULL(m.EnMaestro, 0) AS EnMaestro,&#xA;       COUNT(*) OVER (PARTITION BY s.Archivo, s.Nivel, ISNULL(sa.SUCURSALID, 0), m.Modelo, s.GrupoOrigen) AS Veces&#xA;INTO   #ResMetaLead&#xA;FROM   #SrcMetaLead AS s&#xA;LEFT JOIN #Sala     AS sa ON s.Nivel = N'Sala' AND sa.SUCURSALID = s.SucursalArea&#xA;LEFT JOIN #ModAlias AS m  ON m.Alias = UPPER(LTRIM(RTRIM(s.ModeloArea)));&#xA;&#xA;SELECT r.[Archivo], r.[Hoja], r.[FilaOrigen], r.[GrupoOrigen], r.RowNumber, f.MotivoFalla, f.DetalleError&#xA;INTO   #FallaMetaLead&#xA;FROM   #ResMetaLead AS r&#xA;CROSS APPLY (&#xA;    SELECT N'SUCURSALID_NO_EXISTE',&#xA;           N'Bloque &quot;' + ISNULL(r.SalaArea, N'(sin título)') + N'&quot;: SUCURSALID ' + ISNULL(CONVERT(nvarchar(20), r.SucursalArea), N'(vacío)')&#xA;           + N' no existe o está inactivo en DICBaseDealerBranch'&#xA;    WHERE r.Nivel = N'Sala' AND r.SUCURSALID IS NULL&#xA;    UNION ALL&#xA;    SELECT N'GRUPO_FUERA_MAESTRO',&#xA;           CASE WHEN r.TieneAliasModelo = 0 THEN N'Modelo &quot;' + ISNULL(r.ModeloArea, N'(vacío)') + N'&quot; sin alias en V4WBaseModeloAlias'&#xA;                ELSE N'Modelo &quot;' + r.ModeloArea + N'&quot; apunta a un grupo que no existe en V4WBaseModeloGrupo' END&#xA;    WHERE r.TieneAliasModelo = 0 OR r.EnMaestro = 0&#xA;    UNION ALL&#xA;    SELECT N'DUPLICADO', N'Meta repetida en el archivo: ' + r.Nivel + N' · sala ' + ISNULL(CONVERT(nvarchar(20), r.SUCURSALID), N'TTL')&#xA;           + N' · modelo ' + ISNULL(r.Modelo, N'?') + N' aparece ' + CONVERT(nvarchar(10), r.Veces) + N' veces (bloque copiado)'&#xA;    WHERE r.Veces &gt; 1 AND r.Modelo IS NOT NULL&#xA;) AS f (MotivoFalla, DetalleError);&#xA;&#xA;-- MetaLead: I / U por hash (fila + resolución); D = filas en Base de un archivo recargado que ya no vienen&#xA;INSERT INTO HMDCBISA.dbo.V4WLoadMetaLead&#xA;       ([Archivo], [MesMeta], [FechaCorte], [Hoja], [FilaOrigen], [Nivel], [SalaArea], [SucursalArea], [FamiliaArea], [ModeloArea], [GrupoOrigen], [Meta], [RUTID], [SUCURSALID], [Modelo], [Familia], HashNuevo, HashActual, ExecutionID, BatchId, RowNumber, LastModifiedDate, TypeLoad)&#xA;SELECT s.[Archivo], s.[MesMeta], s.[FechaCorte], s.[Hoja], s.[FilaOrigen], s.[Nivel], s.[SalaArea], s.[SucursalArea], s.[FamiliaArea], s.[ModeloArea], s.[GrupoOrigen], s.[Meta], s.[RUTID], s.[SUCURSALID], s.[Modelo], s.[Familia], h.HashNuevo, ISNULL(bs.Hash64, 0), @ExecutionID, @BatchId, s.RowNumber,&#xA;       CASE WHEN bs.Archivo IS NULL THEN NULL ELSE SYSDATETIME() END,&#xA;       CASE WHEN bs.Archivo IS NULL THEN N'I' ELSE N'U' END&#xA;FROM  (SELECT x.*, r.[RUTID], r.[SUCURSALID], r.[Modelo], r.[Familia] FROM #SrcMetaLead x JOIN #ResMetaLead r ON r.[Archivo] = x.[Archivo] AND r.[Hoja] = x.[Hoja] AND r.[FilaOrigen] = x.[FilaOrigen] AND r.[GrupoOrigen] = x.[GrupoOrigen]) AS s&#xA;CROSS APPLY (SELECT CONVERT(bigint, SUBSTRING(HASHBYTES('SHA2_256', CONCAT(ISNULL(CONVERT(nvarchar(200), s.[Archivo]), N''), NCHAR(31), ISNULL(CONVERT(nvarchar(200), s.[MesMeta]), N''), NCHAR(31), ISNULL(CONVERT(nvarchar(200), s.[FechaCorte]), N''), NCHAR(31), ISNULL(CONVERT(nvarchar(200), s.[Hoja]), N''), NCHAR(31), ISNULL(CONVERT(nvarchar(200), s.[FilaOrigen]), N''), NCHAR(31), ISNULL(CONVERT(nvarchar(200), s.[Nivel]), N''), NCHAR(31), ISNULL(CONVERT(nvarchar(200), s.[SalaArea]), N''), NCHAR(31), ISNULL(CONVERT(nvarchar(200), s.[SucursalArea]), N''), NCHAR(31), ISNULL(CONVERT(nvarchar(200), s.[FamiliaArea]), N''), NCHAR(31), ISNULL(CONVERT(nvarchar(200), s.[ModeloArea]), N''), NCHAR(31), ISNULL(CONVERT(nvarchar(200), s.[GrupoOrigen]), N''), NCHAR(31), ISNULL(CONVERT(nvarchar(200), s.[Meta]), N''), NCHAR(31), ISNULL(CONVERT(nvarchar(200), s.[RUTID]), N''), NCHAR(31), ISNULL(CONVERT(nvarchar(200), s.[SUCURSALID]), N''), NCHAR(31), ISNULL(CONVERT(nvarchar(200), s.[Modelo]), N''), NCHAR(31), ISNULL(CONVERT(nvarchar(200), s.[Familia]), N''))), 1, 8)) AS HashNuevo) AS h&#xA;LEFT JOIN HMDCBIDW.dbo.V4WBaseMetaLead AS bs ON bs.[Archivo] = s.[Archivo] AND bs.[Hoja] = s.[Hoja] AND bs.[FilaOrigen] = s.[FilaOrigen] AND bs.[GrupoOrigen] = s.[GrupoOrigen]&#xA;WHERE  bs.Archivo IS NULL OR bs.Hash64 &lt;&gt; h.HashNuevo;&#xA;&#xA;INSERT INTO HMDCBISA.dbo.V4WLoadMetaLead&#xA;       ([Archivo], [MesMeta], [FechaCorte], [Hoja], [FilaOrigen], [Nivel], [SalaArea], [SucursalArea], [FamiliaArea], [ModeloArea], [GrupoOrigen], [Meta], [RUTID], [SUCURSALID], [Modelo], [Familia], HashNuevo, HashActual, ExecutionID, BatchId, RowNumber, LastModifiedDate, TypeLoad)&#xA;SELECT bs.[Archivo], bs.[MesMeta], bs.[FechaCorte], bs.[Hoja], bs.[FilaOrigen], bs.[Nivel], bs.[SalaArea], bs.[SucursalArea], bs.[FamiliaArea], bs.[ModeloArea], bs.[GrupoOrigen], bs.[Meta], bs.[RUTID], bs.[SUCURSALID], bs.[Modelo], bs.[Familia], bs.Hash64, bs.Hash64, @ExecutionID, @BatchId, NULL, SYSDATETIME(), N'D'&#xA;FROM   HMDCBIDW.dbo.V4WBaseMetaLead AS bs&#xA;WHERE  bs.Archivo IN (SELECT Archivo FROM #Archivos)&#xA;  AND  NOT EXISTS (SELECT 1 FROM #SrcMetaLead s WHERE s.[Archivo] = bs.[Archivo] AND s.[Hoja] = bs.[Hoja] AND s.[FilaOrigen] = bs.[FilaOrigen] AND s.[GrupoOrigen] = bs.[GrupoOrigen]);&#xA;&#xA;SELECT (SELECT COUNT(*) FROM #SrcMetaLead) AS RowsRead;&#xA;"
+          SQLTask:SqlStatementSource="/* MetaLeadAutos__ETL06LoadDWHDW_v1.2.sql&#xA;   Paquete : MetaLeadAutos (EtlVentasAutos, ProcessID 44) · Tarea: ETL06LoadDWHDW&#xA;   Autor   : Franco Véliz (Agente V4W) · 2026-11-11 · plan V1 v8.3 · SOL-016 · D-22, D-34, D-67, D-69, D-78, D-80, D-ARQ-40, P-7&#xA;   Generado: etapas/ARQ7/herramientas/generar_sql_metaleadautos_v2.py (no editar a mano: regenerar)&#xA;   v1.1    : 2026-11-24 · Franco Véliz (Agente V4W) · ARQ7 E2 (plan_E2 v2): sala por SUCURSALID de Autos 1001+ contra V4WBaseSalaAutos (D-92, plantilla v3); sin DIC&#xA;   v1.2    : 2026-11-25 · Franco Véliz (Agente V4W) · ARQ7 E2 (pruebas T-9): DUPLICADO se cuenta por el número de sala del archivo (columna J); antes, todos los bloques sin sala resuelta caían en el mismo grupo y se marcaban duplicados&#xA;   Conexión: HMDCBISA&#xA;   Qué hace: Arma la Load: I / U por hash y D (versión reemplazada: filas en Base de un archivo recargado que ya no vienen o pasaron a Qc). Devuelve RowsRead.&#xA;   Parámetros (OLE DB, en orden): 1) User::CtlExecutionID&#xA;*/&#xA;SET NOCOUNT ON;&#xA;DECLARE @ExecutionID bigint = ?;&#xA;DECLARE @BatchId uniqueidentifier =&#xA;    (SELECT TOP (1) BatchId FROM HMDCBIPA.dbo.CTLAuditBatch WHERE ExecutionID = @ExecutionID ORDER BY AuditBatchID DESC);&#xA;IF @BatchId IS NULL THROW 50010, N'No hay CTLAuditBatch para esta ejecución (CTL04OpenBatchId debe correr antes).', 1;&#xA;&#xA;-- ── Maestros (maestro de Autos por SUCURSALID 1001+; modelos V4W) ──────────────────────&#xA;IF OBJECT_ID(N'tempdb..#Sala')     IS NOT NULL DROP TABLE #Sala;&#xA;IF OBJECT_ID(N'tempdb..#ModAlias') IS NOT NULL DROP TABLE #ModAlias;&#xA;&#xA;-- Sala: el archivo (plantilla v3) trae el SUCURSALID de Autos (1001+) en la columna J de cada bloque (D-92). Solo salas activas.&#xA;SELECT s.SUCURSALID, s.RUTID&#xA;INTO   #Sala&#xA;FROM   HMDCBIDW.dbo.V4WBaseSalaAutos AS s&#xA;WHERE  s.ACTIVO = 1;&#xA;&#xA;-- Texto de modelo del archivo → grupo existente en V4WBaseModeloGrupo (mismo alias que la tabla de colores, D-67)&#xA;SELECT UPPER(LTRIM(RTRIM(ma.AliasArea))) AS Alias, ma.NivelGrupo, ma.Grupo,&#xA;       CASE WHEN ma.NivelGrupo = N'Modelo' THEN ma.Grupo END AS Modelo,&#xA;       CASE WHEN ma.NivelGrupo = N'Familia' THEN ma.Grupo&#xA;            ELSE (SELECT TOP (1) g.Familia FROM HMDCBIDW.dbo.V4WBaseModeloGrupo g WHERE g.Activo = 1 AND g.Modelo = ma.Grupo) END AS Familia,&#xA;       CASE WHEN EXISTS (SELECT 1 FROM HMDCBIDW.dbo.V4WBaseModeloGrupo g WHERE g.Activo = 1&#xA;                         AND ((ma.NivelGrupo = N'Modelo' AND g.Modelo = ma.Grupo) OR (ma.NivelGrupo = N'Familia' AND g.Familia = ma.Grupo)))&#xA;            THEN 1 ELSE 0 END AS EnMaestro&#xA;INTO   #ModAlias&#xA;FROM   HMDCBIDW.dbo.V4WBaseModeloAlias AS ma&#xA;WHERE  ma.Activo = 1;&#xA;&#xA;-- Archivos recargados en esta corrida (incluye los que quedaron enteros en Qc)&#xA;IF OBJECT_ID(N'tempdb..#Archivos') IS NOT NULL DROP TABLE #Archivos;&#xA;SELECT Archivo INTO #Archivos FROM HMDCBISA.dbo.V4WStgMetaLead WHERE ExecutionID = @ExecutionID&#xA;UNION SELECT Archivo FROM HMDCBISA.dbo.V4WQcMetaLead WHERE ExecutionIDUltima = @ExecutionID;&#xA;&#xA;IF OBJECT_ID(N'tempdb..#SrcMetaLead') IS NOT NULL DROP TABLE #SrcMetaLead;&#xA;SELECT * INTO #SrcMetaLead FROM HMDCBISA.dbo.V4WStgMetaLead WHERE ExecutionID = @ExecutionID;&#xA;-- ── Resolución MetaLead sobre #SrcMetaLead → #ResMetaLead y #FallaMetaLead ──&#xA;-- Nivel TTL: sin sala. Nivel Sala: SucursalArea (columna J) → V4WBaseSalaAutos (activa) → SUCURSALID y su dealer.&#xA;-- Modelo: texto del archivo → V4WBaseModeloAlias → grupo en V4WBaseModeloGrupo. Lo que no cruza → Qc (D-22).&#xA;-- Una misma meta (nivel × sala × modelo × origen) dos veces en el archivo → Qc DUPLICADO (protege el índice único).&#xA;IF OBJECT_ID(N'tempdb..#ResMetaLead')   IS NOT NULL DROP TABLE #ResMetaLead;&#xA;IF OBJECT_ID(N'tempdb..#FallaMetaLead') IS NOT NULL DROP TABLE #FallaMetaLead;&#xA;SELECT s.[Archivo], s.[Hoja], s.[FilaOrigen], s.[GrupoOrigen], s.RowNumber, sa.RUTID, sa.SUCURSALID,&#xA;       m.Modelo, m.Familia,&#xA;       s.Nivel, s.SalaArea, s.SucursalArea, s.ModeloArea,&#xA;       CASE WHEN m.Alias IS NULL THEN 0 ELSE 1 END AS TieneAliasModelo, ISNULL(m.EnMaestro, 0) AS EnMaestro,&#xA;       COUNT(*) OVER (PARTITION BY s.Archivo, s.Nivel, ISNULL(s.SucursalArea, 0), m.Modelo, s.GrupoOrigen) AS Veces&#xA;INTO   #ResMetaLead&#xA;FROM   #SrcMetaLead AS s&#xA;LEFT JOIN #Sala     AS sa ON s.Nivel = N'Sala' AND sa.SUCURSALID = s.SucursalArea&#xA;LEFT JOIN #ModAlias AS m  ON m.Alias = UPPER(LTRIM(RTRIM(s.ModeloArea)));&#xA;&#xA;SELECT r.[Archivo], r.[Hoja], r.[FilaOrigen], r.[GrupoOrigen], r.RowNumber, f.MotivoFalla, f.DetalleError&#xA;INTO   #FallaMetaLead&#xA;FROM   #ResMetaLead AS r&#xA;CROSS APPLY (&#xA;    SELECT N'SUCURSALID_NO_EXISTE',&#xA;           N'Bloque &quot;' + ISNULL(r.SalaArea, N'(sin título)') + N'&quot;: SUCURSALID ' + ISNULL(CONVERT(nvarchar(20), r.SucursalArea), N'(vacío)')&#xA;           + N' no existe o está inactivo en el maestro de Autos (V4WBaseSalaAutos)'&#xA;    WHERE r.Nivel = N'Sala' AND r.SUCURSALID IS NULL&#xA;    UNION ALL&#xA;    SELECT N'GRUPO_FUERA_MAESTRO',&#xA;           CASE WHEN r.TieneAliasModelo = 0 THEN N'Modelo &quot;' + ISNULL(r.ModeloArea, N'(vacío)') + N'&quot; sin alias en V4WBaseModeloAlias'&#xA;                ELSE N'Modelo &quot;' + r.ModeloArea + N'&quot; apunta a un grupo que no existe en V4WBaseModeloGrupo' END&#xA;    WHERE r.TieneAliasModelo = 0 OR r.EnMaestro = 0&#xA;    UNION ALL&#xA;    SELECT N'DUPLICADO', N'Meta repetida en el archivo: ' + r.Nivel + N' · sala ' + ISNULL(CONVERT(nvarchar(20), r.SUCURSALID), N'TTL')&#xA;           + N' · modelo ' + ISNULL(r.Modelo, N'?') + N' aparece ' + CONVERT(nvarchar(10), r.Veces) + N' veces (bloque copiado)'&#xA;    WHERE r.Veces &gt; 1 AND r.Modelo IS NOT NULL&#xA;) AS f (MotivoFalla, DetalleError);&#xA;&#xA;-- MetaLead: I / U por hash (fila + resolución); D = filas en Base de un archivo recargado que ya no vienen&#xA;INSERT INTO HMDCBISA.dbo.V4WLoadMetaLead&#xA;       ([Archivo], [MesMeta], [FechaCorte], [Hoja], [FilaOrigen], [Nivel], [SalaArea], [SucursalArea], [FamiliaArea], [ModeloArea], [GrupoOrigen], [Meta], [RUTID], [SUCURSALID], [Modelo], [Familia], HashNuevo, HashActual, ExecutionID, BatchId, RowNumber, LastModifiedDate, TypeLoad)&#xA;SELECT s.[Archivo], s.[MesMeta], s.[FechaCorte], s.[Hoja], s.[FilaOrigen], s.[Nivel], s.[SalaArea], s.[SucursalArea], s.[FamiliaArea], s.[ModeloArea], s.[GrupoOrigen], s.[Meta], s.[RUTID], s.[SUCURSALID], s.[Modelo], s.[Familia], h.HashNuevo, ISNULL(bs.Hash64, 0), @ExecutionID, @BatchId, s.RowNumber,&#xA;       CASE WHEN bs.Archivo IS NULL THEN NULL ELSE SYSDATETIME() END,&#xA;       CASE WHEN bs.Archivo IS NULL THEN N'I' ELSE N'U' END&#xA;FROM  (SELECT x.*, r.[RUTID], r.[SUCURSALID], r.[Modelo], r.[Familia] FROM #SrcMetaLead x JOIN #ResMetaLead r ON r.[Archivo] = x.[Archivo] AND r.[Hoja] = x.[Hoja] AND r.[FilaOrigen] = x.[FilaOrigen] AND r.[GrupoOrigen] = x.[GrupoOrigen]) AS s&#xA;CROSS APPLY (SELECT CONVERT(bigint, SUBSTRING(HASHBYTES('SHA2_256', CONCAT(ISNULL(CONVERT(nvarchar(200), s.[Archivo]), N''), NCHAR(31), ISNULL(CONVERT(nvarchar(200), s.[MesMeta]), N''), NCHAR(31), ISNULL(CONVERT(nvarchar(200), s.[FechaCorte]), N''), NCHAR(31), ISNULL(CONVERT(nvarchar(200), s.[Hoja]), N''), NCHAR(31), ISNULL(CONVERT(nvarchar(200), s.[FilaOrigen]), N''), NCHAR(31), ISNULL(CONVERT(nvarchar(200), s.[Nivel]), N''), NCHAR(31), ISNULL(CONVERT(nvarchar(200), s.[SalaArea]), N''), NCHAR(31), ISNULL(CONVERT(nvarchar(200), s.[SucursalArea]), N''), NCHAR(31), ISNULL(CONVERT(nvarchar(200), s.[FamiliaArea]), N''), NCHAR(31), ISNULL(CONVERT(nvarchar(200), s.[ModeloArea]), N''), NCHAR(31), ISNULL(CONVERT(nvarchar(200), s.[GrupoOrigen]), N''), NCHAR(31), ISNULL(CONVERT(nvarchar(200), s.[Meta]), N''), NCHAR(31), ISNULL(CONVERT(nvarchar(200), s.[RUTID]), N''), NCHAR(31), ISNULL(CONVERT(nvarchar(200), s.[SUCURSALID]), N''), NCHAR(31), ISNULL(CONVERT(nvarchar(200), s.[Modelo]), N''), NCHAR(31), ISNULL(CONVERT(nvarchar(200), s.[Familia]), N''))), 1, 8)) AS HashNuevo) AS h&#xA;LEFT JOIN HMDCBIDW.dbo.V4WBaseMetaLead AS bs ON bs.[Archivo] = s.[Archivo] AND bs.[Hoja] = s.[Hoja] AND bs.[FilaOrigen] = s.[FilaOrigen] AND bs.[GrupoOrigen] = s.[GrupoOrigen]&#xA;WHERE  bs.Archivo IS NULL OR bs.Hash64 &lt;&gt; h.HashNuevo;&#xA;&#xA;INSERT INTO HMDCBISA.dbo.V4WLoadMetaLead&#xA;       ([Archivo], [MesMeta], [FechaCorte], [Hoja], [FilaOrigen], [Nivel], [SalaArea], [SucursalArea], [FamiliaArea], [ModeloArea], [GrupoOrigen], [Meta], [RUTID], [SUCURSALID], [Modelo], [Familia], HashNuevo, HashActual, ExecutionID, BatchId, RowNumber, LastModifiedDate, TypeLoad)&#xA;SELECT bs.[Archivo], bs.[MesMeta], bs.[FechaCorte], bs.[Hoja], bs.[FilaOrigen], bs.[Nivel], bs.[SalaArea], bs.[SucursalArea], bs.[FamiliaArea], bs.[ModeloArea], bs.[GrupoOrigen], bs.[Meta], bs.[RUTID], bs.[SUCURSALID], bs.[Modelo], bs.[Familia], bs.Hash64, bs.Hash64, @ExecutionID, @BatchId, NULL, SYSDATETIME(), N'D'&#xA;FROM   HMDCBIDW.dbo.V4WBaseMetaLead AS bs&#xA;WHERE  bs.Archivo IN (SELECT Archivo FROM #Archivos)&#xA;  AND  NOT EXISTS (SELECT 1 FROM #SrcMetaLead s WHERE s.[Archivo] = bs.[Archivo] AND s.[Hoja] = bs.[Hoja] AND s.[FilaOrigen] = bs.[FilaOrigen] AND s.[GrupoOrigen] = bs.[GrupoOrigen]);&#xA;&#xA;SELECT (SELECT COUNT(*) FROM #SrcMetaLead) AS RowsRead;&#xA;"
           SQLTask:ResultType="ResultSetType_SingleRow" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
           <SQLTask:ResultBinding
             SQLTask:ResultName="RowsRead"
@@ -7200,7 +7200,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{0F0ACF89-D7FD-4BB3-B898-1223E842050F}"
-          SQLTask:SqlStatementSource="/* QuickReport__ETL08ReevaluateQc_v1.0.sql&#xA;   Paquete : QuickReport (EtlVentasAutos, ProcessID 37) · Tarea: ETL08ReevaluateQc&#xA;   Autor   : Franco Véliz (Agente V4W) · 2026-11-08 · plan V1 v7 · D-16, D-22, D-30, D-33, D-34, D-37, D-46, D-ARQ-40&#xA;   Generado: etapas/V1/herramientas/generar_sql_quickreport.py (no editar a mano: regenerar)&#xA;   Conexión: HMDCBISA&#xA;   Qué hace: Corre en las dos ramas: re-evalúa TODA la Qc pendiente de la entidad contra los maestros actuales (por ejemplo, un alias creado hoy). Lo que ya no falla pasa a Base y queda Resuelto, sin recargar el archivo.&#xA;   Parámetros (OLE DB, en orden): 1) User::CtlExecutionID&#xA;*/&#xA;SET NOCOUNT ON;&#xA;SET XACT_ABORT ON;&#xA;DECLARE @ExecutionID bigint = ?;&#xA;DECLARE @Ahora datetime2(0) = SYSDATETIME();&#xA;&#xA;-- ── Maestros (DIC ORIGEN 'Autos' y 'Sales force'; modelos V4W) ──────────────────────────&#xA;IF OBJECT_ID(N'tempdb..#AliasAutos') IS NOT NULL DROP TABLE #AliasAutos;&#xA;IF OBJECT_ID(N'tempdb..#SalaUnica')  IS NOT NULL DROP TABLE #SalaUnica;&#xA;IF OBJECT_ID(N'tempdb..#ModAlias')   IS NOT NULL DROP TABLE #ModAlias;&#xA;IF OBJECT_ID(N'tempdb..#Vin')        IS NOT NULL DROP TABLE #Vin;&#xA;&#xA;-- Alias del área: texto → dealer (por sociedad o directo) y sala si el alias la trae&#xA;SELECT x.Alias, x.RUTID, x.SUCURSALID&#xA;INTO   #AliasAutos&#xA;FROM (&#xA;    SELECT UPPER(LTRIM(RTRIM(al.ALIAS1))) AS Alias,&#xA;           LTRIM(RTRIM(COALESCE(so.RUTID, al.RUTID))) AS RUTID, al.SUCURSALID,&#xA;           ROW_NUMBER() OVER (PARTITION BY UPPER(LTRIM(RTRIM(al.ALIAS1))) ORDER BY al.ALIASID) AS Rn&#xA;    FROM   HMDCBIDW.dbo.DICBaseDealerAlias AS al&#xA;    LEFT JOIN HMDCBIDW.dbo.DICBaseDealerParentSociety AS so ON so.SOCIEDADID = al.SOCIEDADID AND so.ACTIVO = 1&#xA;    WHERE  al.ORIGEN = N'Autos' AND al.ACTIVO = 1&#xA;) AS x WHERE x.Rn = 1;&#xA;&#xA;-- Dealers de una sola sala de ventas (D-46): una sola sala con alias 'Sales force'&#xA;SELECT LTRIM(RTRIM(b.RUTID)) AS RUTID, MIN(al.SUCURSALID) AS SUCURSALID&#xA;INTO   #SalaUnica&#xA;FROM   HMDCBIDW.dbo.DICBaseDealerAlias  AS al&#xA;JOIN   HMDCBIDW.dbo.DICBaseDealerBranch AS b ON b.SUCURSALID = al.SUCURSALID&#xA;WHERE  al.ORIGEN = N'Sales force' AND al.ACTIVO = 1&#xA;GROUP BY LTRIM(RTRIM(b.RUTID))&#xA;HAVING COUNT(DISTINCT al.SUCURSALID) = 1;&#xA;&#xA;-- Texto de modelo del área → grupo (Modelo o Familia) existente en V4WBaseModeloGrupo&#xA;SELECT UPPER(LTRIM(RTRIM(ma.AliasArea))) AS Alias, ma.NivelGrupo, ma.Grupo,&#xA;       CASE WHEN ma.NivelGrupo = N'Modelo' THEN ma.Grupo END AS Modelo,&#xA;       CASE WHEN ma.NivelGrupo = N'Familia' THEN ma.Grupo&#xA;            ELSE (SELECT TOP (1) g.Familia FROM HMDCBIDW.dbo.V4WBaseModeloGrupo g WHERE g.Activo = 1 AND g.Modelo = ma.Grupo) END AS Familia,&#xA;       CASE WHEN EXISTS (SELECT 1 FROM HMDCBIDW.dbo.V4WBaseModeloGrupo g WHERE g.Activo = 1&#xA;                         AND ((ma.NivelGrupo = N'Modelo' AND g.Modelo = ma.Grupo) OR (ma.NivelGrupo = N'Familia' AND g.Familia = ma.Grupo)))&#xA;            THEN 1 ELSE 0 END AS EnMaestro&#xA;INTO   #ModAlias&#xA;FROM   HMDCBIDW.dbo.V4WBaseModeloAlias AS ma&#xA;WHERE  ma.Activo = 1;&#xA;&#xA;-- VIN de Autos en el maestro de Salesforce&#xA;SELECT x.VIN, x.Codigo&#xA;INTO   #Vin&#xA;FROM (SELECT UPPER(LTRIM(RTRIM(CONVERT(nvarchar(255), v.Name)))) AS VIN,&#xA;             UPPER(LTRIM(RTRIM(CONVERT(nvarchar(255), v.Codigoarticulo__c)))) AS Codigo,&#xA;             ROW_NUMBER() OVER (PARTITION BY v.Name ORDER BY v.Id) AS Rn&#xA;      FROM HMDCBIDW.dbo.SFOBaseVin_Modelos__c AS v&#xA;      WHERE v.IsDeleted = 0 AND v.Linea_de_Producto__c = N'Automoviles') AS x&#xA;WHERE x.Rn = 1;&#xA;CREATE UNIQUE CLUSTERED INDEX IX_Vin ON #Vin (VIN);&#xA;&#xA;-- QuickReport: filas con algún pendiente, una vez por llave (la última vista)&#xA;IF OBJECT_ID(N'tempdb..#SrcQuickReport') IS NOT NULL DROP TABLE #SrcQuickReport;&#xA;SELECT x.* INTO #SrcQuickReport&#xA;FROM (SELECT q.[Archivo], q.[VersionQuick], q.[MesQuick], q.[FechaCorte], q.[Hoja], q.[FilaOrigen], q.[DealerArea], q.[Unidades], q.RowNumber, ROW_NUMBER() OVER (PARTITION BY q.[Archivo], q.[FilaOrigen] ORDER BY q.FechaUltimaVez DESC, q.QcID DESC) AS Rn&#xA;      FROM HMDCBISA.dbo.V4WQcQuickReport q WHERE q.EstadoQc = N'Pendiente') AS x&#xA;WHERE x.Rn = 1;&#xA;-- ── Resolución QuickReport sobre #SrcQuickReport → #ResQuickReport y #FallaQuickReport ──&#xA;-- Dealer del área (bloque &quot;To be reported&quot;) → alias ORIGEN 'Autos' → dealer (por sociedad o directo) y su sala:&#xA;-- la del alias, o la sala única del dealer (D-46). Dealer de varias salas sin alias de sala → Qc (D-16).&#xA;IF OBJECT_ID(N'tempdb..#ResQuickReport')   IS NOT NULL DROP TABLE #ResQuickReport;&#xA;IF OBJECT_ID(N'tempdb..#FallaQuickReport') IS NOT NULL DROP TABLE #FallaQuickReport;&#xA;SELECT s.[Archivo], s.[FilaOrigen], s.RowNumber, a.RUTID, COALESCE(a.SUCURSALID, su.SUCURSALID) AS SUCURSALID,&#xA;       CASE WHEN a.Alias IS NULL THEN 0 ELSE 1 END AS TieneAlias, s.DealerArea&#xA;INTO   #ResQuickReport&#xA;FROM   #SrcQuickReport AS s&#xA;LEFT JOIN #AliasAutos AS a  ON a.Alias = UPPER(LTRIM(RTRIM(s.DealerArea)))&#xA;LEFT JOIN #SalaUnica  AS su ON su.RUTID = a.RUTID;&#xA;&#xA;SELECT r.[Archivo], r.[FilaOrigen], r.RowNumber, f.MotivoFalla, f.DetalleError&#xA;INTO   #FallaQuickReport&#xA;FROM   #ResQuickReport AS r&#xA;CROSS APPLY (&#xA;    SELECT N'DEALER_SIN_ALIAS', N'Dealer &quot;' + ISNULL(r.DealerArea, N'(vacío)') + N'&quot; sin alias ORIGEN Autos en DIC'&#xA;    WHERE r.TieneAlias = 0&#xA;    UNION ALL&#xA;    SELECT N'SALA_SIN_ALIAS', N'&quot;' + r.DealerArea + N'&quot; tiene alias de dealer, no de sala, y el dealer tiene varias salas'&#xA;    WHERE r.TieneAlias = 1 AND r.SUCURSALID IS NULL&#xA;) AS f (MotivoFalla, DetalleError);&#xA;&#xA;BEGIN TRANSACTION;&#xA;-- Pasan las llaves que ya no tienen ninguna falla&#xA;MERGE HMDCBIDW.dbo.V4WBaseQuickReport AS tgt&#xA;USING (SELECT x2.*, CONVERT(bigint, SUBSTRING(HASHBYTES('SHA2_256', CONCAT(ISNULL(CONVERT(nvarchar(200), x2.[Archivo]), N''), NCHAR(31), ISNULL(CONVERT(nvarchar(200), x2.[VersionQuick]), N''), NCHAR(31), ISNULL(CONVERT(nvarchar(200), x2.[MesQuick]), N''), NCHAR(31), ISNULL(CONVERT(nvarchar(200), x2.[FechaCorte]), N''), NCHAR(31), ISNULL(CONVERT(nvarchar(200), x2.[Hoja]), N''), NCHAR(31), ISNULL(CONVERT(nvarchar(200), x2.[FilaOrigen]), N''), NCHAR(31), ISNULL(CONVERT(nvarchar(200), x2.[DealerArea]), N''), NCHAR(31), ISNULL(CONVERT(nvarchar(200), x2.[Unidades]), N''), NCHAR(31), ISNULL(CONVERT(nvarchar(200), x2.[RUTID]), N''), NCHAR(31), ISNULL(CONVERT(nvarchar(200), x2.[SUCURSALID]), N''))), 1, 8)) AS HashNuevo&#xA;       FROM #SrcQuickReport x JOIN #ResQuickReport r ON r.[Archivo] = x.[Archivo] AND r.[FilaOrigen] = x.[FilaOrigen]&#xA;       CROSS APPLY (SELECT x.[Archivo], x.[VersionQuick], x.[MesQuick], x.[FechaCorte], x.[Hoja], x.[FilaOrigen], x.[DealerArea], x.[Unidades], r.[RUTID], r.[SUCURSALID]) AS x2 ([Archivo], [VersionQuick], [MesQuick], [FechaCorte], [Hoja], [FilaOrigen], [DealerArea], [Unidades], [RUTID], [SUCURSALID])&#xA;       WHERE NOT EXISTS (SELECT 1 FROM #FallaQuickReport f WHERE f.[Archivo] = x.[Archivo] AND f.[FilaOrigen] = x.[FilaOrigen])) AS src&#xA;   ON tgt.[Archivo] = src.[Archivo] AND tgt.[FilaOrigen] = src.[FilaOrigen]&#xA;WHEN MATCHED AND tgt.Hash64 &lt;&gt; src.HashNuevo THEN&#xA;     UPDATE SET tgt.[VersionQuick] = src.[VersionQuick], tgt.[MesQuick] = src.[MesQuick], tgt.[FechaCorte] = src.[FechaCorte], tgt.[Hoja] = src.[Hoja], tgt.[DealerArea] = src.[DealerArea], tgt.[Unidades] = src.[Unidades], tgt.[RUTID] = src.[RUTID], tgt.[SUCURSALID] = src.[SUCURSALID], tgt.Hash64 = src.HashNuevo,&#xA;                tgt.ExecutionID = @ExecutionID, tgt.LastModifiedDate = SYSDATETIME()&#xA;WHEN NOT MATCHED THEN&#xA;     INSERT ([Archivo], [VersionQuick], [MesQuick], [FechaCorte], [Hoja], [FilaOrigen], [DealerArea], [Unidades], [RUTID], [SUCURSALID], ExecutionID, Hash64, CreateDate, LastModifiedDate)&#xA;     VALUES (src.[Archivo], src.[VersionQuick], src.[MesQuick], src.[FechaCorte], src.[Hoja], src.[FilaOrigen], src.[DealerArea], src.[Unidades], src.[RUTID], src.[SUCURSALID], @ExecutionID, src.HashNuevo, SYSDATETIME(), NULL);&#xA;&#xA;UPDATE q SET q.EstadoQc = N'Resuelta', q.FechaResuelta = @Ahora, q.ExecutionIDResuelta = @ExecutionID&#xA;FROM   HMDCBISA.dbo.V4WQcQuickReport AS q&#xA;WHERE  q.EstadoQc = N'Pendiente'&#xA;  AND  NOT EXISTS (SELECT 1 FROM #FallaQuickReport f WHERE f.[Archivo] = q.[Archivo] AND f.[FilaOrigen] = q.[FilaOrigen] AND f.MotivoFalla = q.MotivoFalla);&#xA;COMMIT TRANSACTION;&#xA;&#xA;SELECT 0 AS RowsReevaluadas;&#xA;"
+          SQLTask:SqlStatementSource="/* MetaLeadAutos__ETL11ReevaluateQc_v1.2.sql&#xA;   Paquete : MetaLeadAutos (EtlVentasAutos, ProcessID 44) · Tarea: ETL11ReevaluateQc&#xA;   Autor   : Franco Véliz (Agente V4W) · 2026-11-11 · plan V1 v8.3 · SOL-016 · D-22, D-34, D-67, D-69, D-78, D-80, D-ARQ-40, P-7&#xA;   Generado: etapas/ARQ7/herramientas/generar_sql_metaleadautos_v2.py (no editar a mano: regenerar)&#xA;   v1.1    : 2026-11-24 · Franco Véliz (Agente V4W) · ARQ7 E2 (plan_E2 v2): sala por SUCURSALID de Autos 1001+ contra V4WBaseSalaAutos (D-92, plantilla v3); sin DIC&#xA;   v1.2    : 2026-11-25 · Franco Véliz (Agente V4W) · ARQ7 E2 (pruebas T-9): DUPLICADO se cuenta por el número de sala del archivo (columna J); antes, todos los bloques sin sala resuelta caían en el mismo grupo y se marcaban duplicados&#xA;   Conexión: HMDCBISA&#xA;   Qué hace: Corre en las dos ramas: re-evalúa TODA la Qc pendiente contra los maestros actuales (por ejemplo, un alias de modelo o una sala creada hoy). Lo que ya no falla pasa a Base y queda Resuelto, sin recargar el archivo.&#xA;   Parámetros (OLE DB, en orden): 1) User::CtlExecutionID&#xA;*/&#xA;SET NOCOUNT ON;&#xA;SET XACT_ABORT ON;&#xA;DECLARE @ExecutionID bigint = ?;&#xA;DECLARE @Ahora datetime2(0) = SYSDATETIME();&#xA;&#xA;-- ── Maestros (maestro de Autos por SUCURSALID 1001+; modelos V4W) ──────────────────────&#xA;IF OBJECT_ID(N'tempdb..#Sala')     IS NOT NULL DROP TABLE #Sala;&#xA;IF OBJECT_ID(N'tempdb..#ModAlias') IS NOT NULL DROP TABLE #ModAlias;&#xA;&#xA;-- Sala: el archivo (plantilla v3) trae el SUCURSALID de Autos (1001+) en la columna J de cada bloque (D-92). Solo salas activas.&#xA;SELECT s.SUCURSALID, s.RUTID&#xA;INTO   #Sala&#xA;FROM   HMDCBIDW.dbo.V4WBaseSalaAutos AS s&#xA;WHERE  s.ACTIVO = 1;&#xA;&#xA;-- Texto de modelo del archivo → grupo existente en V4WBaseModeloGrupo (mismo alias que la tabla de colores, D-67)&#xA;SELECT UPPER(LTRIM(RTRIM(ma.AliasArea))) AS Alias, ma.NivelGrupo, ma.Grupo,&#xA;       CASE WHEN ma.NivelGrupo = N'Modelo' THEN ma.Grupo END AS Modelo,&#xA;       CASE WHEN ma.NivelGrupo = N'Familia' THEN ma.Grupo&#xA;            ELSE (SELECT TOP (1) g.Familia FROM HMDCBIDW.dbo.V4WBaseModeloGrupo g WHERE g.Activo = 1 AND g.Modelo = ma.Grupo) END AS Familia,&#xA;       CASE WHEN EXISTS (SELECT 1 FROM HMDCBIDW.dbo.V4WBaseModeloGrupo g WHERE g.Activo = 1&#xA;                         AND ((ma.NivelGrupo = N'Modelo' AND g.Modelo = ma.Grupo) OR (ma.NivelGrupo = N'Familia' AND g.Familia = ma.Grupo)))&#xA;            THEN 1 ELSE 0 END AS EnMaestro&#xA;INTO   #ModAlias&#xA;FROM   HMDCBIDW.dbo.V4WBaseModeloAlias AS ma&#xA;WHERE  ma.Activo = 1;&#xA;&#xA;-- MetaLead: filas con algún pendiente, una vez por llave (la última vista)&#xA;IF OBJECT_ID(N'tempdb..#SrcMetaLead') IS NOT NULL DROP TABLE #SrcMetaLead;&#xA;SELECT x.* INTO #SrcMetaLead&#xA;FROM (SELECT q.[Archivo], q.[MesMeta], q.[FechaCorte], q.[Hoja], q.[FilaOrigen], q.[Nivel], q.[SalaArea], q.[SucursalArea], q.[FamiliaArea], q.[ModeloArea], q.[GrupoOrigen], q.[Meta], q.RowNumber, ROW_NUMBER() OVER (PARTITION BY q.[Archivo], q.[Hoja], q.[FilaOrigen], q.[GrupoOrigen] ORDER BY q.FechaUltimaVez DESC, q.QcID DESC) AS Rn&#xA;      FROM HMDCBISA.dbo.V4WQcMetaLead q WHERE q.EstadoQc = N'Pendiente') AS x&#xA;WHERE x.Rn = 1;&#xA;-- ── Resolución MetaLead sobre #SrcMetaLead → #ResMetaLead y #FallaMetaLead ──&#xA;-- Nivel TTL: sin sala. Nivel Sala: SucursalArea (columna J) → V4WBaseSalaAutos (activa) → SUCURSALID y su dealer.&#xA;-- Modelo: texto del archivo → V4WBaseModeloAlias → grupo en V4WBaseModeloGrupo. Lo que no cruza → Qc (D-22).&#xA;-- Una misma meta (nivel × sala × modelo × origen) dos veces en el archivo → Qc DUPLICADO (protege el índice único).&#xA;IF OBJECT_ID(N'tempdb..#ResMetaLead')   IS NOT NULL DROP TABLE #ResMetaLead;&#xA;IF OBJECT_ID(N'tempdb..#FallaMetaLead') IS NOT NULL DROP TABLE #FallaMetaLead;&#xA;SELECT s.[Archivo], s.[Hoja], s.[FilaOrigen], s.[GrupoOrigen], s.RowNumber, sa.RUTID, sa.SUCURSALID,&#xA;       m.Modelo, m.Familia,&#xA;       s.Nivel, s.SalaArea, s.SucursalArea, s.ModeloArea,&#xA;       CASE WHEN m.Alias IS NULL THEN 0 ELSE 1 END AS TieneAliasModelo, ISNULL(m.EnMaestro, 0) AS EnMaestro,&#xA;       COUNT(*) OVER (PARTITION BY s.Archivo, s.Nivel, ISNULL(s.SucursalArea, 0), m.Modelo, s.GrupoOrigen) AS Veces&#xA;INTO   #ResMetaLead&#xA;FROM   #SrcMetaLead AS s&#xA;LEFT JOIN #Sala     AS sa ON s.Nivel = N'Sala' AND sa.SUCURSALID = s.SucursalArea&#xA;LEFT JOIN #ModAlias AS m  ON m.Alias = UPPER(LTRIM(RTRIM(s.ModeloArea)));&#xA;&#xA;SELECT r.[Archivo], r.[Hoja], r.[FilaOrigen], r.[GrupoOrigen], r.RowNumber, f.MotivoFalla, f.DetalleError&#xA;INTO   #FallaMetaLead&#xA;FROM   #ResMetaLead AS r&#xA;CROSS APPLY (&#xA;    SELECT N'SUCURSALID_NO_EXISTE',&#xA;           N'Bloque &quot;' + ISNULL(r.SalaArea, N'(sin título)') + N'&quot;: SUCURSALID ' + ISNULL(CONVERT(nvarchar(20), r.SucursalArea), N'(vacío)')&#xA;           + N' no existe o está inactivo en el maestro de Autos (V4WBaseSalaAutos)'&#xA;    WHERE r.Nivel = N'Sala' AND r.SUCURSALID IS NULL&#xA;    UNION ALL&#xA;    SELECT N'GRUPO_FUERA_MAESTRO',&#xA;           CASE WHEN r.TieneAliasModelo = 0 THEN N'Modelo &quot;' + ISNULL(r.ModeloArea, N'(vacío)') + N'&quot; sin alias en V4WBaseModeloAlias'&#xA;                ELSE N'Modelo &quot;' + r.ModeloArea + N'&quot; apunta a un grupo que no existe en V4WBaseModeloGrupo' END&#xA;    WHERE r.TieneAliasModelo = 0 OR r.EnMaestro = 0&#xA;    UNION ALL&#xA;    SELECT N'DUPLICADO', N'Meta repetida en el archivo: ' + r.Nivel + N' · sala ' + ISNULL(CONVERT(nvarchar(20), r.SUCURSALID), N'TTL')&#xA;           + N' · modelo ' + ISNULL(r.Modelo, N'?') + N' aparece ' + CONVERT(nvarchar(10), r.Veces) + N' veces (bloque copiado)'&#xA;    WHERE r.Veces &gt; 1 AND r.Modelo IS NOT NULL&#xA;) AS f (MotivoFalla, DetalleError);&#xA;&#xA;BEGIN TRANSACTION;&#xA;-- Pasan las llaves que ya no tienen ninguna falla&#xA;MERGE HMDCBIDW.dbo.V4WBaseMetaLead AS tgt&#xA;USING (SELECT x2.*, CONVERT(bigint, SUBSTRING(HASHBYTES('SHA2_256', CONCAT(ISNULL(CONVERT(nvarchar(200), x2.[Archivo]), N''), NCHAR(31), ISNULL(CONVERT(nvarchar(200), x2.[MesMeta]), N''), NCHAR(31), ISNULL(CONVERT(nvarchar(200), x2.[FechaCorte]), N''), NCHAR(31), ISNULL(CONVERT(nvarchar(200), x2.[Hoja]), N''), NCHAR(31), ISNULL(CONVERT(nvarchar(200), x2.[FilaOrigen]), N''), NCHAR(31), ISNULL(CONVERT(nvarchar(200), x2.[Nivel]), N''), NCHAR(31), ISNULL(CONVERT(nvarchar(200), x2.[SalaArea]), N''), NCHAR(31), ISNULL(CONVERT(nvarchar(200), x2.[SucursalArea]), N''), NCHAR(31), ISNULL(CONVERT(nvarchar(200), x2.[FamiliaArea]), N''), NCHAR(31), ISNULL(CONVERT(nvarchar(200), x2.[ModeloArea]), N''), NCHAR(31), ISNULL(CONVERT(nvarchar(200), x2.[GrupoOrigen]), N''), NCHAR(31), ISNULL(CONVERT(nvarchar(200), x2.[Meta]), N''), NCHAR(31), ISNULL(CONVERT(nvarchar(200), x2.[RUTID]), N''), NCHAR(31), ISNULL(CONVERT(nvarchar(200), x2.[SUCURSALID]), N''), NCHAR(31), ISNULL(CONVERT(nvarchar(200), x2.[Modelo]), N''), NCHAR(31), ISNULL(CONVERT(nvarchar(200), x2.[Familia]), N''))), 1, 8)) AS HashNuevo&#xA;       FROM #SrcMetaLead x JOIN #ResMetaLead r ON r.[Archivo] = x.[Archivo] AND r.[Hoja] = x.[Hoja] AND r.[FilaOrigen] = x.[FilaOrigen] AND r.[GrupoOrigen] = x.[GrupoOrigen]&#xA;       CROSS APPLY (SELECT x.[Archivo], x.[MesMeta], x.[FechaCorte], x.[Hoja], x.[FilaOrigen], x.[Nivel], x.[SalaArea], x.[SucursalArea], x.[FamiliaArea], x.[ModeloArea], x.[GrupoOrigen], x.[Meta], r.[RUTID], r.[SUCURSALID], r.[Modelo], r.[Familia]) AS x2 ([Archivo], [MesMeta], [FechaCorte], [Hoja], [FilaOrigen], [Nivel], [SalaArea], [SucursalArea], [FamiliaArea], [ModeloArea], [GrupoOrigen], [Meta], [RUTID], [SUCURSALID], [Modelo], [Familia])&#xA;       WHERE NOT EXISTS (SELECT 1 FROM #FallaMetaLead f WHERE f.[Archivo] = x.[Archivo] AND f.[Hoja] = x.[Hoja] AND f.[FilaOrigen] = x.[FilaOrigen] AND f.[GrupoOrigen] = x.[GrupoOrigen])) AS src&#xA;   ON tgt.[Archivo] = src.[Archivo] AND tgt.[Hoja] = src.[Hoja] AND tgt.[FilaOrigen] = src.[FilaOrigen] AND tgt.[GrupoOrigen] = src.[GrupoOrigen]&#xA;WHEN MATCHED AND tgt.Hash64 &lt;&gt; src.HashNuevo THEN&#xA;     UPDATE SET tgt.[MesMeta] = src.[MesMeta], tgt.[FechaCorte] = src.[FechaCorte], tgt.[Nivel] = src.[Nivel], tgt.[SalaArea] = src.[SalaArea], tgt.[SucursalArea] = src.[SucursalArea], tgt.[FamiliaArea] = src.[FamiliaArea], tgt.[ModeloArea] = src.[ModeloArea], tgt.[Meta] = src.[Meta], tgt.[RUTID] = src.[RUTID], tgt.[SUCURSALID] = src.[SUCURSALID], tgt.[Modelo] = src.[Modelo], tgt.[Familia] = src.[Familia], tgt.Hash64 = src.HashNuevo,&#xA;                tgt.ExecutionID = @ExecutionID, tgt.LastModifiedDate = SYSDATETIME()&#xA;WHEN NOT MATCHED THEN&#xA;     INSERT ([Archivo], [MesMeta], [FechaCorte], [Hoja], [FilaOrigen], [Nivel], [SalaArea], [SucursalArea], [FamiliaArea], [ModeloArea], [GrupoOrigen], [Meta], [RUTID], [SUCURSALID], [Modelo], [Familia], ExecutionID, Hash64, CreateDate, LastModifiedDate)&#xA;     VALUES (src.[Archivo], src.[MesMeta], src.[FechaCorte], src.[Hoja], src.[FilaOrigen], src.[Nivel], src.[SalaArea], src.[SucursalArea], src.[FamiliaArea], src.[ModeloArea], src.[GrupoOrigen], src.[Meta], src.[RUTID], src.[SUCURSALID], src.[Modelo], src.[Familia], @ExecutionID, src.HashNuevo, SYSDATETIME(), NULL);&#xA;&#xA;UPDATE q SET q.EstadoQc = N'Resuelta', q.FechaResuelta = @Ahora, q.ExecutionIDResuelta = @ExecutionID&#xA;FROM   HMDCBISA.dbo.V4WQcMetaLead AS q&#xA;WHERE  q.EstadoQc = N'Pendiente'&#xA;  AND  NOT EXISTS (SELECT 1 FROM #FallaMetaLead f WHERE f.[Archivo] = q.[Archivo] AND f.[Hoja] = q.[Hoja] AND f.[FilaOrigen] = q.[FilaOrigen] AND f.[GrupoOrigen] = q.[GrupoOrigen] AND f.MotivoFalla = q.MotivoFalla);&#xA;COMMIT TRANSACTION;&#xA;&#xA;SELECT 0 AS RowsReevaluadas;&#xA;"
           SQLTask:ResultType="ResultSetType_SingleRow" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
           <SQLTask:ResultBinding
             SQLTask:ResultName="RowsReevaluadas"
@@ -7232,35 +7232,14 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           Language="CSharp"
           ReadOnlyVariables="User::CtlAuditBatchID,User::CtlBatchId,User::CtlComputerName,User::CtlExecutionID,User::CtlPackageName,User::CtlRowsFailed,User::CtlRowsInserted,User::CtlRowsRead,User::CtlRowsUpdated,User::EtlFileModifiedDate,User::EtlFileName,User::EtlOperatorUser,$Package::CtlProcessID,$Package::EtlFilePath,$Package::EtlFileSheet,$Package::vMailCC,$Package::vMailFrom,$Package::vMailTO,$Project::vSMTPHost,$Project::vSQLConnStr,$Project::vSMTPPort,$Project::vSQLConnPa,$Project::vLogoMain,$Project::vLogoWhite">
           <ProjectItem
-            Name="Properties\AssemblyInfo.cs"
-            Encoding="UTF8"><![CDATA[using System.Reflection;
-using System.Runtime.CompilerServices;
-
-//
-// General Information about an assembly is controlled through the following 
-// set of attributes. Change these attribute values to modify the information
-// associated with an assembly.
-//
-[assembly: AssemblyTitle("ST_d067887a49ea4994a2f9b8d9ae04bf98")]
-[assembly: AssemblyDescription("")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ST_d067887a49ea4994a2f9b8d9ae04bf98")]
-[assembly: AssemblyCopyright("Copyright @  2026")]
-[assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]
-//
-// Version information for an assembly consists of the following four values:
-//
-//      Major Version
-//      Minor Version 
-//      Build Number
-//      Revision
-//
-// You can specify all the values or you can default the Revision and Build Numbers 
-// by using the '*' as shown below:
-
-[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
+            Name="Properties\Settings.settings"
+            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
+<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
+  <Settings />
+</SettingsFile>]]></ProjectItem>
           <ProjectItem
             Name="Properties\Resources.resx"
             Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
@@ -8407,14 +8386,35 @@ namespace ST_d067887a49ea4994a2f9b8d9ae04bf98.Properties {
     }
 }]]></ProjectItem>
           <ProjectItem
-            Name="Properties\Settings.settings"
-            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
-<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
-</SettingsFile>]]></ProjectItem>
+            Name="Properties\AssemblyInfo.cs"
+            Encoding="UTF8"><![CDATA[using System.Reflection;
+using System.Runtime.CompilerServices;
+
+//
+// General Information about an assembly is controlled through the following 
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
+//
+[assembly: AssemblyTitle("ST_d067887a49ea4994a2f9b8d9ae04bf98")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("ST_d067887a49ea4994a2f9b8d9ae04bf98")]
+[assembly: AssemblyCopyright("Copyright @  2026")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+//
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version 
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Revision and Build Numbers 
+// by using the '*' as shown below:
+
+[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
           <ProjectItem
             Name="Properties\Resources.Designer.cs"
             Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
@@ -9400,6 +9400,36 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
               ReadOnlyVariables="System::ErrorDescription"
               ReadWriteVariables="User::CtlDurationMs, User::CtlStartTime, User::CtlErrorMessage">
               <ProjectItem
+                Name="Properties\AssemblyInfo.cs"
+                Encoding="UTF8"><![CDATA[using System.Reflection;
+using System.Runtime.CompilerServices;
+
+//
+// General Information about an assembly is controlled through the following 
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
+//
+[assembly: AssemblyTitle("ST_00db73c960c04c0b95fe1e17813bd535")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("ST_00db73c960c04c0b95fe1e17813bd535")]
+[assembly: AssemblyCopyright("Copyright @  2025")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+//
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version 
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Revision and Build Numbers 
+// by using the '*' as shown below:
+
+[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
+              <ProjectItem
                 Name="Properties\Resources.resx"
                 Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
 <root>
@@ -9518,35 +9548,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
 </root>]]></ProjectItem>
-              <ProjectItem
-                Name="Properties\Settings.Designer.cs"
-                Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
-// <auto-generated>
-//     This code was generated by a tool.
-//
-//     Changes to this file may cause incorrect behavior and will be lost if
-//     the code is regenerated.
-// </auto-generated>
-//------------------------------------------------------------------------------
-
-[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_00db73c960c04c0b95fe1e17813bd535.Properties.Settings.get_Default():ST_00db73c960c04c0b95fe1e17813bd535.Properties.Sett" +
-    "ings")]
-
-namespace ST_00db73c960c04c0b95fe1e17813bd535.Properties {
-    
-    
-    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
-        
-        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-        private static Settings defaultInstance = new Settings();
-        
-        public static Settings Default {
-            get {
-                return defaultInstance;
-            }
-        }
-    }
-}]]></ProjectItem>
               <ProjectItem
                 Name="ScriptMain.cs"
                 Encoding="UTF8"><![CDATA[#region Help:  Introduction to the script task
@@ -9778,35 +9779,34 @@ namespace ST_00db73c960c04c0b95fe1e17813bd535
   </msb:ItemGroup>
 </c:Project>]]></ProjectItem>
               <ProjectItem
-                Name="Properties\AssemblyInfo.cs"
-                Encoding="UTF8"><![CDATA[using System.Reflection;
-using System.Runtime.CompilerServices;
+                Name="Properties\Settings.Designer.cs"
+                Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
+// <auto-generated>
+//     This code was generated by a tool.
+//
+//     Changes to this file may cause incorrect behavior and will be lost if
+//     the code is regenerated.
+// </auto-generated>
+//------------------------------------------------------------------------------
 
-//
-// General Information about an assembly is controlled through the following 
-// set of attributes. Change these attribute values to modify the information
-// associated with an assembly.
-//
-[assembly: AssemblyTitle("ST_00db73c960c04c0b95fe1e17813bd535")]
-[assembly: AssemblyDescription("")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ST_00db73c960c04c0b95fe1e17813bd535")]
-[assembly: AssemblyCopyright("Copyright @  2025")]
-[assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]
-//
-// Version information for an assembly consists of the following four values:
-//
-//      Major Version
-//      Minor Version 
-//      Build Number
-//      Revision
-//
-// You can specify all the values or you can default the Revision and Build Numbers 
-// by using the '*' as shown below:
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_00db73c960c04c0b95fe1e17813bd535.Properties.Settings.get_Default():ST_00db73c960c04c0b95fe1e17813bd535.Properties.Sett" +
+    "ings")]
 
-[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
+namespace ST_00db73c960c04c0b95fe1e17813bd535.Properties {
+    
+    
+    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
+        
+        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
+        private static Settings defaultInstance = new Settings();
+        
+        public static Settings Default {
+            get {
+                return defaultInstance;
+            }
+        }
+    }
+}]]></ProjectItem>
               <ProjectItem
                 Name="Properties\Settings.settings"
                 Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
@@ -10076,6 +10076,36 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
               ReadOnlyVariables="System::ErrorCode,System::ErrorDescription,System::SourceName,User::CtlDurationMs,User::CtlExecutionID,User::CtlIpExecution,User::CtlRowsInserted,User::CtlRowsRead,User::CtlRowsUpdated,User::CtlStartTime,System::ExecutionInstanceGUID,System::MachineName,System::PackageName,System::UserName,$Package::CtlProcessID,$Package::vMailCC,$Package::vMailFrom,$Package::vMailTO,$Project::vSMTPHost,$Project::vSQLConnStr,$Project::vSMTPPort,$Project::vSQLConnPa,$Project::vLogoMain,$Project::vLogoWhite"
               ReadWriteVariables="User::CtlErrorMessage,User::CtlErrorNotified,User::CtlServerExecutionID,User::EtlDestObject">
               <ProjectItem
+                Name="Properties\AssemblyInfo.cs"
+                Encoding="UTF8"><![CDATA[using System.Reflection;
+using System.Runtime.CompilerServices;
+
+//
+// General Information about an assembly is controlled through the following 
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
+//
+[assembly: AssemblyTitle("ST_9d9cab44adfd425f94091267efa0f08c")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("ST_9d9cab44adfd425f94091267efa0f08c")]
+[assembly: AssemblyCopyright("Copyright @  2025")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+//
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version 
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Revision and Build Numbers 
+// by using the '*' as shown below:
+
+[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
+              <ProjectItem
                 Name="Properties\Resources.resx"
                 Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
 <root>
@@ -10194,35 +10224,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
 </root>]]></ProjectItem>
-              <ProjectItem
-                Name="Properties\Settings.Designer.cs"
-                Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
-// <auto-generated>
-//     This code was generated by a tool.
-//
-//     Changes to this file may cause incorrect behavior and will be lost if
-//     the code is regenerated.
-// </auto-generated>
-//------------------------------------------------------------------------------
-
-[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_9d9cab44adfd425f94091267efa0f08c.Properties.Settings.get_Default():ST_9d9cab44adfd425f94091267efa0f08c.Properties.Sett" +
-    "ings")]
-
-namespace ST_9d9cab44adfd425f94091267efa0f08c.Properties {
-    
-    
-    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
-        
-        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-        private static Settings defaultInstance = new Settings();
-        
-        public static Settings Default {
-            get {
-                return defaultInstance;
-            }
-        }
-    }
-}]]></ProjectItem>
               <ProjectItem
                 Name="ScriptMain.cs"
                 Encoding="UTF8"><![CDATA[#region Help:  Introduction to the script task
@@ -10627,35 +10628,34 @@ namespace ST_9d9cab44adfd425f94091267efa0f08c
   </msb:ItemGroup>
 </c:Project>]]></ProjectItem>
               <ProjectItem
-                Name="Properties\AssemblyInfo.cs"
-                Encoding="UTF8"><![CDATA[using System.Reflection;
-using System.Runtime.CompilerServices;
+                Name="Properties\Settings.Designer.cs"
+                Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
+// <auto-generated>
+//     This code was generated by a tool.
+//
+//     Changes to this file may cause incorrect behavior and will be lost if
+//     the code is regenerated.
+// </auto-generated>
+//------------------------------------------------------------------------------
 
-//
-// General Information about an assembly is controlled through the following 
-// set of attributes. Change these attribute values to modify the information
-// associated with an assembly.
-//
-[assembly: AssemblyTitle("ST_9d9cab44adfd425f94091267efa0f08c")]
-[assembly: AssemblyDescription("")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ST_9d9cab44adfd425f94091267efa0f08c")]
-[assembly: AssemblyCopyright("Copyright @  2025")]
-[assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]
-//
-// Version information for an assembly consists of the following four values:
-//
-//      Major Version
-//      Minor Version 
-//      Build Number
-//      Revision
-//
-// You can specify all the values or you can default the Revision and Build Numbers 
-// by using the '*' as shown below:
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_9d9cab44adfd425f94091267efa0f08c.Properties.Settings.get_Default():ST_9d9cab44adfd425f94091267efa0f08c.Properties.Sett" +
+    "ings")]
 
-[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
+namespace ST_9d9cab44adfd425f94091267efa0f08c.Properties {
+    
+    
+    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
+        
+        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
+        private static Settings defaultInstance = new Settings();
+        
+        public static Settings Default {
+            get {
+                return defaultInstance;
+            }
+        }
+    }
+}]]></ProjectItem>
               <ProjectItem
                 Name="Properties\Settings.settings"
                 Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
@@ -11219,13 +11219,13 @@ AAAAAAAAAAAAAAAAAA==</BinaryItem>
           Id="Package\ETL02TruncateStaging"
           TopLeft="55.6666666666662,130.333333333333" />
         <NodeLayout
-          Size="183,42"
-          Id="Package\ETL04ValidateMaestro"
-          TopLeft="581.916666666667,129" />
-        <NodeLayout
           Size="167,42"
           Id="Package\ETL03LoadDWHSA"
           TopLeft="327.583333333333,130" />
+        <NodeLayout
+          Size="183,42"
+          Id="Package\ETL04ValidateMaestro"
+          TopLeft="581.916666666667,129" />
         <NodeLayout
           Size="162,42"
           Id="Package\ETL05ValidateFile"
@@ -11235,29 +11235,29 @@ AAAAAAAAAAAAAAAAAA==</BinaryItem>
           Id="Package\ETL06LoadDWHDW"
           TopLeft="585.25,223" />
         <NodeLayout
-          Size="179,42"
-          Id="Package\ETL09DeleteDWHDW"
-          TopLeft="306.583333333333,397" />
+          Size="183,42"
+          Id="Package\ETL07UpdateDWHDW"
+          TopLeft="576.333333333333,307.666666666667" />
         <NodeLayout
           Size="177,42"
           Id="Package\ETL08InsertDWHDW"
           TopLeft="41.0000000000003,399" />
         <NodeLayout
-          Size="183,42"
-          Id="Package\ETL07UpdateDWHDW"
-          TopLeft="576.333333333333,307.666666666667" />
+          Size="179,42"
+          Id="Package\ETL09DeleteDWHDW"
+          TopLeft="306.583333333333,397" />
         <NodeLayout
           Size="163,42"
           Id="Package\ETL10RegisterFile"
           TopLeft="48.5833333333333,490" />
         <NodeLayout
-          Size="156,42"
-          Id="Package\ETL12ReportFile"
-          TopLeft="45.3333333333334,666.666666666667" />
-        <NodeLayout
           Size="173,42"
           Id="Package\ETL11ReevaluateQc"
           TopLeft="855.916666666666,488" />
+        <NodeLayout
+          Size="156,42"
+          Id="Package\ETL12ReportFile"
+          TopLeft="45.3333333333334,666.666666666667" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
           TopLeft="216,243.333333333333">

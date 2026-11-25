@@ -2,7 +2,7 @@
 <BuildLog xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <ProjectInfo>
     <Name>EtlVentasAutos</Name>
-    <LastWriteTime>2026-11-24T16:52:27.091665Z</LastWriteTime>
+    <LastWriteTime>2026-11-24T19:10:56.399716Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
@@ -18,7 +18,7 @@
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>FacturaWholesale.dtsx</Name>
-      <LastWriteTime>2026-11-19T14:27:44.4923693Z</LastWriteTime>
+      <LastWriteTime>2026-11-24T19:01:14.7405692Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
@@ -28,42 +28,42 @@
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>GestionDealer.dtsx</Name>
-      <LastWriteTime>2026-11-19T14:25:57.0032339Z</LastWriteTime>
+      <LastWriteTime>2026-11-24T19:01:15.226997Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>ImputacionVin.dtsx</Name>
-      <LastWriteTime>2026-11-19T15:32:36.1167287Z</LastWriteTime>
+      <LastWriteTime>2026-11-24T19:07:27.3768032Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>VentaRetail.dtsx</Name>
-      <LastWriteTime>2026-11-19T15:32:36.1552451Z</LastWriteTime>
+      <LastWriteTime>2026-11-24T19:07:27.2176086Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>StockHMDC.dtsx</Name>
-      <LastWriteTime>2026-11-24T16:35:26.8121185Z</LastWriteTime>
+      <LastWriteTime>2026-11-24T19:08:45.6827508Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>QuickReport.dtsx</Name>
-      <LastWriteTime>2026-11-19T14:10:13.4608171Z</LastWriteTime>
+      <LastWriteTime>2026-11-24T19:07:27.4443386Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>MetaLeadAutos.dtsx</Name>
-      <LastWriteTime>2026-11-19T14:15:25.4701543Z</LastWriteTime>
+      <LastWriteTime>2026-11-25T13:21:39.6405085Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>LeadAutos.dtsx</Name>
-      <LastWriteTime>2026-11-19T14:27:01.7203166Z</LastWriteTime>
+      <LastWriteTime>2026-11-24T19:07:21.8921278Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>DealerAutos.dtsx</Name>
-      <LastWriteTime>2026-11-24T16:52:27.0134104Z</LastWriteTime>
+      <LastWriteTime>2026-11-24T17:11:28.2266137Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>
